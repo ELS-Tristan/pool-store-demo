@@ -22,35 +22,35 @@ import { mainSlider17 } from '~/utils/data/carousel';
 function ProductStickyBoth() {
     const slug = useRouter().query.slug;
 
-    if ( !slug ) return '';
+    if (!slug) return '';
 
-    const { data, loading, error } = useQuery( GET_PRODUCT, { variables: { slug } } );
-    const [ loaded, setLoadingState ] = useState( false );
+    const { data, loading, error } = useQuery(GET_PRODUCT, { variables: { slug } });
+    const [loaded, setLoadingState] = useState(false);
     const product = data && data.product.data;
     const related = data && data.product.related;
 
-    useEffect( () => {
-        if ( !loading && product )
-            imagesLoaded( 'main' ).on( 'done', function () {
-                setLoadingState( true );
-            } ).on( 'progress', function () {
-                setLoadingState( false );
-            } );
-        if ( loading )
-            setLoadingState( false )
-    }, [ loading, product ] )
+    useEffect(() => {
+        if (!loading && product)
+            imagesLoaded('main').on('done', function () {
+                setLoadingState(true);
+            }).on('progress', function () {
+                setLoadingState(false);
+            });
+        if (loading)
+            setLoadingState(false)
+    }, [loading, product])
 
     return (
         <main className="main single-product product-sticky-both">
             <Helmet>
-                <title>Riode React eCommerce Template | Product Sticky Both</title>
+                <title>Printing Galore | Product Sticky Both</title>
             </Helmet>
 
-            <h1 className="d-none">Riode React eCommerce Template - Product Sticky Both</h1>
+            <h1 className="d-none">Printing Galore - Product Sticky Both</h1>
 
             {
                 product !== undefined ?
-                    <div className={ `page-content mb-10 pb-6 ${ loaded ? '' : 'd-none' }` }>
+                    <div className={`page-content mb-10 pb-6 ${loaded ? '' : 'd-none'}`}>
                         <div className="container skeleton-body">
                             <div className="product-navigation">
                                 <ul className="breadcrumb breadcrumb-lg">
@@ -59,28 +59,28 @@ function ProductStickyBoth() {
                                     <li>Detail</li>
                                 </ul>
 
-                                <ProductNav product={ data.product } />
+                                <ProductNav product={data.product} />
                             </div>
 
                             <div className="product product-single product-sticky-both mb-8">
                                 <div className="row">
                                     <div className="col-lg-6">
-                                        <MediaSix product={ product } adClass="col-lg-12 col-sm-6" />
+                                        <MediaSix product={product} adClass="col-lg-12 col-sm-6" />
                                     </div>
 
                                     <div className="col-lg-3 col-md-6 order-lg-first">
-                                        <DetailLeft data={ data } isSticky={ true } />
+                                        <DetailLeft data={data} isSticky={true} />
                                     </div>
 
                                     <div className="col-lg-3 col-md-6">
-                                        <DetailRight data={ data } isSticky={ true } />
+                                        <DetailRight data={data} isSticky={true} />
                                     </div>
                                 </div>
                             </div>
 
-                            <DescOne product={ product } />
+                            <DescOne product={product} />
 
-                            <RelatedProducts products={ related } adClass="pt-3 mt-2" />
+                            <RelatedProducts products={related} adClass="pt-3 mt-2" />
                         </div>
                     </div> : ''
             }
@@ -102,10 +102,10 @@ function ProductStickyBoth() {
                         <section className="pt-3 mt-4">
                             <h2 className="title justify-content-center">Related Products</h2>
 
-                            <OwlCarousel adClass="owl-carousel owl-theme owl-nav-full" options={ mainSlider17 }>
+                            <OwlCarousel adClass="owl-carousel owl-theme owl-nav-full" options={mainSlider17}>
                                 {
-                                    [ 1, 2, 3, 4, 5, 6 ].map( ( item ) =>
-                                        <div className="product-loading-overlay" key={ 'popup-skel-' + item }></div>
+                                    [1, 2, 3, 4, 5, 6].map((item) =>
+                                        <div className="product-loading-overlay" key={'popup-skel-' + item}></div>
                                     )
                                 }
                             </OwlCarousel>
@@ -116,4 +116,4 @@ function ProductStickyBoth() {
     )
 }
 
-export default withApollo( { ssr: typeof window === 'undefined' } )( ProductStickyBoth );
+export default withApollo({ ssr: typeof window === 'undefined' })(ProductStickyBoth);

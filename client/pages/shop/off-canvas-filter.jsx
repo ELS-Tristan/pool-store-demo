@@ -5,14 +5,14 @@ import ShopBanner from '~/components/partials/shop/shop-banner';
 import SidebarFilterOne from '~/components/partials/shop/sidebar/sidebar-filter-one'
 import ProductListOne from '~/components/partials/shop/product-list/product-list-one';
 
-function ShopOffCanvas () {
+function ShopOffCanvas() {
     return (
         <main className="main">
             <Helmet>
-                <title>Riode React eCommerce Template - Shop Off-Canvas Filter</title>
+                <title>Printing Galore - Shop Off-Canvas Filter</title>
             </Helmet>
 
-            <h1 className="d-none">Riode React eCommerce Template - Shop Off-Canvas Filter</h1>
+            <h1 className="d-none">Printing Galore - Shop Off-Canvas Filter</h1>
 
             <ShopBanner subTitle="Categories" title="Off-Canvas Filter" current="Product Tag - off-canvas filter" />
 
@@ -20,7 +20,7 @@ function ShopOffCanvas () {
                 <div className="container">
                     <div className="row main-content-wrap gutter-lg">
                         <div className="main-content">
-                            <ProductListOne itemsPerRow={ 4 } type="off-canvas" />
+                            <ProductListOne itemsPerRow={4} type="off-canvas" />
                         </div>
 
                         <SidebarFilterOne type="off-canvas" />
@@ -31,4 +31,4 @@ function ShopOffCanvas () {
     )
 }
 
-export default React.memo( ShopOffCanvas );
+export default React.memo(ShopOffCanvas);

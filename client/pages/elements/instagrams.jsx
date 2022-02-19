@@ -10,14 +10,14 @@ import ElementsList from '~/components/partials/elements/elements-list';
 
 import { mainSlider8, mainSlider9 } from '~/utils/data/carousel';
 
-function Instagrams () {
+function Instagrams() {
     return (
         <>
             <Helmet>
-                <title>Riode React eCommerce Template | Instagrams</title>
+                <title>Printing Galore | Instagrams</title>
             </Helmet>
 
-            <h1 className="d-none">Riode React eCommerce Template - Instagrams</h1>
+            <h1 className="d-none">Printing Galore - Instagrams</h1>
 
             <Breadcrumb subTitle="Elements" title="Element Instagram" parentUrl="/elements" />
 
@@ -25,7 +25,7 @@ function Instagrams () {
                 <section className="mt-10 pt-8 mb-10 pb-4">
                     <div className="container">
                         <h2 className="title title-center">Default</h2>
-                        <OwlCarousel adClass="owl-theme" options={ mainSlider9 }>
+                        <OwlCarousel adClass="owl-theme" options={mainSlider9}>
 
                             <figure className="instagram">
                                 <ALink href="#">
@@ -35,7 +35,7 @@ function Instagrams () {
                                         width="220"
                                         height="220"
                                         effect="opacity; transform"
-                                        style={ { backgroundColor: "#BDD0DE" } }
+                                        style={{ backgroundColor: "#BDD0DE" }}
                                     />
                                 </ALink>
                             </figure>
@@ -47,7 +47,7 @@ function Instagrams () {
                                         width="220"
                                         height="220"
                                         effect="opacity; transform"
-                                        style={ { backgroundColor: "#BDD0DE" } }
+                                        style={{ backgroundColor: "#BDD0DE" }}
                                     />
                                 </ALink>
                             </figure>
@@ -59,7 +59,7 @@ function Instagrams () {
                                         width="220"
                                         height="220"
                                         effect="opacity; transform"
-                                        style={ { backgroundColor: "#BDD0DE" } }
+                                        style={{ backgroundColor: "#BDD0DE" }}
                                     />
                                 </ALink>
                             </figure>
@@ -71,7 +71,7 @@ function Instagrams () {
                                         width="220"
                                         height="220"
                                         effect="opacity; transform"
-                                        style={ { backgroundColor: "#BDD0DE" } }
+                                        style={{ backgroundColor: "#BDD0DE" }}
                                     />
                                 </ALink>
                             </figure>
@@ -83,7 +83,7 @@ function Instagrams () {
                                         width="220"
                                         height="220"
                                         effect="opacity; transform"
-                                        style={ { backgroundColor: "#BDD0DE" } }
+                                        style={{ backgroundColor: "#BDD0DE" }}
                                     />
                                 </ALink>
                             </figure>
@@ -96,7 +96,7 @@ function Instagrams () {
                         <h2 className="title title-center">Full Width</h2>
                     </div>
 
-                    <OwlCarousel adClass="owl-theme gutter-no mb-4" options={ mainSlider8 }>
+                    <OwlCarousel adClass="owl-theme gutter-no mb-4" options={mainSlider8}>
                         <figure className="instagram instagram-info">
                             <ALink href="#">
                                 <LazyLoadImage
@@ -105,7 +105,7 @@ function Instagrams () {
                                     width="220"
                                     height="220"
                                     effect="opacity; transform"
-                                    style={ { backgroundColor: "#BDD0DE" } }
+                                    style={{ backgroundColor: "#BDD0DE" }}
                                 />
                             </ALink>
 
@@ -123,7 +123,7 @@ function Instagrams () {
                                     width="220"
                                     height="220"
                                     effect="opacity; transform"
-                                    style={ { backgroundColor: "#BDD0DE" } }
+                                    style={{ backgroundColor: "#BDD0DE" }}
                                 />
                             </ALink>
 
@@ -141,7 +141,7 @@ function Instagrams () {
                                     width="220"
                                     height="220"
                                     effect="opacity; transform"
-                                    style={ { backgroundColor: "#BDD0DE" } }
+                                    style={{ backgroundColor: "#BDD0DE" }}
                                 />
                             </ALink>
 
@@ -159,7 +159,7 @@ function Instagrams () {
                                     width="220"
                                     height="220"
                                     effect="opacity; transform"
-                                    style={ { backgroundColor: "#BDD0DE" } }
+                                    style={{ backgroundColor: "#BDD0DE" }}
                                 />
                             </ALink>
 
@@ -177,7 +177,7 @@ function Instagrams () {
                                     width="220"
                                     height="220"
                                     effect="opacity; transform"
-                                    style={ { backgroundColor: "#BDD0DE" } }
+                                    style={{ backgroundColor: "#BDD0DE" }}
                                 />
                             </ALink>
 
@@ -195,7 +195,7 @@ function Instagrams () {
                                     width="220"
                                     height="220"
                                     effect="opacity; transform"
-                                    style={ { backgroundColor: "#BDD0DE" } }
+                                    style={{ backgroundColor: "#BDD0DE" }}
                                 />
                             </ALink>
 
@@ -221,7 +221,7 @@ function Instagrams () {
                                             width="580"
                                             height="346"
                                             effect="opacity; transform"
-                                            style={ { backgroundColor: "#f4f4f4" } }
+                                            style={{ backgroundColor: "#f4f4f4" }}
                                         />
                                     </ALink>
                                 </figure>
@@ -235,7 +235,7 @@ function Instagrams () {
                                             width="280"
                                             height="249"
                                             effect="opacity; transform"
-                                            style={ { backgroundColor: "#f4f4f4" } }
+                                            style={{ backgroundColor: "#f4f4f4" }}
                                         />
                                     </ALink>
                                 </figure>
@@ -249,7 +249,7 @@ function Instagrams () {
                                             width="280"
                                             height="188"
                                             effect="opacity; transform"
-                                            style={ { backgroundColor: "#f4f4f4" } }
+                                            style={{ backgroundColor: "#f4f4f4" }}
                                         />
                                     </ALink>
                                 </figure>
@@ -263,7 +263,7 @@ function Instagrams () {
                                             width="280"
                                             height="322"
                                             effect="opacity; transform"
-                                            style={ { backgroundColor: "#f4f4f4" } }
+                                            style={{ backgroundColor: "#f4f4f4" }}
                                         />
                                     </ALink>
                                 </figure>
@@ -277,7 +277,7 @@ function Instagrams () {
                                             width="280"
                                             height="465"
                                             effect="opacity; transform"
-                                            style={ { backgroundColor: "#f4f4f4" } }
+                                            style={{ backgroundColor: "#f4f4f4" }}
                                         />
                                     </ALink>
                                 </figure>
@@ -291,7 +291,7 @@ function Instagrams () {
                                             width="280"
                                             height="367"
                                             effect="opacity; transform"
-                                            style={ { backgroundColor: "#f4f4f4" } }
+                                            style={{ backgroundColor: "#f4f4f4" }}
                                         />
                                     </ALink>
                                 </figure>
@@ -305,7 +305,7 @@ function Instagrams () {
                                             width="280"
                                             height="176"
                                             effect="opacity; transform"
-                                            style={ { backgroundColor: "#f4f4f4" } }
+                                            style={{ backgroundColor: "#f4f4f4" }}
                                         />
                                     </ALink>
                                 </figure>
@@ -319,7 +319,7 @@ function Instagrams () {
                                             width="280"
                                             height="176"
                                             effect="opacity; transform"
-                                            style={ { backgroundColor: "#f4f4f4" } }
+                                            style={{ backgroundColor: "#f4f4f4" }}
                                         />
                                     </ALink>
                                 </figure>
@@ -333,7 +333,7 @@ function Instagrams () {
                                             width="280"
                                             height="188"
                                             effect="opacity; transform"
-                                            style={ { backgroundColor: "#f4f4f4" } }
+                                            style={{ backgroundColor: "#f4f4f4" }}
                                         />
                                     </ALink>
                                 </figure>
@@ -348,4 +348,4 @@ function Instagrams () {
     )
 }
 
-export default React.memo( Instagrams );
+export default React.memo(Instagrams);

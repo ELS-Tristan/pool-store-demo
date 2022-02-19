@@ -5,24 +5,24 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 import ALink from '~/components/features/custom-link';
 import CountDown from '~/components/features/countdown';
 
-function ComingSoon () {
+function ComingSoon() {
     let time = 10 * 24 * 3600000;
 
-    useEffect( () => {
-        document.querySelector( 'header' ).classList.add( 'd-none' );
-        document.querySelector( 'footer' ).classList.add( 'd-none' );
+    useEffect(() => {
+        document.querySelector('header').classList.add('d-none');
+        document.querySelector('footer').classList.add('d-none');
         return () => {
-            document.querySelector( 'header' ).classList.remove( 'd-none' );
-            document.querySelector( 'footer' ).classList.remove( 'd-none' );
+            document.querySelector('header').classList.remove('d-none');
+            document.querySelector('footer').classList.remove('d-none');
         }
-    } )
+    })
     return (
         <main className="main">
             <Helmet>
-                <title>Riode React eCommerce Template | Coming Soon</title>
+                <title>Printing Galore | Coming Soon</title>
             </Helmet>
 
-            <h1 className="d-none">Riode React eCommerce Template - Coming Soon</h1>
+            <h1 className="d-none">Printing Galore - Coming Soon</h1>
 
             <div className="page-content">
                 <section className="coming-section container text-center text-grey font-primary">
@@ -34,7 +34,7 @@ function ComingSoon () {
                                 width="519"
                                 height="568"
                                 effect="opacity"
-                                style={ { backgroundColor: "#fff" } }
+                                style={{ backgroundColor: "#fff" }}
                             />
                         </div>
                         <div className="col-md-6 order-md-first">
@@ -42,7 +42,7 @@ function ComingSoon () {
 
                             <CountDown
                                 adClass="countdown-coming mb-7"
-                                date={ Date.now() + time }
+                                date={Date.now() + time}
                             />
 
                             <hr className="mb-6 ml-8 mr-8" />
@@ -68,4 +68,4 @@ function ComingSoon () {
     )
 }
 
-export default React.memo( ComingSoon );
+export default React.memo(ComingSoon);

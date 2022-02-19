@@ -8,10 +8,10 @@ function Account() {
     return (
         <main className="main account">
             <Helmet>
-                <title>Riode React eCommerce Template | Account</title>
+                <title>Printing Galore | Account</title>
             </Helmet>
 
-            <h1 className="d-none">Riode React eCommerce Template - Account</h1>
+            <h1 className="d-none">Printing Galore - Account</h1>
 
             <nav className="breadcrumb-nav">
                 <div className="container">
@@ -26,7 +26,7 @@ function Account() {
                 <div className="container">
                     <h2 className="title title-center mb-10">My Account</h2>
 
-                    <Tabs selectedTabClassName="show" selectedTabPanelClassName="active" defaultIndex={ 0 } className="tab tab-vertical gutter-lg">
+                    <Tabs selectedTabClassName="show" selectedTabPanelClassName="active" defaultIndex={0} className="tab tab-vertical gutter-lg">
                         <TabList className="nav nav-tabs mb-4 col-lg-3 col-md-4" role="tablist">
                             <Tab className="nav-item">
                                 <a className="nav-link">Dashboard</a>
@@ -51,11 +51,11 @@ function Account() {
                             <TabPanel className="tab-pane dashboard">
                                 <p className="mb-0">
                                     Hello <span>User</span> (not <span>User</span>? <ALink href="/" className="text-primary">Log out</ALink>)
-								</p>
+                                </p>
                                 <p className="mb-8">
                                     From your account dashboard you can view your <ALink href="#" className="link-to-tab text-primary">recent orders</ALink>, manage your shipping and billing
-										addresses,<br />and edit your password and account details.
-								</p>
+                                    addresses,<br />and edit your password and account details.
+                                </p>
                                 <ALink href="/shop" className="btn btn-dark btn-rounded">Go To Shop<i className="d-icon-arrow-right"></i></ALink>
                             </TabPanel>
                             <TabPanel className="tab-pane">
@@ -121,7 +121,7 @@ function Account() {
                             </TabPanel>
                             <TabPanel className="tab-pane">
                                 <p className="mb-2">The following addresses will be used on the checkout page by default.
-								</p>
+                                </p>
                                 <div className="row">
                                     <div className="col-sm-6 mb-4">
                                         <div className="card card-address">
@@ -129,9 +129,9 @@ function Account() {
                                                 <h5 className="card-title text-uppercase">Billing Address</h5>
                                                 <p>John Doe<br />
                                                     Riode Company<br />
-                                                        Steven street<br />
-                                                            El Carjon, CA 92020
-												</p>
+                                                    Steven street<br />
+                                                    El Carjon, CA 92020
+                                                </p>
                                                 <ALink href="#" className="btn btn-link btn-secondary btn-underline">Edit <i className="far fa-edit"></i></ALink>
                                             </div>
                                         </div>
@@ -163,7 +163,7 @@ function Account() {
                                     <label>Display Name *</label>
                                     <input type="text" className="form-control mb-0" name="display_name" required />
                                     <small className="d-block form-text mb-7">This will be how your name will be displayed
-										in the account section and in reviews</small>
+                                        in the account section and in reviews</small>
 
                                     <label>Email Address *</label>
                                     <input type="email" className="form-control" name="email" required />
@@ -192,4 +192,4 @@ function Account() {
 
 }
 
-export default React.memo( Account );
+export default React.memo(Account);

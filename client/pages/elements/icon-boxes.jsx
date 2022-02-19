@@ -12,10 +12,10 @@ function IconBoxes() {
     return (
         <>
             <Helmet>
-                <title>Riode React eCommerce Template | Icon Boxes</title>
+                <title>Printing Galore | Icon Boxes</title>
             </Helmet>
 
-            <h1 className="d-none">Riode React eCommerce Template - Icon Boxes</h1>
+            <h1 className="d-none">Printing Galore - Icon Boxes</h1>
 
             <Breadcrumb subTitle="Elements" title="Element Icon Boxes" parentUrl="/elements" />
 

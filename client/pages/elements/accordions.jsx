@@ -11,10 +11,10 @@ function Accordions() {
     return (
         <>
             <Helmet>
-                <title>Riode React eCommerce Template | Accordions</title>
+                <title>Printing Galore | Accordions</title>
             </Helmet>
 
-            <h1 className="d-none">Riode React eCommerce Template - Accordions</h1>
+            <h1 className="d-none">Printing Galore - Accordions</h1>
 
             <Breadcrumb subTitle="Elements" title="Element Accordions" parentUrl="/elements" />
 
@@ -25,49 +25,49 @@ function Accordions() {
                         <div className="row">
                             <div className="col-md-6 mb-6">
                                 <Accordion adClass="accordion-simple">
-                                    <Card title="First Header" expanded={ true } adClass="border-no">
+                                    <Card title="First Header" expanded={true} adClass="border-no">
                                         <p className="mb-0">Lorem ipsum dolor sit amet, consectetuer adipiscing
-                                        elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.
-                                        Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec
-                                        justo eget felis facilisis fermentum.</p>
+                                            elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.
+                                            Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec
+                                            justo eget felis facilisis fermentum.</p>
                                     </Card>
 
                                     <Card title="Second Header">
                                         <p className="mb-0">Lorem ipsum dolor sit amet, consectetuer adipiscing
-                                        elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.
-                                        Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec
-                                        justo eget felis facilisis fermentum.</p>
+                                            elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.
+                                            Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec
+                                            justo eget felis facilisis fermentum.</p>
                                     </Card>
 
                                     <Card title="Third Header">
                                         <p className="mb-0">Lorem ipsum dolor sit amet, consectetuer adipiscing
-                                        elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.
-                                        Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec
-                                        justo eget felis facilisis fermentum.</p>
+                                            elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.
+                                            Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec
+                                            justo eget felis facilisis fermentum.</p>
                                     </Card>
                                 </Accordion>
                             </div>
 
                             <div className="col-md-6 mb-6">
                                 <Accordion adClass="accordion-border accordion-boxed accordion-plus">
-                                    <Card title="First Header" expanded={ true }>
+                                    <Card title="First Header" expanded={true}>
                                         <p className="mb-0">Lorem ipsum dolor sit amet, consectetuer adipiscing
-                                        elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.
-                                        Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec
+                                            elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.
+                                            Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec
                                             justo eget felis facilisis fermentum.</p>
                                     </Card>
 
                                     <Card title="Second Header">
                                         <p className="mb-0">Lorem ipsum dolor sit amet, consectetuer adipiscing
-                                        elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.
-                                        Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec
+                                            elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.
+                                            Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec
                                             justo eget felis facilisis fermentum.</p>
                                     </Card>
 
                                     <Card title="Third Header">
                                         <p className="mb-0">Lorem ipsum dolor sit amet, consectetuer adipiscing
-                                        elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.
-                                        Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec
+                                            elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.
+                                            Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec
                                             justo eget felis facilisis fermentum.</p>
                                     </Card>
                                 </Accordion>
@@ -82,27 +82,27 @@ function Accordions() {
                             <div className="col-md-6 mb-6">
                                 <h2 className="title title-sm title-center mb-5">On Background</h2>
                                 <Accordion adClass="accordion-boxed accordion-plus accordion-gutter-md">
-                                    <Card title="First Header" expanded={ true }>
+                                    <Card title="First Header" expanded={true}>
                                         <p className="mb-0">De moveat laudatur vestra parum doloribus labitur
-                                        sentire partes, eripuit praesenti congressus ostendit alienae,
-                                        voluptati ornateque accusamus clamat reperietur convicia albucius,
-                                        veniat quocirca vivendi aristotele errorem epicurus. Suppetet.
+                                            sentire partes, eripuit praesenti congressus ostendit alienae,
+                                            voluptati ornateque accusamus clamat reperietur convicia albucius,
+                                            veniat quocirca vivendi aristotele errorem epicurus. Suppetet.
                                             Aeternum animadversionis.</p>
                                     </Card>
 
                                     <Card title="Second Header">
                                         <p className="mb-0">De moveat laudatur vestra parum doloribus labitur
-                                        sentire partes, eripuit praesenti congressus ostendit alienae,
-                                        voluptati ornateque accusamus clamat reperietur convicia albucius,
-                                        veniat quocirca vivendi aristotele errorem epicurus. Suppetet.
+                                            sentire partes, eripuit praesenti congressus ostendit alienae,
+                                            voluptati ornateque accusamus clamat reperietur convicia albucius,
+                                            veniat quocirca vivendi aristotele errorem epicurus. Suppetet.
                                             Aeternum animadversionis.</p>
                                     </Card>
 
                                     <Card title="Third Header">
                                         <p className="mb-0">De moveat laudatur vestra parum doloribus labitur
-                                        sentire partes, eripuit praesenti congressus ostendit alienae,
-                                        voluptati ornateque accusamus clamat reperietur convicia albucius,
-                                        veniat quocirca vivendi aristotele errorem epicurus. Suppetet.
+                                            sentire partes, eripuit praesenti congressus ostendit alienae,
+                                            voluptati ornateque accusamus clamat reperietur convicia albucius,
+                                            veniat quocirca vivendi aristotele errorem epicurus. Suppetet.
                                             Aeternum animadversionis.</p>
                                     </Card>
                                 </Accordion>
@@ -110,27 +110,27 @@ function Accordions() {
                             <div className="col-md-6 mb-6">
                                 <h2 className="title title-sm title-center mb-5">Drop Shadow</h2>
                                 <Accordion adClass="accordion accordion-dropshadow accordion-boxed accordion-plus accordion-gutter-sm">
-                                    <Card title="First Header" expanded={ true }>
+                                    <Card title="First Header" expanded={true}>
                                         <p className="mb-0">De moveat laudatur vestra parum doloribus labitur
-                                        sentire partes, eripuit praesenti congressus ostendit alienae,
-                                        voluptati ornateque accusamus clamat reperietur convicia albucius,
-                                        veniat quocirca vivendi aristotele errorem epicurus. Suppetet.
+                                            sentire partes, eripuit praesenti congressus ostendit alienae,
+                                            voluptati ornateque accusamus clamat reperietur convicia albucius,
+                                            veniat quocirca vivendi aristotele errorem epicurus. Suppetet.
                                             Aeternum animadversionis.</p>
                                     </Card>
 
                                     <Card title="Second Header">
                                         <p className="mb-0">De moveat laudatur vestra parum doloribus labitur
-                                        sentire partes, eripuit praesenti congressus ostendit alienae,
-                                        voluptati ornateque accusamus clamat reperietur convicia albucius,
-                                        veniat quocirca vivendi aristotele errorem epicurus. Suppetet.
+                                            sentire partes, eripuit praesenti congressus ostendit alienae,
+                                            voluptati ornateque accusamus clamat reperietur convicia albucius,
+                                            veniat quocirca vivendi aristotele errorem epicurus. Suppetet.
                                             Aeternum animadversionis.</p>
                                     </Card>
 
                                     <Card title="Third Header">
                                         <p className="mb-0">De moveat laudatur vestra parum doloribus labitur
-                                        sentire partes, eripuit praesenti congressus ostendit alienae,
-                                        voluptati ornateque accusamus clamat reperietur convicia albucius,
-                                        veniat quocirca vivendi aristotele errorem epicurus. Suppetet.
+                                            sentire partes, eripuit praesenti congressus ostendit alienae,
+                                            voluptati ornateque accusamus clamat reperietur convicia albucius,
+                                            veniat quocirca vivendi aristotele errorem epicurus. Suppetet.
                                             Aeternum animadversionis.</p>
                                     </Card>
                                 </Accordion>
@@ -145,54 +145,54 @@ function Accordions() {
                         <div className="row">
                             <div className="col-md-6 mb-6">
                                 <Accordion adClass="accordion accordion-card-bg accordion-boxed accordion-plus accordion-gutter-md">
-                                    <Card title="First Header" expanded={ true }>
+                                    <Card title="First Header" expanded={true}>
                                         <p className="mb-0">De moveat laudatur vestra parum doloribus labitur
-                                        sentire partes, eripuit praesenti congressus ostendit alienae,
-                                        voluptati ornateque accusamus clamat reperietur convicia albucius,
-                                        veniat quocirca vivendi aristotele errorem epicurus. Suppetet.
+                                            sentire partes, eripuit praesenti congressus ostendit alienae,
+                                            voluptati ornateque accusamus clamat reperietur convicia albucius,
+                                            veniat quocirca vivendi aristotele errorem epicurus. Suppetet.
                                             Aeternum animadversionis.</p>
                                     </Card>
 
                                     <Card title="Second Header">
                                         <p className="mb-0">De moveat laudatur vestra parum doloribus labitur
-                                        sentire partes, eripuit praesenti congressus ostendit alienae,
-                                        voluptati ornateque accusamus clamat reperietur convicia albucius,
-                                        veniat quocirca vivendi aristotele errorem epicurus. Suppetet.
+                                            sentire partes, eripuit praesenti congressus ostendit alienae,
+                                            voluptati ornateque accusamus clamat reperietur convicia albucius,
+                                            veniat quocirca vivendi aristotele errorem epicurus. Suppetet.
                                             Aeternum animadversionis.</p>
                                     </Card>
 
                                     <Card title="Third Header">
                                         <p className="mb-0">De moveat laudatur vestra parum doloribus labitur
-                                        sentire partes, eripuit praesenti congressus ostendit alienae,
-                                        voluptati ornateque accusamus clamat reperietur convicia albucius,
-                                        veniat quocirca vivendi aristotele errorem epicurus. Suppetet.
+                                            sentire partes, eripuit praesenti congressus ostendit alienae,
+                                            voluptati ornateque accusamus clamat reperietur convicia albucius,
+                                            veniat quocirca vivendi aristotele errorem epicurus. Suppetet.
                                             Aeternum animadversionis.</p>
                                     </Card>
                                 </Accordion>
                             </div>
                             <div className="col-md-6 mb-6">
                                 <Accordion adClass="accordion accordion-card-bg accordion-primary accordion-boxed accordion-plus accordion-gutter-md">
-                                    <Card title="First Header" expanded={ true }>
+                                    <Card title="First Header" expanded={true}>
                                         <p className="mb-0">De moveat laudatur vestra parum doloribus labitur
-                                        sentire partes, eripuit praesenti congressus ostendit alienae,
-                                        voluptati ornateque accusamus clamat reperietur convicia albucius,
-                                        veniat quocirca vivendi aristotele errorem epicurus. Suppetet.
+                                            sentire partes, eripuit praesenti congressus ostendit alienae,
+                                            voluptati ornateque accusamus clamat reperietur convicia albucius,
+                                            veniat quocirca vivendi aristotele errorem epicurus. Suppetet.
                                             Aeternum animadversionis.</p>
                                     </Card>
 
                                     <Card title="Second Header">
                                         <p className="mb-0">De moveat laudatur vestra parum doloribus labitur
-                                        sentire partes, eripuit praesenti congressus ostendit alienae,
-                                        voluptati ornateque accusamus clamat reperietur convicia albucius,
-                                        veniat quocirca vivendi aristotele errorem epicurus. Suppetet.
+                                            sentire partes, eripuit praesenti congressus ostendit alienae,
+                                            voluptati ornateque accusamus clamat reperietur convicia albucius,
+                                            veniat quocirca vivendi aristotele errorem epicurus. Suppetet.
                                             Aeternum animadversionis.</p>
                                     </Card>
 
                                     <Card title="Third Header">
                                         <p className="mb-0">De moveat laudatur vestra parum doloribus labitur
-                                        sentire partes, eripuit praesenti congressus ostendit alienae,
-                                        voluptati ornateque accusamus clamat reperietur convicia albucius,
-                                        veniat quocirca vivendi aristotele errorem epicurus. Suppetet.
+                                            sentire partes, eripuit praesenti congressus ostendit alienae,
+                                            voluptati ornateque accusamus clamat reperietur convicia albucius,
+                                            veniat quocirca vivendi aristotele errorem epicurus. Suppetet.
                                             Aeternum animadversionis.</p>
                                     </Card>
                                 </Accordion>
@@ -205,46 +205,46 @@ function Accordions() {
                     <div className="container pt-4 pb-4">
                         <h2 className="title title-center">With icon</h2>
                         <Accordion adClass="accordion-background accordion-icon accordion-boxed accordion-card-border accordion-plus accordion-gutter-sm">
-                            <Card title="First Header" expanded={ true } iconClass="far fa-heart">
+                            <Card title="First Header" expanded={true} iconClass="far fa-heart">
                                 <p className="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                                ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing
-                                elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                                enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                    commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                                    ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                                    enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                                     aliquip ex ea commodo consequat.</p>
                             </Card>
 
                             <Card title="Second Header" iconClass="far fa-star">
                                 <div className="card-body">
                                     <p className="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                    commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                                    ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing
-                                    elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                                    enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                    aliquip ex ea commodo consequat.</p>
+                                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                        commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                                        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                                        ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                                        enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                        aliquip ex ea commodo consequat.</p>
                                 </div>
                             </Card>
 
                             <Card title="Third Header" iconClass="la la-info-circle mr-2">
                                 <div className="card-body">
                                     <p className="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                    commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                                    ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing
-                                    elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                                    enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                    aliquip ex ea commodo consequat.</p>
+                                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                        commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                                        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                                        ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                                        enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                        aliquip ex ea commodo consequat.</p>
                                 </div>
                             </Card>
                         </Accordion>
@@ -257,4 +257,4 @@ function Accordions() {
     )
 }
 
-export default React.memo( Accordions );
+export default React.memo(Accordions);

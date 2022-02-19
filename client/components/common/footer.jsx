@@ -1,6 +1,6 @@
 import ALink from '~/components/features/custom-link';
 
-export default function Footer () {
+export default function Footer() {
     return (
         <footer className="footer">
             <div className="container">
@@ -8,11 +8,11 @@ export default function Footer () {
                     <div className="row align-items-center">
                         <div className="col-lg-3">
                             <ALink href="/" className="logo-footer">
-                                <img src="./images/logo-footer.png" alt="logo-footer" width="154" height="43" />
+                                <img src="./images/pg_logo_white_333.png" alt="logo-footer" width="154" height="43" />
                             </ALink>
 
                         </div>
-                        <div className="col-lg-9">
+                        {/* <div className="col-lg-9">
                             <div className="widget widget-newsletter form-wrapper form-wrapper-inline">
                                 <div className="newsletter-info mx-auto mr-lg-2 ml-lg-4">
                                     <h4 className="widget-title">Subscribe to our Newsletter</h4>
@@ -26,7 +26,7 @@ export default function Footer () {
                                 </form>
                             </div>
 
-                        </div>
+                        </div> */}
                     </div>
                 </div>
 
@@ -38,21 +38,21 @@ export default function Footer () {
                                 <ul className="widget-body">
                                     <li>
                                         <label>Phone: </label>
-                                        <ALink href="tel:#">Toll Free (123) 456-7890</ALink>
+                                        <ALink href="tel:#">(951) 296-5522</ALink>
                                     </li>
                                     <li>
                                         <label>Email: </label>
-                                        <ALink href="mailto:mail@riode.com">mail@riode.com</ALink>
+                                        <ALink href="mailto:mail@riode.com">sales@printgalore4u.com</ALink>
                                     </li>
                                     <li>
                                         <label>Address: </label>
-                                        <ALink href="#">123 Street Name, City, England</ALink>
+                                        <ALink href="#">27715 Jefferson Ave, Unit 102, Temecula, CA 92590</ALink>
                                     </li>
                                     <li>
-                                        <label>WORKING DAYS / HOURS: </label>
+                                        <label>OPEN DAYS / HOURS: </label>
                                     </li>
                                     <li>
-                                        <ALink href="#">Mon - Sun / 9:00 AM - 8:00 PM</ALink>
+                                        <ALink href="#">Mon - Fri / 5:00 AM - 5:00 PM</ALink>
                                     </li>
                                 </ul>
                             </div>
@@ -91,9 +91,9 @@ export default function Footer () {
                                     <li>
                                         <ALink href="/pages/cart">View Cart</ALink>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <ALink href="/pages/wishlist">My Wishlist</ALink>
-                                    </li>
+                                    </li> */}
                                     <li>
                                         <ALink href="#">Track My Order</ALink>
                                     </li>
@@ -104,7 +104,7 @@ export default function Footer () {
                             </div>
 
                         </div>
-                        <div className="col-lg-3 col-md-6">
+                        {/* <div className="col-lg-3 col-md-6">
                             <div className="widget widget-instagram">
                                 <h4 className="widget-title">Instagram</h4>
                                 <figure className="widget-body row">
@@ -134,7 +134,7 @@ export default function Footer () {
                                     </div>
                                 </figure>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
 
@@ -145,7 +145,7 @@ export default function Footer () {
                         </figure>
                     </div>
                     <div className="footer-center">
-                        <p className="copyright ls-normal">Riode eCommerce &copy; 2021. All Rights Reserved</p>
+                        <p className="copyright ls-normal">Printing Galore &copy; 2021. All Rights Reserved</p>
                     </div>
                     <div className="footer-right">
                         <div className="social-links">

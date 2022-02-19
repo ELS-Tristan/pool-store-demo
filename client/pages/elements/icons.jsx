@@ -10,10 +10,10 @@ function Icons() {
     return (
         <>
             <Helmet>
-                <title>Riode React eCommerce Template | Icons</title>
+                <title>Printing Galore | Icons</title>
             </Helmet>
 
-            <h1 className="d-none">Riode React eCommerce Template - Icons</h1>
+            <h1 className="d-none">Printing Galore - Icons</h1>
 
             <Breadcrumb subTitle="Elements" title="Element Icons" parentUrl="/elements" />
 
@@ -23,7 +23,7 @@ function Icons() {
                         <h3 className="title title-center mb-2">Icons</h3>
                         <p className="text-center">Riode comes with Riode Icons and <a href="https://fontawesome.com/icons"
                             target="_blank" rel="noopener noreferrer" className="text-primary">Font Awesome 5 Icons </a> that can be used in
-                                your website.</p>
+                            your website.</p>
                     </div>
                     <div className="row cols-xl-12 cols-md-6 cols-xs-4 cols-3 mb-4">
                         <div className="sample-icon-circle">

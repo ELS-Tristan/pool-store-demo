@@ -41,14 +41,14 @@ function HomePage() {
                 <div className="intro-section">
                     <IntroSection />
 
-                    <ServiceBox />
+                    {/* <ServiceBox /> */}
                 </div>
 
                 <CategorySection />
 
                 {/* <BestCollection products={bestSelling} loading={loading} /> */}
 
-                {/* <DealSection /> */}
+                <DealSection />
 
                 {/* <FeaturedCollection products={featured} loading={loading} /> */}
 
@@ -56,7 +56,7 @@ function HomePage() {
 
                 {/* <BlogSection posts={posts} /> */}
 
-                {/* <BrandSection /> */}
+                <BrandSection />
 
                 {/* <SmallCollection featured={featured} latest={latest} bestSelling={bestSelling} onSale={onSale} loading={loading} /> */}
             </div>

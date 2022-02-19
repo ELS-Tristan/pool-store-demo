@@ -6,14 +6,14 @@ import ALink from '~/components/features/custom-link';
 import SidebarFilterOne from '~/components/partials/shop/sidebar/sidebar-filter-one'
 import ProductListOne from '~/components/partials/shop/product-list/product-list-one';
 
-function ShopBannerSidebar () {
+function ShopBannerSidebar() {
     return (
         <main className="main">
             <Helmet>
-                <title>Riode React eCommerce Template - Shop Banner Sidebar Page</title>
+                <title>Printing Galore - Shop Banner Sidebar Page</title>
             </Helmet>
 
-            <h1 className="d-none">Riode React eCommerce Template - Shop Banner Sidebar Page</h1>
+            <h1 className="d-none">Printing Galore - Shop Banner Sidebar Page</h1>
 
             <nav className="breadcrumb-nav">
                 <div className="container">
@@ -31,7 +31,7 @@ function ShopBannerSidebar () {
                         <SidebarFilterOne type="banner" />
 
                         <div className="col-lg-9 main-content">
-                            <div className="shop-banner-default banner mb-1" style={ { backgroundImage: "url('./images/shop/banner.jpg')", backgroundColor: "#f2f2f3" } }>
+                            <div className="shop-banner-default banner mb-1" style={{ backgroundImage: "url('./images/shop/banner.jpg')", backgroundColor: "#f2f2f3" }}>
                                 <div className="banner-content">
                                     <h4 className="banner-subtitle font-weight-bold ls-normal text-uppercase text-white">Riode Shop</h4>
                                     <h1 className="banner-title font-weight-bold text-white">Banner with Sidebar</h1>
@@ -48,4 +48,4 @@ function ShopBannerSidebar () {
     )
 }
 
-export default React.memo( ShopBannerSidebar );
+export default React.memo(ShopBannerSidebar);

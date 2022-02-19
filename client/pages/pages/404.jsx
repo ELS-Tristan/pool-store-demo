@@ -5,22 +5,22 @@ import ALink from '~/components/features/custom-link';
 
 import { parallaxHandler } from '~/utils';
 
-function Error404 () {
-    useEffect( () => {
-        window.addEventListener( 'scroll', parallaxHandler, true );
+function Error404() {
+    useEffect(() => {
+        window.addEventListener('scroll', parallaxHandler, true);
 
         return () => {
-            window.removeEventListener( 'scroll', parallaxHandler, true );
+            window.removeEventListener('scroll', parallaxHandler, true);
         }
-    }, [] )
+    }, [])
 
     return (
         <main className="main">
             <Helmet>
-                <title>Riode React eCommerce Template | 404</title>
+                <title>Printing Galore | 404</title>
             </Helmet>
 
-            <h1 className="d-none">Riode React eCommerce Template - 404</h1>
+            <h1 className="d-none">Printing Galore - 404</h1>
 
             <div className="page-content">
                 <section
@@ -36,4 +36,4 @@ function Error404 () {
     )
 }
 
-export default React.memo( Error404 );
+export default React.memo(Error404);

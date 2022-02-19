@@ -21,16 +21,16 @@ import ElementsList from '~/components/partials/elements/elements-list';
 import { mainSlider1, mainSlider7, mainSlider19 } from '~/utils/data/carousel';
 
 function Products() {
-    const { data, loading } = useQuery( GET_PRODUCTS );
+    const { data, loading } = useQuery(GET_PRODUCTS);
     const products = data ? data.products.data : [];
 
     return (
         <main className="skeleton-body">
             <Helmet>
-                <title>Riode React eCommerce Template | Products</title>
+                <title>Printing Galore | Products</title>
             </Helmet>
 
-            <h1 className="d-none">Riode React eCommerce Template - Products</h1>
+            <h1 className="d-none">Printing Galore - Products</h1>
 
             <Breadcrumb subTitle="Elements" title="Element Products" parentUrl="/elements" />
 
@@ -43,17 +43,17 @@ function Products() {
                             !loading ?
                                 <div className="row product-wrapper">
                                     {
-                                        products.slice( 0, 4 ).map( ( item ) =>
-                                            <div className="col-md-3 col-6" key={ 'default-' + item.slug }>
-                                                <ProductOne product={ item } />
+                                        products.slice(0, 4).map((item) =>
+                                            <div className="col-md-3 col-6" key={'default-' + item.slug}>
+                                                <ProductOne product={item} />
                                             </div>
                                         )
                                     }
                                 </div> :
                                 <div className="row product-wrapper">
                                     {
-                                        [ 1, 2, 3, 4 ].map( ( item ) =>
-                                            <div className="col-md-3 col-6 product-loading-overlay" key={ 'default-skel-' + item }></div>
+                                        [1, 2, 3, 4].map((item) =>
+                                            <div className="col-md-3 col-6 product-loading-overlay" key={'default-skel-' + item}></div>
                                         )
                                     }
                                 </div>
@@ -67,17 +67,17 @@ function Products() {
                             !loading ?
                                 <div className="row product-wrapper">
                                     {
-                                        products.slice( 0, 4 ).map( ( item ) =>
-                                            <div className="col-md-3 col-6" key={ 'centered-' + item.slug }>
-                                                <ProductTwo product={ item } />
+                                        products.slice(0, 4).map((item) =>
+                                            <div className="col-md-3 col-6" key={'centered-' + item.slug}>
+                                                <ProductTwo product={item} />
                                             </div>
                                         )
                                     }
                                 </div> :
                                 <div className="row product-wrapper">
                                     {
-                                        [ 1, 2, 3, 4 ].map( ( item ) =>
-                                            <div className="col-md-3 col-6 product-loading-overlay" key={ 'centered-skel-' + item }></div>
+                                        [1, 2, 3, 4].map((item) =>
+                                            <div className="col-md-3 col-6 product-loading-overlay" key={'centered-skel-' + item}></div>
                                         )
                                     }
                                 </div>
@@ -91,17 +91,17 @@ function Products() {
                             !loading ?
                                 <div className="row product-wrapper">
                                     {
-                                        products.slice( 0, 4 ).map( ( item ) =>
-                                            <div className="col-md-3 col-6" key={ 'classic-' + item.slug }>
-                                                <ProductThree product={ item } />
+                                        products.slice(0, 4).map((item) =>
+                                            <div className="col-md-3 col-6" key={'classic-' + item.slug}>
+                                                <ProductThree product={item} />
                                             </div>
                                         )
                                     }
                                 </div> :
                                 <div className="row product-wrapper">
                                     {
-                                        [ 1, 2, 3, 4 ].map( ( item ) =>
-                                            <div className="col-md-3 col-6 product-loading-overlay" key={ 'classic-skel-' + item }></div>
+                                        [1, 2, 3, 4].map((item) =>
+                                            <div className="col-md-3 col-6 product-loading-overlay" key={'classic-skel-' + item}></div>
                                         )
                                     }
                                 </div>
@@ -115,17 +115,17 @@ function Products() {
                             !loading ?
                                 <div className="row product-wrapper">
                                     {
-                                        products.slice( 0, 4 ).map( ( item ) =>
-                                            <div className="col-md-3 col-6" key={ 'popup-' + item.slug }>
-                                                <ProductFour product={ item } />
+                                        products.slice(0, 4).map((item) =>
+                                            <div className="col-md-3 col-6" key={'popup-' + item.slug}>
+                                                <ProductFour product={item} />
                                             </div>
                                         )
                                     }
                                 </div> :
                                 <div className="row product-wrapper">
                                     {
-                                        [ 1, 2, 3, 4 ].map( ( item ) =>
-                                            <div className="col-md-3 col-6 product-loading-overlay" key={ 'popup-skel-' + item }></div>
+                                        [1, 2, 3, 4].map((item) =>
+                                            <div className="col-md-3 col-6 product-loading-overlay" key={'popup-skel-' + item}></div>
                                         )
                                     }
                                 </div>
@@ -139,17 +139,17 @@ function Products() {
                             !loading ?
                                 <div className="row product-wrapper split-line">
                                     {
-                                        products.slice( 0, 5 ).map( ( item ) =>
-                                            <div className="col-xl-5col col-lg-3 col-sm-4 col-6" key={ 'split-line-' + item.slug }>
-                                                <ProductFive product={ item } />
+                                        products.slice(0, 5).map((item) =>
+                                            <div className="col-xl-5col col-lg-3 col-sm-4 col-6" key={'split-line-' + item.slug}>
+                                                <ProductFive product={item} />
                                             </div>
                                         )
                                     }
                                 </div> :
                                 <div className="row product-wrapper split-line">
                                     {
-                                        [ 1, 2, 3, 4, 5 ].map( ( item ) =>
-                                            <div className="col-xl-5col col-lg-3 col-sm-4 col-6" key={ 'split-line-skel-' + item }></div>
+                                        [1, 2, 3, 4, 5].map((item) =>
+                                            <div className="col-xl-5col col-lg-3 col-sm-4 col-6" key={'split-line-skel-' + item}></div>
                                         )
                                     }
                                 </div>
@@ -161,17 +161,17 @@ function Products() {
 
                         {
                             !loading ?
-                                <OwlCarousel adClass="owl-theme gutter-xs" options={ mainSlider1 }>
+                                <OwlCarousel adClass="owl-theme gutter-xs" options={mainSlider1}>
                                     {
-                                        products.slice( 0, 5 ).map( ( item ) =>
-                                            <ProductTwo product={ item } key={ 'without-space-' + item.slug } />
+                                        products.slice(0, 5).map((item) =>
+                                            <ProductTwo product={item} key={'without-space-' + item.slug} />
                                         )
                                     }
                                 </OwlCarousel> :
-                                <OwlCarousel adClass="owl-theme gutter-xs" options={ mainSlider1 }>
+                                <OwlCarousel adClass="owl-theme gutter-xs" options={mainSlider1}>
                                     {
-                                        [ 1, 2, 3, 4, 5 ].map( ( item ) =>
-                                            <div className="product-loading-overlay" key={ 'without-space-skel-' + item }></div>
+                                        [1, 2, 3, 4, 5].map((item) =>
+                                            <div className="product-loading-overlay" key={'without-space-skel-' + item}></div>
                                         )
                                     }
                                 </OwlCarousel>
@@ -185,17 +185,17 @@ function Products() {
                             !loading ?
                                 <div className="row product-wrapper equal-height">
                                     {
-                                        products.slice( 0, 4 ).map( ( item ) =>
-                                            <div className="col-md-3 col-6" key={ 'image-gap-' + item.slug }>
-                                                <ProductTwo product={ item } adClass="product-image-gap" />
+                                        products.slice(0, 4).map((item) =>
+                                            <div className="col-md-3 col-6" key={'image-gap-' + item.slug}>
+                                                <ProductTwo product={item} adClass="product-image-gap" />
                                             </div>
                                         )
                                     }
                                 </div> :
                                 <div className="row product-wrapper equal-height">
                                     {
-                                        [ 1, 2, 3, 4 ].map( ( item ) =>
-                                            <div className="col-md-3 col-6 product-loading-overlay" key={ 'image-gap-skel-' + item }></div>
+                                        [1, 2, 3, 4].map((item) =>
+                                            <div className="col-md-3 col-6 product-loading-overlay" key={'image-gap-skel-' + item}></div>
                                         )
                                     }
                                 </div>
@@ -207,17 +207,17 @@ function Products() {
 
                         {
                             !loading ?
-                                <OwlCarousel adClass="owl-theme" options={ mainSlider19 }>
+                                <OwlCarousel adClass="owl-theme" options={mainSlider19}>
                                     {
-                                        products.slice( 0, 5 ).map( ( item ) =>
-                                            <ProductSix product={ item } key={ 'modern-style-one-' + item.slug } />
+                                        products.slice(0, 5).map((item) =>
+                                            <ProductSix product={item} key={'modern-style-one-' + item.slug} />
                                         )
                                     }
                                 </OwlCarousel> :
-                                <OwlCarousel adClass="owl-theme" options={ mainSlider19 }>
+                                <OwlCarousel adClass="owl-theme" options={mainSlider19}>
                                     {
-                                        [ 1, 2, 3, 4, 5 ].map( ( item ) =>
-                                            <div className="product-loading-overlay" key={ 'modern-style-one-skel-' + item }></div>
+                                        [1, 2, 3, 4, 5].map((item) =>
+                                            <div className="product-loading-overlay" key={'modern-style-one-skel-' + item}></div>
                                         )
                                     }
                                 </OwlCarousel>
@@ -229,17 +229,17 @@ function Products() {
 
                         {
                             !loading ?
-                                <OwlCarousel adClass="owl-theme" options={ mainSlider19 }>
+                                <OwlCarousel adClass="owl-theme" options={mainSlider19}>
                                     {
-                                        products.slice( 0, 5 ).map( ( item ) =>
-                                            <ProductSeven product={ item } key={ 'modern-style-two-' + item.slug } />
+                                        products.slice(0, 5).map((item) =>
+                                            <ProductSeven product={item} key={'modern-style-two-' + item.slug} />
                                         )
                                     }
                                 </OwlCarousel> :
-                                <OwlCarousel adClass="owl-theme" options={ mainSlider19 }>
+                                <OwlCarousel adClass="owl-theme" options={mainSlider19}>
                                     {
-                                        [ 1, 2, 3, 4, 5 ].map( ( item ) =>
-                                            <div className="product-loading-overlay" key={ 'modern-style-two-skel-' + item }></div>
+                                        [1, 2, 3, 4, 5].map((item) =>
+                                            <div className="product-loading-overlay" key={'modern-style-two-skel-' + item}></div>
                                         )
                                     }
                                 </OwlCarousel>
@@ -255,9 +255,9 @@ function Products() {
                                     <div className="col-lg-9">
                                         <div className="row">
                                             {
-                                                products.slice( 0, 2 ).map( ( item ) =>
-                                                    <div className="col-6 col-sm-12" key={ 'list-' + item.slug }>
-                                                        <ProductEight product={ item } />
+                                                products.slice(0, 2).map((item) =>
+                                                    <div className="col-6 col-sm-12" key={'list-' + item.slug}>
+                                                        <ProductEight product={item} />
                                                     </div>
                                                 )
                                             }
@@ -268,20 +268,20 @@ function Products() {
                                             <h4 className="widget-title">Our Featured</h4>
 
                                             <div className="widget-body">
-                                                <OwlCarousel adClass="owl-nav-top" options={ mainSlider7 }>
+                                                <OwlCarousel adClass="owl-nav-top" options={mainSlider7}>
                                                     <div className="products-col">
                                                         {
-                                                            products.slice( 0, 4 ).map( item => (
-                                                                <SmallProduct product={ item } key={ 'small-' + item.slug } />
-                                                            ) )
+                                                            products.slice(0, 4).map(item => (
+                                                                <SmallProduct product={item} key={'small-' + item.slug} />
+                                                            ))
                                                         }
                                                     </div>
 
                                                     <div className="products-col">
                                                         {
-                                                            products.slice( 4, 8 ).map( item => (
-                                                                <SmallProduct product={ item } key={ 'small-' + item.slug } />
-                                                            ) )
+                                                            products.slice(4, 8).map(item => (
+                                                                <SmallProduct product={item} key={'small-' + item.slug} />
+                                                            ))
                                                         }
                                                     </div>
                                                 </OwlCarousel>
@@ -293,8 +293,8 @@ function Products() {
                                     <div className="col-lg-9">
                                         <div className="row">
                                             {
-                                                [ 1, 2 ].map( ( item ) =>
-                                                    <div className="skel-pro skel-pro-list mb-4 col-6 col-sm-12" key={ 'list-skel-' + item }></div>
+                                                [1, 2].map((item) =>
+                                                    <div className="skel-pro skel-pro-list mb-4 col-6 col-sm-12" key={'list-skel-' + item}></div>
                                                 )
                                             }
                                         </div>
@@ -304,19 +304,19 @@ function Products() {
                                             <h4 className="widget-title">Our Featured</h4>
 
                                             <div className="widget-body">
-                                                <OwlCarousel adClass="owl-nav-top" options={ mainSlider7 }>
+                                                <OwlCarousel adClass="owl-nav-top" options={mainSlider7}>
                                                     <div className="products-col">
                                                         {
-                                                            [ 1, 2, 3, 4 ].map( ( item ) =>
-                                                                <div className="skel-pro-list mb-4" key={ 'small-skel-' + item }></div>
+                                                            [1, 2, 3, 4].map((item) =>
+                                                                <div className="skel-pro-list mb-4" key={'small-skel-' + item}></div>
                                                             )
                                                         }
                                                     </div>
 
                                                     <div className="products-col">
                                                         {
-                                                            [ 1, 2, 3, 4 ].map( ( item ) =>
-                                                                <div className="skel-pro-list mb-4" key={ 'small-skel-one-' + item }></div>
+                                                            [1, 2, 3, 4].map((item) =>
+                                                                <div className="skel-pro-list mb-4" key={'small-skel-one-' + item}></div>
                                                             )
                                                         }
                                                     </div>
@@ -335,4 +335,4 @@ function Products() {
     )
 }
 
-export default withApollo( { ssr: typeof window === 'undefined' } )( Products );
+export default withApollo({ ssr: typeof window === 'undefined' })(Products);

@@ -14,10 +14,10 @@ function Cta() {
     return (
         <>
             <Helmet>
-                <title>Riode React eCommerce Template | Product Category</title>
+                <title>Printing Galore | Product Category</title>
             </Helmet>
 
-            <h1 className="d-none">Riode React eCommerce Template - Product Category</h1>
+            <h1 className="d-none">Printing Galore - Product Category</h1>
 
             <Breadcrumb subTitle="Elements" title="Element Categories" parentUrl="/elements" />
 
@@ -108,7 +108,7 @@ function Cta() {
                     <section>
                         <h2 className="title title-center mt-10">Carousel</h2>
 
-                        <OwlCarousel adClass="owl-theme owl-nav-full" options={ mainSlider12 }>
+                        <OwlCarousel adClass="owl-theme owl-nav-full" options={mainSlider12}>
                             <div className="category category-light category-absolute overlay-zoom">
                                 <ALink href="#">
                                     <figure className="category-media">
@@ -271,7 +271,7 @@ function Cta() {
                     <section className="ellipse-section mt-10">
                         <h2 className="title title-center">Ellipse Style</h2>
 
-                        <OwlCarousel adClass="owl-theme" options={ mainSlider9 }>
+                        <OwlCarousel adClass="owl-theme" options={mainSlider9}>
                             <div className="category category-ellipse">
                                 <ALink href="#">
                                     <figure className="category-media">
@@ -357,7 +357,7 @@ function Cta() {
                     <section className="mt-10 pt-4">
                         <h2 className="title title-center">Classic</h2>
 
-                        <OwlCarousel adClass="owl-theme" options={ mainSlider5 }>
+                        <OwlCarousel adClass="owl-theme" options={mainSlider5}>
                             <div className="category category-absolute category-classic">
                                 <figure className="category-media">
                                     <img src="images/categories/category5.jpg" alt="Cateogry" width="280"
@@ -404,7 +404,7 @@ function Cta() {
                     <section className="mt-10 pt-4 border-container">
                         <h2 className="title title-center">Category Group 1</h2>
 
-                        <OwlCarousel adClass="owl-theme" options={ mainSlider6 }>
+                        <OwlCarousel adClass="owl-theme" options={mainSlider6}>
                             <div className="category category-group-image">
                                 <ALink href="#">
                                     <figure className="category-media">
@@ -481,8 +481,8 @@ function Cta() {
                     <section className="mt-10 pt-4">
                         <h2 className="title title-center">Category Group 2</h2>
 
-                        <OwlCarousel adClass="owl-theme" options={ mainSlider6 }>
-                            <div className="category category-group-icon" style={ { backgroundColor: "#4b5577" } }>
+                        <OwlCarousel adClass="owl-theme" options={mainSlider6}>
+                            <div className="category category-group-icon" style={{ backgroundColor: "#4b5577" }}>
                                 <ALink href="#">
                                     <figure className="category-media">
                                         <i className="d-icon-t-shirt1"></i>
@@ -502,7 +502,7 @@ function Cta() {
                                 </div>
                             </div>
 
-                            <div className="category category-group-icon" style={ { backgroundColor: "#6d52af" } }>
+                            <div className="category category-group-icon" style={{ backgroundColor: "#6d52af" }}>
                                 <ALink href="#">
                                     <figure className="category-media">
                                         <i className="d-icon-basketball2"></i>
@@ -522,7 +522,7 @@ function Cta() {
                                 </div>
                             </div>
 
-                            <div className="category category-group-icon" style={ { backgroundColor: "#2b579a" } }>
+                            <div className="category category-group-icon" style={{ backgroundColor: "#2b579a" }}>
                                 <ALink href="#">
                                     <figure className="category-media">
                                         <i className="d-icon-backpack"></i>
@@ -724,4 +724,4 @@ function Cta() {
     )
 }
 
-export default React.memo( Cta );
+export default React.memo(Cta);
