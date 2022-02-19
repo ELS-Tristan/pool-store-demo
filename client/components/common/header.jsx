@@ -30,7 +30,7 @@ export default function Header(props) {
             <div className="header-top">
                 <div className="container">
                     <div className="header-left">
-                        <p className="welcome-msg">Ramset Automatic Gate Systems</p>
+                        <p className="welcome-msg">Printing Galore | Uniforms, Banners, Embroidery</p>
                     </div>
                     <div className="header-right">
                         {/* <div className="dropdown">
@@ -40,7 +40,7 @@ export default function Header(props) {
                                 <li><ALink href="#">EUR</ALink></li>
                             </ul>
                         </div> */}
-
+                        {/* 
                         <div className="dropdown ml-5">
                             <ALink href="#">ENG</ALink>
                             <ul className="dropdown-box">
@@ -51,7 +51,7 @@ export default function Header(props) {
                                     <ALink href="#">ESP</ALink>
                                 </li>
                             </ul>
-                        </div>
+                        </div> */}
 
                         <span className="divider"></span>
                         <ALink href="/pages/contact-us" className="contact d-lg-show"><i className="d-icon-map"></i>Contact</ALink>
@@ -69,7 +69,7 @@ export default function Header(props) {
                         </ALink>
 
                         <ALink href="/" className="logo">
-                            <img src='./images/ramset_logo.jpg' alt="logo" width="153" height="44" />
+                            <img src='./images/pg_logo_black.png' alt="logo" width="153" height="44" />
                         </ALink>
 
                         <SearchBox />
@@ -82,7 +82,7 @@ export default function Header(props) {
                             </div>
                             <div className="icon-box-content d-lg-show">
                                 <h4 className="icon-box-title">Call Us Now:</h4>
-                                <p>800-771-7055</p>
+                                <p>(951) 296-5522</p>
                             </div>
                         </ALink>
                         {/* <span className="divider"></span>

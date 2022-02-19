@@ -31,11 +31,11 @@ function HomePage() {
     return (
         <div className="main home">
             <Helmet>
-                <title>Ramset | eCommerce</title>
+                <title>Printing Galore | Uniforms, Banners, Embroidery</title>
             </Helmet>
 
 
-            <h1 className="d-none">Ramset</h1>
+            <h1 className="d-none">Printing Galore</h1>
 
             <div className="page-content">
                 <div className="intro-section">
