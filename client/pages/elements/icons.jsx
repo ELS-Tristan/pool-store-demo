@@ -10,10 +10,10 @@ function Icons() {
     return (
         <>
             <Helmet>
-                <title>Printing Galore | Icons</title>
+                <title>Pool Store | Icons</title>
             </Helmet>
 
-            <h1 className="d-none">Printing Galore - Icons</h1>
+            <h1 className="d-none">Pool Store - Icons</h1>
 
             <Breadcrumb subTitle="Elements" title="Element Icons" parentUrl="/elements" />
 

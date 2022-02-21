@@ -29,10 +29,10 @@ function BlogPosts() {
     return (
         <main className="main skeleton-body">
             <Helmet>
-                <title>Printing Galore | Blog</title>
+                <title>Pool Store | Blog</title>
             </Helmet>
 
-            <h1 className="d-none">Printing Galore - Blog</h1>
+            <h1 className="d-none">Pool Store - Blog</h1>
 
             <Breadcrumb subTitle="Elements" title="Element Blog" parentUrl="/elements" />
 

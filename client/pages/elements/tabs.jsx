@@ -10,10 +10,10 @@ function ElementTabs() {
     return (
         <>
             <Helmet>
-                <title>Printing Galore | Tabs</title>
+                <title>Pool Store | Tabs</title>
             </Helmet>
 
-            <h1 className="d-none">Printing Galore - Tabs</h1>
+            <h1 className="d-none">Pool Store - Tabs</h1>
 
             <Breadcrumb subTitle="Elements" title="Element Tabs" parentUrl="/elements" />
 

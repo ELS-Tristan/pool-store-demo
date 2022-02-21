@@ -11,10 +11,10 @@ function Alert(props) {
     return (
         <>
             <Helmet>
-                <title>Printing Galore | Alert &amp; Notification</title>
+                <title>Pool Store | Alert &amp; Notification</title>
             </Helmet>
 
-            <h1 className="d-none">Printing Galore - Alert &amp; Notification</h1>
+            <h1 className="d-none">Pool Store - Alert &amp; Notification</h1>
 
             <BreadCrumb
                 subTitle="Elements"

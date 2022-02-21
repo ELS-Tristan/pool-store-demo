@@ -15,10 +15,10 @@ function ShopNavigationFilter() {
     return (
         <main className="main navigation-filter">
             <Helmet>
-                <title>Printing Galore - Shop Navigation Filter</title>
+                <title>Pool Store - Shop Navigation Filter</title>
             </Helmet>
 
-            <h1 className="d-none">Printing Galore - Shop Navigation Filter</h1>
+            <h1 className="d-none">Pool Store - Shop Navigation Filter</h1>
 
             <ShopBanner subTitle="categories" title="Navigation Filter" current="Navigation Filter" />
 

@@ -20,10 +20,10 @@ function Wishlist(props) {
     return (
         <main className="main">
             <Helmet>
-                <title>Printing Galore | Wishlist</title>
+                <title>Pool Store | Wishlist</title>
             </Helmet>
 
-            <h1 className="d-none">Printing Galore - Wishlist</h1>
+            <h1 className="d-none">Pool Store - Wishlist</h1>
             <nav className="breadcrumb-nav">
                 <div className="container">
                     <ul className="breadcrumb">

@@ -9,10 +9,10 @@ function Titles() {
     return (
         <>
             <Helmet>
-                <title>Printing Galore | Titles</title>
+                <title>Pool Store | Titles</title>
             </Helmet>
 
-            <h1 className="d-none">Printing Galore - Titles</h1>
+            <h1 className="d-none">Pool Store - Titles</h1>
 
             <Breadcrumb subTitle="Elements" title="Element Titles" parentUrl="/elements" />
 

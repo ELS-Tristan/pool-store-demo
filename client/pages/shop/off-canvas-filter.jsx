@@ -9,10 +9,10 @@ function ShopOffCanvas() {
     return (
         <main className="main">
             <Helmet>
-                <title>Printing Galore - Shop Off-Canvas Filter</title>
+                <title>Pool Store - Shop Off-Canvas Filter</title>
             </Helmet>
 
-            <h1 className="d-none">Printing Galore - Shop Off-Canvas Filter</h1>
+            <h1 className="d-none">Pool Store - Shop Off-Canvas Filter</h1>
 
             <ShopBanner subTitle="Categories" title="Off-Canvas Filter" current="Product Tag - off-canvas filter" />
 

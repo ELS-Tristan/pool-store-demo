@@ -8,7 +8,7 @@ export default function Footer() {
                     <div className="row align-items-center">
                         <div className="col-lg-3">
                             <ALink href="/" className="logo-footer">
-                                <img src="./images/pg_logo_white_333.png" alt="logo-footer" width="154" height="43" />
+                                <img src="./images/logo-white.png" alt="logo-footer" width="154" height="43" />
                             </ALink>
 
                         </div>
@@ -38,21 +38,31 @@ export default function Footer() {
                                 <ul className="widget-body">
                                     <li>
                                         <label>Phone: </label>
-                                        <ALink href="tel:#">(951) 296-5522</ALink>
+                                        <ALink href="tel:#">(888) 555-1234</ALink>
                                     </li>
                                     <li>
                                         <label>Email: </label>
-                                        <ALink href="mailto:mail@riode.com">sales@printgalore4u.com</ALink>
+                                        <ALink href="mailto:mail@riode.com">sales@pool-store.com</ALink>
                                     </li>
                                     <li>
                                         <label>Address: </label>
-                                        <ALink href="#">27715 Jefferson Ave, Unit 102, Temecula, CA 92590</ALink>
+                                        <ALink href="#">123 Real St, Temecula, CA 92590</ALink>
                                     </li>
                                     <li>
                                         <label>OPEN DAYS / HOURS: </label>
                                     </li>
                                     <li>
                                         <ALink href="#">Mon - Fri / 5:00 AM - 5:00 PM</ALink>
+
+                                    </li>
+                                    <li>
+
+                                        <ALink href="#">Saturday / 8:00 AM - 5:00 PM</ALink>
+
+                                    </li>
+                                    <li>
+
+                                        <ALink href="#">Sunday / 8:00 AM - 2:00 PM</ALink>
                                     </li>
                                 </ul>
                             </div>
@@ -145,7 +155,7 @@ export default function Footer() {
                         </figure>
                     </div>
                     <div className="footer-center">
-                        <p className="copyright ls-normal">Printing Galore &copy; 2021. All Rights Reserved</p>
+                        <p className="copyright ls-normal">Pool Store &copy; 2021. All Rights Reserved</p>
                     </div>
                     <div className="footer-right">
                         <div className="social-links">

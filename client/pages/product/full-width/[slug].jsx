@@ -42,10 +42,10 @@ function ProductFullWidth() {
     return (
         <main className="main single-product">
             <Helmet>
-                <title>Printing Galore | Product Fullwidth</title>
+                <title>Pool Store | Product Fullwidth</title>
             </Helmet>
 
-            <h1 className="d-none">Printing Galore - Product Fullwidth</h1>
+            <h1 className="d-none">Pool Store - Product Fullwidth</h1>
 
             {
                 product !== undefined ?

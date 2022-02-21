@@ -74,10 +74,10 @@ function PostMasonry({ router }) {
     return (
         <main className="main skeleton-body">
             <Helmet>
-                <title>Printing Galore | Blog Masonry {column}</title>
+                <title>Pool Store | Blog Masonry {column}</title>
             </Helmet>
 
-            <h1 className="d-none">Printing Galore - Blog Masonry {column}</h1>
+            <h1 className="d-none">Pool Store - Blog Masonry {column}</h1>
 
             <nav className="breadcrumb-nav">
                 <div className="container">

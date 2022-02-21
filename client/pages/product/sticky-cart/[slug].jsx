@@ -83,10 +83,10 @@ function ProductDefault() {
     return (
         <main className="main mt-6 single-product">
             <Helmet>
-                <title>Printing Galore | Product Default</title>
+                <title>Pool Store | Product Default</title>
             </Helmet>
 
-            <h1 className="d-none">Printing Galore - Product Default</h1>
+            <h1 className="d-none">Pool Store - Product Default</h1>
 
             {
                 product !== undefined ?

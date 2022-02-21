@@ -42,10 +42,10 @@ function ProductGallery() {
     return (
         <main className="main single-product product-layout-gallery">
             <Helmet>
-                <title>Printing Galore | Product Gallery</title>
+                <title>Pool Store | Product Gallery</title>
             </Helmet>
 
-            <h1 className="d-none">Printing Galore - Product Gallery</h1>
+            <h1 className="d-none">Pool Store - Product Gallery</h1>
 
             {
                 product !== undefined ?

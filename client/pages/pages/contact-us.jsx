@@ -15,16 +15,16 @@ function ContactUs() {
             lat: 59.95,
             lng: 30.33
         },
-        zoom: 11
+        zoom: 2
     };
 
     return (
         <main className="main contact-us">
             <Helmet>
-                <title>Printing Galore | Contact Us</title>
+                <title>Pool Store | Contact Us</title>
             </Helmet>
 
-            <h1 className="d-none">Printing Galore - Contact Us</h1>
+            <h1 className="d-none">Pool Store - Contact Us</h1>
 
             <nav className="breadcrumb-nav">
                 <div className="container">
@@ -48,15 +48,15 @@ function ContactUs() {
                                     <div className="grey-section d-flex align-items-center h-100">
                                         <div>
                                             <h4 className="mb-2 text-capitalize">Headquarters</h4>
-                                            <p>27715 Jefferson Ave, Unit 102<br />Temecula, CA 92590</p>
+                                            <p>123 Real St.<br />Temecula, CA 92590</p>
                                             <h4 className="mb-2 text-capitalize">Phone Number</h4>
                                             <p>
-                                                <ALink href="#">951 296-5522</ALink>
+                                                <ALink href="#">(888) 555-1234</ALink>
                                             </p>
 
                                             <h4 className="mb-2 text-capitalize">Support</h4>
                                             <p className="mb-4">
-                                                <ALink href="#">sales@printgalore4u.com</ALink><br />
+                                                <ALink href="#">sales@pool-store.com</ALink><br />
                                             </p>
                                         </div>
                                     </div>

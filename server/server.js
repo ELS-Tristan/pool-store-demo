@@ -2,6 +2,12 @@ const express = require('express');
 const http = require('http');
 const { ApolloServer } = require('apollo-server-express');
 const { ApolloServerPluginDrainHttpServer } = require('apollo-server-core');
+// const mongoose = require('mongoose')
+
+// const dbURI = 'mongodb://localhose:27017/printing_galore_db'
+
+
+
 
 const typeDefs = require('./src/schema');
 const resolvers = require('./src/resolver');
@@ -17,6 +23,15 @@ async function startApolloServer(typeDefs, resolvers) {
         resolvers,
         plugins: [ApolloServerPluginDrainHttpServer({ httpServer })],
     });
+
+
+    // CONNECT TO MONGODB
+    // await mongoose.connect(dbURI, {
+    //     useUnifedTopology: true,
+    //     useNewUrlParser: true,
+    // })
+    // console.log(`Connected to ${dbURI}`)
+
     await server.start();
     server.applyMiddleware({ app, bodyParserConfig: true });
     await new Promise(resolve => httpServer.listen({ port: 4000 }, resolve));

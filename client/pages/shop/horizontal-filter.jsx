@@ -45,10 +45,10 @@ function ShopHorizontalFilter() {
     return (
         <main className="main">
             <Helmet>
-                <title>Printing Galore - Shop Horizontal Filter</title>
+                <title>Pool Store - Shop Horizontal Filter</title>
             </Helmet>
 
-            <h1 className="d-none">Printing Galore - Shop Horizontal Filter</h1>
+            <h1 className="d-none">Pool Store - Shop Horizontal Filter</h1>
 
             <ShopBanner subTitle="Categories" title="Horizontal Filter" current="Horizontal Filter" />
 

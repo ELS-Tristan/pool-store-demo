@@ -43,10 +43,10 @@ function ProductStickyBoth() {
     return (
         <main className="main single-product product-sticky-both">
             <Helmet>
-                <title>Printing Galore | Product Sticky Both</title>
+                <title>Pool Store | Product Sticky Both</title>
             </Helmet>
 
-            <h1 className="d-none">Printing Galore - Product Sticky Both</h1>
+            <h1 className="d-none">Pool Store - Product Sticky Both</h1>
 
             {
                 product !== undefined ?

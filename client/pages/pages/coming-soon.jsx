@@ -19,10 +19,10 @@ function ComingSoon() {
     return (
         <main className="main">
             <Helmet>
-                <title>Printing Galore | Coming Soon</title>
+                <title>Pool Store | Coming Soon</title>
             </Helmet>
 
-            <h1 className="d-none">Printing Galore - Coming Soon</h1>
+            <h1 className="d-none">Pool Store - Coming Soon</h1>
 
             <div className="page-content">
                 <section className="coming-section container text-center text-grey font-primary">

@@ -20,10 +20,10 @@ function Buttons() {
     return (
         <>
             <Helmet>
-                <title>Printing Galore | Buttons</title>
+                <title>Pool Store | Buttons</title>
             </Helmet>
 
-            <h1 className="d-none">Printing Galore - Buttons</h1>
+            <h1 className="d-none">Pool Store - Buttons</h1>
 
             <Breadcrumb subTitle="Elements" title="Element Buttons" parentUrl="/elements" />
 

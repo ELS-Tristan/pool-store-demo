@@ -10,10 +10,10 @@ function ShopBoxedBanner() {
     return (
         <main className="main">
             <Helmet>
-                <title>Printing Galore - Shop Boxed Banner Page</title>
+                <title>Pool Store - Shop Boxed Banner Page</title>
             </Helmet>
 
-            <h1 className="d-none">Printing Galore - Shop Boxed Banner Page</h1>
+            <h1 className="d-none">Pool Store - Shop Boxed Banner Page</h1>
 
             <nav className="breadcrumb-nav">
                 <div className="container">

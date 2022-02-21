@@ -1,10 +1,10 @@
 import ALink from '~/components/features/custom-link';
 
 export default function ShopBanner(props) {
-    const { subTitle = '', title = "Printing Galore", current = "Printing Galore" } = props;
+    const { subTitle = '', title = "Pool Shop", current = "Pool Shop" } = props;
 
     return (
-        <div className="page-header" style={{ backgroundImage: `url( ./images/shop/page-header-back-1.png )`, backgroundColor: "#3C63A4" }}>
+        <div className="page-header" style={{ backgroundImage: `url( ./images/shop/shop_banner1.png )`, backgroundColor: "#3C63A4" }}>
             {
                 subTitle ? <h3 className="page-subtitle">{subTitle}</h3> : ''
             }

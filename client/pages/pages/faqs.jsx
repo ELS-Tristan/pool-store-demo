@@ -12,10 +12,10 @@ function ComingSoon() {
     return (
         <main className="main faq">
             <Helmet>
-                <title>Printing Galore | FAQs</title>
+                <title>Pool Store | FAQs</title>
             </Helmet>
 
-            <h1 className="d-none">Printing Galore - FAQs</h1>
+            <h1 className="d-none">Pool Store - FAQs</h1>
 
             <nav className="breadcrumb-nav">
                 <div className="container">

@@ -12,10 +12,10 @@ function IconBoxes() {
     return (
         <>
             <Helmet>
-                <title>Printing Galore | Icon Boxes</title>
+                <title>Pool Store | Icon Boxes</title>
             </Helmet>
 
-            <h1 className="d-none">Printing Galore - Icon Boxes</h1>
+            <h1 className="d-none">Pool Store - Icon Boxes</h1>
 
             <Breadcrumb subTitle="Elements" title="Element Icon Boxes" parentUrl="/elements" />
 

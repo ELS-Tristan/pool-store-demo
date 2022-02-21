@@ -27,10 +27,10 @@ function Products() {
     return (
         <main className="skeleton-body">
             <Helmet>
-                <title>Printing Galore | Products</title>
+                <title>Pool Store | Products</title>
             </Helmet>
 
-            <h1 className="d-none">Printing Galore - Products</h1>
+            <h1 className="d-none">Pool Store - Products</h1>
 
             <Breadcrumb subTitle="Elements" title="Element Products" parentUrl="/elements" />
 

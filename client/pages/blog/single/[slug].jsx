@@ -32,10 +32,10 @@ function PostSingle() {
     return (
         <main className="main skeleton-body">
             <Helmet>
-                <title>Printing Galore | Blog Single</title>
+                <title>Pool Store | Blog Single</title>
             </Helmet>
 
-            <h1 className="d-none">Printing Galore - Blog Single</h1>
+            <h1 className="d-none">Pool Store - Blog Single</h1>
 
             <nav className="breadcrumb-nav">
                 <div className="container">

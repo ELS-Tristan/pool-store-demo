@@ -8,10 +8,10 @@ function Login() {
     return (
         <main className="main">
             <Helmet>
-                <title>Printing Galore | Login</title>
+                <title>Pool Store | Login</title>
             </Helmet>
 
-            <h1 className="d-none">Printing Galore - Login</h1>
+            <h1 className="d-none">Pool Store - Login</h1>
             <nav className="breadcrumb-nav">
                 <div className="container">
                     <ul className="breadcrumb">

@@ -9,10 +9,10 @@ function Typography() {
     return (
         <>
             <Helmet>
-                <title>Printing Galore | Typography</title>
+                <title>Pool Store | Typography</title>
             </Helmet>
 
-            <h1 className="d-none">Printing Galore - Typography</h1>
+            <h1 className="d-none">Pool Store - Typography</h1>
 
             <Breadcrumb subTitle="Elements" title="Element Typography" parentUrl="/elements" />
 

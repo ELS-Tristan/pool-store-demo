@@ -17,10 +17,10 @@ function Error404() {
     return (
         <main className="main">
             <Helmet>
-                <title>Printing Galore | 404</title>
+                <title>Pool Store | 404</title>
             </Helmet>
 
-            <h1 className="d-none">Printing Galore - 404</h1>
+            <h1 className="d-none">Pool Store - 404</h1>
 
             <div className="page-content">
                 <section

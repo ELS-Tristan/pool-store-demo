@@ -47,10 +47,10 @@ function Classic() {
     return (
         <main className="main skeleton-body">
             <Helmet>
-                <title>Printing Galore | Blog Classic</title>
+                <title>Pool Store | Blog Classic</title>
             </Helmet>
 
-            <h1 className="d-none">Printing Galore - Blog Classic</h1>
+            <h1 className="d-none">Pool Store - Blog Classic</h1>
 
             <nav className="breadcrumb-nav">
                 <div className="container">

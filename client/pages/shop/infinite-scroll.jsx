@@ -9,10 +9,10 @@ function InfiniteScroll() {
     return (
         <main className="main">
             <Helmet>
-                <title>Printing Galore - Shop Ajax Infinite Scroll</title>
+                <title>Pool Store - Shop Ajax Infinite Scroll</title>
             </Helmet>
 
-            <h1 className="d-none">Printing Galore - Shop Ajax Infinite Scroll</h1>
+            <h1 className="d-none">Pool Store - Shop Ajax Infinite Scroll</h1>
 
             <ShopBanner />
 

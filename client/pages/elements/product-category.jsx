@@ -14,10 +14,10 @@ function Cta() {
     return (
         <>
             <Helmet>
-                <title>Printing Galore | Product Category</title>
+                <title>Pool Store | Product Category</title>
             </Helmet>
 
-            <h1 className="d-none">Printing Galore - Product Category</h1>
+            <h1 className="d-none">Pool Store - Product Category</h1>
 
             <Breadcrumb subTitle="Elements" title="Element Categories" parentUrl="/elements" />
 

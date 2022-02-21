@@ -23,6 +23,8 @@ import SmallCollection from '~/components/partials/product/small-collection';
 function HomePage() {
     const { data, loading, error } = useQuery(GET_HOME_DATA, { variables: { productsCount: 7 } });
     const featured = data && data.specialProducts.featured;
+    console.log("GOT FEATURED PRODUTS")
+    console.log(data)
     const bestSelling = data && data.specialProducts.bestSelling;
     const latest = data && data.specialProducts.latest;
     const onSale = data && data.specialProducts.onSale;
@@ -31,11 +33,11 @@ function HomePage() {
     return (
         <div className="main home">
             <Helmet>
-                <title>Printing Galore | Uniforms, Banners, Embroidery</title>
+                <title>Pool Store | Pumps, filters, sanitation and more</title>
             </Helmet>
 
 
-            <h1 className="d-none">Printing Galore</h1>
+            <h1 className="d-none">Pool Store</h1>
 
             <div className="page-content">
                 <div className="intro-section">
@@ -50,7 +52,7 @@ function HomePage() {
 
                 <DealSection />
 
-                {/* <FeaturedCollection products={featured} loading={loading} /> */}
+                <FeaturedCollection products={featured} loading={loading} />
 
                 {/* <CtaSection /> */}
 

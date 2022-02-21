@@ -15,7 +15,7 @@ function IntroSection(props) {
             <div className="banner banner-fixed intro-slide1" style={{ backgroundColor: "#46b2e8" }}>
                 <figure>
                     <LazyLoadImage
-                        src="./images/home/slides/slide-2.png"
+                        src="./images/home/slides/slide-1.png"
                         alt="Intro Slider"
                         effect="opacity"
                         width="auto"
@@ -36,11 +36,11 @@ function IntroSection(props) {
                         </h4> */}
 
                         <Reveal keyframes={fadeInUpShorter} delay={1000} duration={1200}>
-                            <h2 className="banner-title font-weight-bold text-white lh-1 ls-md">Customized</h2>
+                            <h2 className="banner-title font-weight-bold text-white lh-1 ls-md">Summer</h2>
 
-                            <h3 className="font-weight-normal lh-1 ls-l text-white">Uniforms</h3>
+                            <h3 className="font-weight-normal lh-1 ls-l text-white">is around the corner</h3>
 
-                            <p className="text-white ls-s mb-7">Embroidery, Heat Transfers, Numbering, Team Uniforms, Work Uniforms and more!</p>
+                            <p className="text-white ls-s mb-7">Make sure your pool system is functional</p>
                         </Reveal>
 
                         <Reveal keyframes={fadeInUpShorter} delay={1800} duration={1000}>
@@ -53,7 +53,7 @@ function IntroSection(props) {
             <div className="banner banner-fixed intro-slide2" style={{ backgroundColor: "#dddee0" }}>
                 <figure>
                     <LazyLoadImage
-                        src="./images/home/slides/slide-1.png"
+                        src="./images/home/slides/slide-2.png"
                         alt="Intro Slider"
                         effect="opacity"
                         width="auto"
@@ -65,9 +65,9 @@ function IntroSection(props) {
                     <div className="banner-content y-50 ml-auto text-right">
                         <Reveal keyframes={fadeInUp} delay={200} duration={700}>
                             <h4 className="banner-subtitle ls-s mb-1">
-                                <span className="d-block text-uppercase mb-2">Quality printing</span>
+                                <span className="d-block text-uppercase mb-2">Pool and Spa</span>
 
-                                <strong className="font-weight-semi-bold ls-m">Exceptional Customer Service</strong>
+                                <strong className="font-weight-semi-bold ls-m">Cleaning Service and Repairs</strong>
                             </h4>
                         </Reveal>
 
@@ -77,13 +77,12 @@ function IntroSection(props) {
 
                         <Reveal keyframes={fadeInUp} delay={1200} duration={1000}>
                             <p className="font-primary ls-s text-dark mb-4">
-                                Uniforms, Banners, Embroidery  <br /> Business, Personal &amp; Just for Fun too!
-                                {/* Up to 70% off on all products <br />online &amp; Free Shipping over $90 */}
+                                We will service pools and spas in your area
                             </p>
                         </Reveal>
 
                         <Reveal keyframes={fadeInUp} delay={1400} duration={1000}>
-                            <ALink href="/shop" className="btn btn-dark btn-rounded">Shop Now<i className="d-icon-arrow-right"></i></ALink>
+                            <ALink href="/shop" className="btn btn-dark btn-rounded">Services<i className="d-icon-arrow-right"></i></ALink>
                         </Reveal>
                     </div>
                 </div>

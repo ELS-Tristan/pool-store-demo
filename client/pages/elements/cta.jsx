@@ -21,10 +21,10 @@ function Cta() {
     return (
         <>
             <Helmet>
-                <title>Printing Galore | Call To Action</title>
+                <title>Pool Store | Call To Action</title>
             </Helmet>
 
-            <h1 className="d-none">Printing Galore - Call To Action</h1>
+            <h1 className="d-none">Pool Store - Call To Action</h1>
 
             <Breadcrumb subTitle="Elements" title="Element Call To Action" parentUrl="/elements" />
 

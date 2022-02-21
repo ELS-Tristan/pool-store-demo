@@ -45,24 +45,24 @@ export default {
     ],
     brands: [
         {
-            name: "Cinderella",
-            slug: "cinderella"
+            name: "Pentair",
+            slug: "pentair"
         },
         {
-            name: "Comedy",
-            slug: "comedy"
+            name: "Hayward",
+            slug: "hayward"
         },
         {
-            name: "RightCheck",
-            slug: "rightcheck"
+            name: "Calimar",
+            slug: "calimar"
         },
         {
-            name: "SkillStar",
-            slug: "skillstar"
+            name: "J&J Electronics",
+            slug: "jj-electronics"
         },
         {
-            name: "SLS",
-            slug: "sls"
+            name: "Waterway",
+            slug: "waterway"
         }
     ],
     tag: [

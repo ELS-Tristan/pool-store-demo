@@ -10,10 +10,10 @@ function ShopBannerSidebar() {
     return (
         <main className="main">
             <Helmet>
-                <title>Printing Galore - Shop Banner Sidebar Page</title>
+                <title>Pool Store - Shop Banner Sidebar Page</title>
             </Helmet>
 
-            <h1 className="d-none">Printing Galore - Shop Banner Sidebar Page</h1>
+            <h1 className="d-none">Pool Store - Shop Banner Sidebar Page</h1>
 
             <nav className="breadcrumb-nav">
                 <div className="container">

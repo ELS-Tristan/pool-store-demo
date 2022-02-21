@@ -10,10 +10,10 @@ function ShopRightSidebar() {
     return (
         <main className="main">
             <Helmet>
-                <title>Printing Galore - Shop With Right Sidebar</title>
+                <title>Pool Store - Shop With Right Sidebar</title>
             </Helmet>
 
-            <h1 className="d-none">Printing Galore - Shop With Right Sidebar</h1>
+            <h1 className="d-none">Pool Store - Shop With Right Sidebar</h1>
 
             <ShopBanner subTitle="Categories" title="With Right Sidebar" current="With Right Sidebar" />
 

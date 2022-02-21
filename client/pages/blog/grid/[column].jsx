@@ -48,10 +48,10 @@ function PostGrid({ router }) {
     return (
         <main className="main skeleton-body">
             <Helmet>
-                <title>Printing Galore | Blog Grid {column}</title>
+                <title>Pool Store | Blog Grid {column}</title>
             </Helmet>
 
-            <h1 className="d-none">Printing Galore - Blog Grid {column}</h1>
+            <h1 className="d-none">Pool Store - Blog Grid {column}</h1>
 
             <nav className="breadcrumb-nav">
                 <div className="container">

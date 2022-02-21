@@ -47,10 +47,10 @@ function Listing() {
     return (
         <main className="main skeleton-body">
             <Helmet>
-                <title>Printing Galore | Blog Listing</title>
+                <title>Pool Store | Blog Listing</title>
             </Helmet>
 
-            <h1 className="d-none">Printing Galore - Blog Listing</h1>
+            <h1 className="d-none">Pool Store - Blog Listing</h1>
 
             <nav className="breadcrumb-nav">
                 <div className="container">

@@ -22,10 +22,10 @@ function ElementTabs() {
     return (
         <>
             <Helmet>
-                <title>Printing Galore | Testimonials</title>
+                <title>Pool Store | Testimonials</title>
             </Helmet>
 
-            <h1 className="d-none">Printing Galore - Testimonials</h1>
+            <h1 className="d-none">Pool Store - Testimonials</h1>
 
             <Breadcrumb subTitle="Elements" title="Element Tabs" parentUrl="/elements" />
 

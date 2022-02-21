@@ -40,10 +40,10 @@ function ProductGrid() {
     return (
         <main className="main mt-6 single-product product-layout-grid">
             <Helmet>
-                <title>Printing Galore | Product Grid</title>
+                <title>Pool Store | Product Grid</title>
             </Helmet>
 
-            <h1 className="d-none">Printing Galore - Product Grid</h1>
+            <h1 className="d-none">Pool Store - Product Grid</h1>
 
             {
                 product !== undefined ?

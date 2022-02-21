@@ -35,10 +35,10 @@ function AboutUs() {
     return (
         <main className="main about-us">
             <Helmet>
-                <title>Printing Galore | About Us</title>
+                <title>Pool Store | About Us</title>
             </Helmet>
 
-            <h1 className="d-none">Printing Galore - About Us</h1>
+            <h1 className="d-none">Pool Store - About Us</h1>
 
             <nav className="breadcrumb-nav">
                 <div className="container">

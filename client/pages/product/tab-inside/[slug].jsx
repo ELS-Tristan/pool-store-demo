@@ -39,10 +39,10 @@ function ProductMasonry() {
     return (
         <main className="main mt-6 single-product">
             <Helmet>
-                <title>Printing Galore | Product Masonry</title>
+                <title>Pool Store | Product Masonry</title>
             </Helmet>
 
-            <h1 className="d-none">Printing Galore - Product Masonry</h1>
+            <h1 className="d-none">Pool Store - Product Masonry</h1>
 
             {
                 product !== undefined ?

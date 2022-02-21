@@ -11,10 +11,10 @@ function Accordions() {
     return (
         <>
             <Helmet>
-                <title>Printing Galore | Accordions</title>
+                <title>Pool Store | Accordions</title>
             </Helmet>
 
-            <h1 className="d-none">Printing Galore - Accordions</h1>
+            <h1 className="d-none">Pool Store - Accordions</h1>
 
             <Breadcrumb subTitle="Elements" title="Element Accordions" parentUrl="/elements" />
 

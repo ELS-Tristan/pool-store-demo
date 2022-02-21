@@ -41,10 +41,10 @@ function ProductLeftSidebar() {
     return (
         <main className="main single-product">
             <Helmet>
-                <title>Printing Galore | Product With Left Sidebar</title>
+                <title>Pool Store | Product With Left Sidebar</title>
             </Helmet>
 
-            <h1 className="d-none">Printing Galore - Product With Left Sidebar</h1>
+            <h1 className="d-none">Pool Store - Product With Left Sidebar</h1>
 
             {
                 product !== undefined ?

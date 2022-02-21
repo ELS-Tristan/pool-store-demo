@@ -14,10 +14,10 @@ function Instagrams() {
     return (
         <>
             <Helmet>
-                <title>Printing Galore | Instagrams</title>
+                <title>Pool Store | Instagrams</title>
             </Helmet>
 
-            <h1 className="d-none">Printing Galore - Instagrams</h1>
+            <h1 className="d-none">Pool Store - Instagrams</h1>
 
             <Breadcrumb subTitle="Elements" title="Element Instagram" parentUrl="/elements" />
 

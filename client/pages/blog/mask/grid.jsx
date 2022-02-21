@@ -48,10 +48,10 @@ function PostMaskGrid({ router }) {
     return (
         <main className="main skeleton-body">
             <Helmet>
-                <title>Printing Galore | Blog Mask Grid</title>
+                <title>Pool Store | Blog Mask Grid</title>
             </Helmet>
 
-            <h1 className="d-none">Printing Galore - Blog Mask Grid</h1>
+            <h1 className="d-none">Pool Store - Blog Mask Grid</h1>
 
             <nav className="breadcrumb-nav">
                 <div className="container">

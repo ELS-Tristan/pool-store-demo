@@ -9,10 +9,10 @@ function Shop() {
     return (
         <main className="main">
             <Helmet>
-                <title>Printing Galore - Shop Page</title>
+                <title>Pool Shop</title>
             </Helmet>
 
-            <h1 className="d-none">Printing Galore - Shop Page</h1>
+            <h1 className="d-none">Pool Shop</h1>
 
             <ShopBanner />
 

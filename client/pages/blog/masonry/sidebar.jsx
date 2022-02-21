@@ -66,10 +66,10 @@ function PostMasonrySidebar() {
     return (
         <main className="main skeleton-body">
             <Helmet>
-                <title>Printing Galore | Blog Masonry With Sidebar</title>
+                <title>Pool Store | Blog Masonry With Sidebar</title>
             </Helmet>
 
-            <h1 className="d-none">Printing Galore - Blog Masonry With Sidebar</h1>
+            <h1 className="d-none">Pool Store - Blog Masonry With Sidebar</h1>
 
             <nav className="breadcrumb-nav">
                 <div className="container">

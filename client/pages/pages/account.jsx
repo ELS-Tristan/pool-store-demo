@@ -8,10 +8,10 @@ function Account() {
     return (
         <main className="main account">
             <Helmet>
-                <title>Printing Galore | Account</title>
+                <title>Pool Store | Account</title>
             </Helmet>
 
-            <h1 className="d-none">Printing Galore - Account</h1>
+            <h1 className="d-none">Pool Store - Account</h1>
 
             <nav className="breadcrumb-nav">
                 <div className="container">
