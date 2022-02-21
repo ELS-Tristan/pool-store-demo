@@ -10,10 +10,10 @@ function ElementTabs() {
     return (
         <>
             <Helmet>
-                <title>Riode React eCommerce Template | Tabs</title>
+                <title>Pool Store | Tabs</title>
             </Helmet>
 
-            <h1 className="d-none">Riode React eCommerce Template - Tabs</h1>
+            <h1 className="d-none">Pool Store - Tabs</h1>
 
             <Breadcrumb subTitle="Elements" title="Element Tabs" parentUrl="/elements" />
 
@@ -24,7 +24,7 @@ function ElementTabs() {
 
                         <div className="row">
                             <div className="col-lg-6 mb-4">
-                                <Tabs selectedTabClassName="show" selectedTabPanelClassName="active" defaultIndex={ 0 } className="tab tab-nav-simple">
+                                <Tabs selectedTabClassName="show" selectedTabPanelClassName="active" defaultIndex={0} className="tab tab-nav-simple">
                                     <TabList className="nav nav-tabs" role="tablist">
                                         <Tab className="nav-item">
                                             <span className="nav-link">First header</span>
@@ -42,23 +42,23 @@ function ElementTabs() {
                                     <div className="tab-content">
                                         <TabPanel className="tab-pane">
                                             <p className="mb-0">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                                            Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut
-                                            turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a,
-                                            pede. Donec nec justo eget felis facilisis ferment Aliquam porttitor
+                                                Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut
+                                                turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a,
+                                                pede. Donec nec justo eget felis facilisis ferment Aliquam porttitor
                                                 mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
                                         </TabPanel>
 
                                         <TabPanel className="tab-pane">
                                             <p className="mb-0">Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In
-                                            nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium,
-                                            ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget
+                                                nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium,
+                                                ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget
                                                 blandit nunc tortor eu nibh. Nullam mollis. Ut justo.</p>
                                         </TabPanel>
 
                                         <TabPanel className="tab-pane">
                                             <p className="mb-0">Sed lectus. Praesent elementum hendrerit tortor. Sed semper
-                                            lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque
-                                            euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu,
+                                                lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque
+                                                euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu,
                                                 dapibus eu, fermentum et, dapibus sed, urna.</p>
                                         </TabPanel>
                                     </div>
@@ -67,7 +67,7 @@ function ElementTabs() {
 
                             <div className="col-lg-6 mb-4">
                                 <div className="tab tab-nav-simple tab-nav-center tab-nav-boxed">
-                                    <Tabs selectedTabClassName="show" selectedTabPanelClassName="active" defaultIndex={ 0 }>
+                                    <Tabs selectedTabClassName="show" selectedTabPanelClassName="active" defaultIndex={0}>
                                         <TabList className="nav nav-tabs" role="tablist">
                                             <Tab className="nav-item">
                                                 <span className="nav-link">First header</span>
@@ -84,23 +84,23 @@ function ElementTabs() {
                                         <div className="tab-content">
                                             <TabPanel className="tab-pane">
                                                 <p className="mb-0">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                                                Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut
-                                                turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a,
-                                                pede. Donec nec justo eget felis facilisis ferment Aliquam porttitor
+                                                    Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut
+                                                    turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a,
+                                                    pede. Donec nec justo eget felis facilisis ferment Aliquam porttitor
                                                     mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
                                             </TabPanel>
 
                                             <TabPanel className="tab-pane">
                                                 <p className="mb-0">Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In
-                                                nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium,
-                                                ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget
+                                                    nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium,
+                                                    ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget
                                                     blandit nunc tortor eu nibh. Nullam mollis. Ut justo.</p>
                                             </TabPanel>
 
                                             <TabPanel className="tab-pane">
                                                 <p className="mb-0">Sed lectus. Praesent elementum hendrerit tortor. Sed semper
-                                                lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque
-                                                euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu,
+                                                    lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque
+                                                    euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu,
                                                     dapibus eu, fermentum et, dapibus sed, urna.</p>
                                             </TabPanel>
                                         </div>
@@ -117,7 +117,7 @@ function ElementTabs() {
 
                         <div className="row">
                             <div className="col-lg-6 mb-4">
-                                <Tabs selectedTabClassName="show" selectedTabPanelClassName="active" defaultIndex={ 0 } className="tab tab-nav-boxed tab-nav-solid">
+                                <Tabs selectedTabClassName="show" selectedTabPanelClassName="active" defaultIndex={0} className="tab tab-nav-boxed tab-nav-solid">
                                     <TabList className="nav nav-tabs" role="tablist">
                                         <Tab className="nav-item">
                                             <span className="nav-link">First header</span>
@@ -135,23 +135,23 @@ function ElementTabs() {
                                     <div className="tab-content">
                                         <TabPanel className="tab-pane">
                                             <p className="mb-0">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                                            Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut
-                                            turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a,
-                                            pede. Donec nec justo eget felis facilisis ferment Aliquam porttitor
+                                                Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut
+                                                turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a,
+                                                pede. Donec nec justo eget felis facilisis ferment Aliquam porttitor
                                                 mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
                                         </TabPanel>
 
                                         <TabPanel className="tab-pane">
                                             <p className="mb-0">Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In
-                                            nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium,
-                                            ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget
+                                                nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium,
+                                                ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget
                                                 blandit nunc tortor eu nibh. Nullam mollis. Ut justo.</p>
                                         </TabPanel>
 
                                         <TabPanel className="tab-pane">
                                             <p className="mb-0">Sed lectus. Praesent elementum hendrerit tortor. Sed semper
-                                            lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque
-                                            euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu,
+                                                lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque
+                                                euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu,
                                                 dapibus eu, fermentum et, dapibus sed, urna.</p>
                                         </TabPanel>
                                     </div>
@@ -159,7 +159,7 @@ function ElementTabs() {
                             </div>
 
                             <div className="col-lg-6 mb-4">
-                                <Tabs selectedTabClassName="show" selectedTabPanelClassName="active" defaultIndex={ 0 } className="tab tab-nav-center tab-nav-boxed tab-nav-solid tab-nav-round">
+                                <Tabs selectedTabClassName="show" selectedTabPanelClassName="active" defaultIndex={0} className="tab tab-nav-center tab-nav-boxed tab-nav-solid tab-nav-round">
                                     <TabList className="nav nav-tabs" role="tablist">
                                         <Tab className="nav-item">
                                             <span className="nav-link">First header</span>
@@ -177,23 +177,23 @@ function ElementTabs() {
                                     <div className="tab-content">
                                         <TabPanel className="tab-pane">
                                             <p className="mb-0">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                                            Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut
-                                            turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a,
-                                            pede. Donec nec justo eget felis facilisis ferment Aliquam porttitor
+                                                Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut
+                                                turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a,
+                                                pede. Donec nec justo eget felis facilisis ferment Aliquam porttitor
                                                 mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
                                         </TabPanel>
 
                                         <TabPanel className="tab-pane">
                                             <p className="mb-0">Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In
-                                            nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium,
-                                            ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget
+                                                nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium,
+                                                ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget
                                                 blandit nunc tortor eu nibh. Nullam mollis. Ut justo.</p>
                                         </TabPanel>
 
                                         <TabPanel className="tab-pane">
                                             <p className="mb-0">Sed lectus. Praesent elementum hendrerit tortor. Sed semper
-                                            lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque
-                                            euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu,
+                                                lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque
+                                                euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu,
                                                 dapibus eu, fermentum et, dapibus sed, urna.</p>
                                         </TabPanel>
                                     </div>
@@ -209,7 +209,7 @@ function ElementTabs() {
 
                         <div className="row">
                             <div className="col-lg-6 mb-4">
-                                <Tabs selectedTabClassName="show" selectedTabPanelClassName="active" defaultIndex={ 0 } className="tab tab-boxed tab-nav-boxed tab-outline">
+                                <Tabs selectedTabClassName="show" selectedTabPanelClassName="active" defaultIndex={0} className="tab tab-boxed tab-nav-boxed tab-outline">
                                     <TabList className="nav nav-tabs" role="tablist">
                                         <Tab className="nav-item">
                                             <span className="nav-link">First header</span>
@@ -227,23 +227,23 @@ function ElementTabs() {
                                     <div className="tab-content">
                                         <TabPanel className="tab-pane">
                                             <p className="mb-0">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                                            Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut
-                                            turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a,
-                                            pede. Donec nec justo eget felis facilisis ferment Aliquam porttitor
+                                                Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut
+                                                turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a,
+                                                pede. Donec nec justo eget felis facilisis ferment Aliquam porttitor
                                                 mauris sit amet orci.</p>
                                         </TabPanel>
 
                                         <TabPanel className="tab-pane">
                                             <p className="mb-0">Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In
-                                            nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium,
-                                            ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget
+                                                nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium,
+                                                ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget
                                                 blandit nunc tortor eu nibh. Nullam mollis. Ut justo.</p>
                                         </TabPanel>
 
                                         <TabPanel className="tab-pane">
                                             <p className="mb-0">Sed lectus. Praesent elementum hendrerit tortor. Sed semper
-                                            lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque
-                                            euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu,
+                                                lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque
+                                                euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu,
                                                 dapibus eu, fermentum et, dapibus sed, urna.</p>
                                         </TabPanel>
                                     </div>
@@ -251,7 +251,7 @@ function ElementTabs() {
                             </div>
 
                             <div className="col-lg-6 mb-4">
-                                <Tabs selectedTabClassName="show" selectedTabPanelClassName="active" defaultIndex={ 0 } className="tab tab-nav-center tab-nav-boxed tab-boxed tab-outline2">
+                                <Tabs selectedTabClassName="show" selectedTabPanelClassName="active" defaultIndex={0} className="tab tab-nav-center tab-nav-boxed tab-boxed tab-outline2">
                                     <TabList className="nav nav-tabs" role="tablist">
                                         <Tab className="nav-item">
                                             <span className="nav-link">First header</span>
@@ -269,23 +269,23 @@ function ElementTabs() {
                                     <div className="tab-content">
                                         <TabPanel className="tab-pane">
                                             <p className="mb-0">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                                            Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut
-                                            turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a,
-                                            pede. Donec nec justo eget felis facilisis ferment Aliquam porttitor
+                                                Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut
+                                                turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a,
+                                                pede. Donec nec justo eget felis facilisis ferment Aliquam porttitor
                                                 mauris sit amet orci.</p>
                                         </TabPanel>
 
                                         <TabPanel className="tab-pane">
                                             <p className="mb-0">Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In
-                                            nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium,
-                                            ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget
+                                                nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium,
+                                                ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget
                                                 blandit nunc tortor eu nibh. Nullam mollis. Ut justo.</p>
                                         </TabPanel>
 
                                         <TabPanel className="tab-pane">
                                             <p className="mb-0">Sed lectus. Praesent elementum hendrerit tortor. Sed semper
-                                            lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque
-                                            euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu,
+                                                lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque
+                                                euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu,
                                                 dapibus eu, fermentum et, dapibus sed, urna.</p>
                                         </TabPanel>
                                     </div>
@@ -301,7 +301,7 @@ function ElementTabs() {
 
                         <div className="row">
                             <div className="col-lg-6 mb-4">
-                                <Tabs selectedTabClassName="show" selectedTabPanelClassName="active" defaultIndex={ 0 } className="tab tab-vertical tab-nav-solid">
+                                <Tabs selectedTabClassName="show" selectedTabPanelClassName="active" defaultIndex={0} className="tab tab-vertical tab-nav-solid">
                                     <TabList className="nav nav-tabs" role="tablist">
                                         <Tab className="nav-item">
                                             <span className="nav-link">First header</span>
@@ -319,22 +319,22 @@ function ElementTabs() {
                                     <div className="tab-content">
                                         <TabPanel className="tab-pane">
                                             <p className="mb-0">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                                            Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut
-                                            turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a,
+                                                Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut
+                                                turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a,
                                                 pede. Donec nec justo eget felis facilisis fermentum. </p>
                                         </TabPanel>
 
                                         <TabPanel className="tab-pane">
                                             <p className="mb-0">Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In
-                                            nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium,
-                                            ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget
+                                                nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium,
+                                                ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget
                                                 blandit nunc tortor eu nibh. Nullam mollis. Ut justo.</p>
                                         </TabPanel>
 
                                         <TabPanel className="tab-pane">
                                             <p className="mb-0">Sed lectus. Praesent elementum hendrerit tortor. Sed semper
-                                            lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque
-                                            euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu,
+                                                lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque
+                                                euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu,
                                                 dapibus eu, fermentum et, dapibus sed, urna.</p>
                                         </TabPanel>
                                     </div>
@@ -342,7 +342,7 @@ function ElementTabs() {
                             </div>
 
                             <div className="col-lg-6 mb-4">
-                                <Tabs selectedTabClassName="show" selectedTabPanelClassName="active" defaultIndex={ 0 } className="tab tab-vertical tab-simple">
+                                <Tabs selectedTabClassName="show" selectedTabPanelClassName="active" defaultIndex={0} className="tab tab-vertical tab-simple">
                                     <TabList className="nav nav-tabs" role="tablist">
                                         <Tab className="nav-item">
                                             <span className="nav-link">First header</span>
@@ -360,22 +360,22 @@ function ElementTabs() {
                                     <div className="tab-content">
                                         <TabPanel className="tab-pane">
                                             <p className="mb-0">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                                            Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut
-                                            turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a,
+                                                Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut
+                                                turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a,
                                                 pede. Donec nec justo eget felis facilisis fermentum. </p>
                                         </TabPanel>
 
                                         <TabPanel className="tab-pane">
                                             <p className="mb-0">Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In
-                                            nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium,
-                                            ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget
+                                                nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium,
+                                                ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget
                                                 blandit nunc tortor eu nibh. Nullam mollis. Ut justo.</p>
                                         </TabPanel>
 
                                         <TabPanel className="tab-pane">
                                             <p className="mb-0">Sed lectus. Praesent elementum hendrerit tortor. Sed semper
-                                            lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque
-                                            euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu,
+                                                lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque
+                                                euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu,
                                                 dapibus eu, fermentum et, dapibus sed, urna.</p>
                                         </TabPanel>
                                     </div>
@@ -390,7 +390,7 @@ function ElementTabs() {
                         <h2 className="title title-center">Inverse Style</h2>
                         <div className="row">
                             <div className="col-lg-6 mb-10 pb-4">
-                                <Tabs selectedTabClassName="show" selectedTabPanelClassName="active" defaultIndex={ 0 } className="tab tab-boxed tab-nav-boxed tab-simple tab-inverse">
+                                <Tabs selectedTabClassName="show" selectedTabPanelClassName="active" defaultIndex={0} className="tab tab-boxed tab-nav-boxed tab-simple tab-inverse">
                                     <TabList className="nav nav-tabs" role="tablist">
                                         <Tab className="nav-item">
                                             <span className="nav-link">First header</span>
@@ -405,27 +405,27 @@ function ElementTabs() {
                                     <div className="tab-content">
                                         <TabPanel className="tab-pane">
                                             <p className="mb-0">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                                            Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut
-                                            turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a,
+                                                Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut
+                                                turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a,
                                                 pede. Donec nec justo eget felis facilisis fermentum.</p>
                                         </TabPanel>
                                         <TabPanel className="tab-pane">
                                             <p className="mb-0">Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In
-                                            nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium,
-                                            ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget
+                                                nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium,
+                                                ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget
                                                 blandit nunc tortor eu nibh. Nullam mollis. Ut justo.</p>
                                         </TabPanel>
                                         <TabPanel className="tab-pane">
                                             <p className="mb-0">Sed lectus. Praesent elementum hendrerit tortor. Sed semper
-                                            lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque
-                                            euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu,
+                                                lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque
+                                                euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu,
                                                 dapibus eu, fermentum et, dapibus sed, urna.</p>
                                         </TabPanel>
                                     </div>
                                 </Tabs>
                             </div>
                             <div className="col-lg-6 mb-10 pb-4">
-                                <Tabs selectedTabClassName="show" selectedTabPanelClassName="active" defaultIndex={ 0 } className="tab tab-vertical tab-boxed tab-inverse h-100">
+                                <Tabs selectedTabClassName="show" selectedTabPanelClassName="active" defaultIndex={0} className="tab tab-vertical tab-boxed tab-inverse h-100">
                                     <TabList className="nav nav-tabs" role="tablist">
                                         <Tab className="nav-item">
                                             <span className="nav-link">First header</span>
@@ -440,27 +440,27 @@ function ElementTabs() {
                                     <div className="tab-content">
                                         <TabPanel className="tab-pane">
                                             <p className="mb-0">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                                            Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut
-                                            turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a,
+                                                Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut
+                                                turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a,
                                                 pede. Donec nec justo eget felis facilisis fermentum.</p>
                                         </TabPanel>
                                         <TabPanel className="tab-pane">
                                             <p className="mb-0">Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In
-                                            nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium,
-                                            ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget
+                                                nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium,
+                                                ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget
                                                 blandit nunc tortor eu nibh. Nullam mollis. Ut justo.</p>
                                         </TabPanel>
                                         <TabPanel className="tab-pane">
                                             <p className="mb-0">Sed lectus. Praesent elementum hendrerit tortor. Sed semper
-                                            lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque
-                                            euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu,
+                                                lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque
+                                                euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu,
                                                 dapibus eu, fermentum et, dapibus sed, urna.</p>
                                         </TabPanel>
                                     </div>
                                 </Tabs>
                             </div>
                             <div className="col-lg-6 mb-10 pb-4">
-                                <Tabs selectedTabClassName="show" selectedTabPanelClassName="active" defaultIndex={ 0 } className="tab tab-boxed tab-nav-boxed tab-nav-solid tab-inverse">
+                                <Tabs selectedTabClassName="show" selectedTabPanelClassName="active" defaultIndex={0} className="tab tab-boxed tab-nav-boxed tab-nav-solid tab-inverse">
                                     <TabList className="nav nav-tabs" role="tablist">
                                         <Tab className="nav-item">
                                             <span className="nav-link">First header</span>
@@ -475,27 +475,27 @@ function ElementTabs() {
                                     <div className="tab-content">
                                         <TabPanel className="tab-pane" >
                                             <p className="mb-0">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                                            Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut
-                                            turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a,
+                                                Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut
+                                                turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a,
                                                 pede. Donec nec justo eget felis facilisis fermentum.</p>
                                         </TabPanel>
                                         <TabPanel className="tab-pane" >
                                             <p className="mb-0">Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In
-                                            nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium,
-                                            ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget
+                                                nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium,
+                                                ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget
                                                 blandit nunc tortor eu nibh. Nullam mollis. Ut justo.</p>
                                         </TabPanel>
                                         <TabPanel className="tab-pane" >
                                             <p className="mb-0">Sed lectus. Praesent elementum hendrerit tortor. Sed semper
-                                            lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque
-                                            euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu,
+                                                lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque
+                                                euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu,
                                                 dapibus eu, fermentum et, dapibus sed, urna.</p>
                                         </TabPanel>
                                     </div>
                                 </Tabs>
                             </div>
                             <div className="col-lg-6 mb-10 pb-4">
-                                <Tabs selectedTabClassName="show" selectedTabPanelClassName="active" defaultIndex={ 0 } className="tab tab-vertical tab-nav-solid tab-boxed tab-inverse h-100">
+                                <Tabs selectedTabClassName="show" selectedTabPanelClassName="active" defaultIndex={0} className="tab tab-vertical tab-nav-solid tab-boxed tab-inverse h-100">
                                     <TabList className="nav nav-tabs" role="tablist">
                                         <Tab className="nav-item">
                                             <span className="nav-link">First header</span>
@@ -510,20 +510,20 @@ function ElementTabs() {
                                     <div className="tab-content">
                                         <TabPanel className="tab-pane">
                                             <p className="mb-0">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                                            Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut
-                                            turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a,
+                                                Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut
+                                                turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a,
                                                 pede. Donec nec justo eget felis facilisis fermentum.</p>
                                         </TabPanel>
                                         <TabPanel className="tab-pane">
                                             <p className="mb-0">Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In
-                                            nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium,
-                                            ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget
+                                                nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium,
+                                                ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget
                                                 blandit nunc tortor eu nibh. Nullam mollis. Ut justo.</p>
                                         </TabPanel>
                                         <TabPanel className="tab-pane">
                                             <p className="mb-0">Sed lectus. Praesent elementum hendrerit tortor. Sed semper
-                                            lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque
-                                            euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu,
+                                                lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque
+                                                euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu,
                                                 dapibus eu, fermentum et, dapibus sed, urna.</p>
                                         </TabPanel>
                                     </div>
@@ -539,4 +539,4 @@ function ElementTabs() {
     )
 }
 
-export default React.memo( ElementTabs );
+export default React.memo(ElementTabs);

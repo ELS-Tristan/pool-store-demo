@@ -19,49 +19,49 @@ import { mainSlider17 } from '~/utils/data/carousel';
 function ProductGrid() {
     const slug = useRouter().query.slug;
 
-    if ( !slug ) return '';
+    if (!slug) return '';
 
-    const { data, loading, error } = useQuery( GET_PRODUCT, { variables: { slug } } );
-    const [ loaded, setLoadingState ] = useState( false );
+    const { data, loading, error } = useQuery(GET_PRODUCT, { variables: { slug } });
+    const [loaded, setLoadingState] = useState(false);
     const product = data && data.product.data;
     const related = data && data.product.related;
 
-    useEffect( () => {
-        if ( !loading && product )
-            imagesLoaded( 'main' ).on( 'done', function () {
-                setLoadingState( true );
-            } ).on( 'progress', function () {
-                setLoadingState( false );
-            } );
-        if ( loading )
-            setLoadingState( false )
-    }, [ loading, product ] )
+    useEffect(() => {
+        if (!loading && product)
+            imagesLoaded('main').on('done', function () {
+                setLoadingState(true);
+            }).on('progress', function () {
+                setLoadingState(false);
+            });
+        if (loading)
+            setLoadingState(false)
+    }, [loading, product])
 
     return (
         <main className="main mt-6 single-product product-layout-grid">
             <Helmet>
-                <title>Riode React eCommerce Template | Product Grid</title>
+                <title>Pool Store | Product Grid</title>
             </Helmet>
 
-            <h1 className="d-none">Riode React eCommerce Template - Product Grid</h1>
+            <h1 className="d-none">Pool Store - Product Grid</h1>
 
             {
                 product !== undefined ?
-                    <div className={ `page-content mb-10 pb-6 ${ loaded ? '' : 'd-none' }` }>
+                    <div className={`page-content mb-10 pb-6 ${loaded ? '' : 'd-none'}`}>
                         <div className="container skeleton-body">
                             <div className="product product-single row mb-8">
                                 <div className="col-md-6">
-                                    <MediaTwo product={ product } />
+                                    <MediaTwo product={product} />
                                 </div>
 
                                 <div className="col-md-6">
-                                    <DetailThree data={ data } isSticky={ true } adClass="pb-0 mb-10" />
+                                    <DetailThree data={data} isSticky={true} adClass="pb-0 mb-10" />
                                 </div>
                             </div>
 
-                            <DescOne product={ product } />
+                            <DescOne product={product} />
 
-                            <RelatedProducts products={ related } />
+                            <RelatedProducts products={related} />
                         </div>
                     </div> : ''
             }
@@ -82,10 +82,10 @@ function ProductGrid() {
                         <section className="pt-3 mt-4">
                             <h2 className="title justify-content-center">Related Products</h2>
 
-                            <OwlCarousel adClass="owl-carousel owl-theme owl-nav-full" options={ mainSlider17 }>
+                            <OwlCarousel adClass="owl-carousel owl-theme owl-nav-full" options={mainSlider17}>
                                 {
-                                    [ 1, 2, 3, 4, 5, 6 ].map( ( item ) =>
-                                        <div className="product-loading-overlay" key={ 'popup-skel-' + item }></div>
+                                    [1, 2, 3, 4, 5, 6].map((item) =>
+                                        <div className="product-loading-overlay" key={'popup-skel-' + item}></div>
                                     )
                                 }
                             </OwlCarousel>
@@ -96,4 +96,4 @@ function ProductGrid() {
     )
 }
 
-export default withApollo( { ssr: typeof window === 'undefined' } )( ProductGrid );
+export default withApollo({ ssr: typeof window === 'undefined' })(ProductGrid);

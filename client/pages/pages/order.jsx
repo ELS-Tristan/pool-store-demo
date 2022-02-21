@@ -5,16 +5,16 @@ import ALink from '~/components/features/custom-link';
 
 import { toDecimal, getTotalPrice } from '~/utils';
 
-function Order( props ) {
+function Order(props) {
     const { cartList } = props;
 
     return (
         <main className="main order">
             <Helmet>
-                <title>Riode React eCommerce Template | Order</title>
+                <title>Pool Store | Order</title>
             </Helmet>
 
-            <h1 className="d-none">Riode React eCommerce Template - Order</h1>
+            <h1 className="d-none">Pool Store - Order</h1>
 
             <div className="page-content pt-7 pb-10 mb-10">
                 <div className="step-by pr-4 pl-4">
@@ -63,7 +63,7 @@ function Order( props ) {
                         </div>
                         <div className="overview-item">
                             <span>Total:</span>
-                            <strong>${ toDecimal( getTotalPrice( cartList ) ) }</strong>
+                            <strong>${toDecimal(getTotalPrice(cartList))}</strong>
                         </div>
                         <div className="overview-item">
                             <span>Payment method:</span>
@@ -84,17 +84,17 @@ function Order( props ) {
                             </thead>
                             <tbody>
                                 {
-                                    cartList.map( item =>
-                                        <tr key={ 'order-' + item.name }>
-                                            <td className="product-name">{ item.name } <span> <i className="fas fa-times"></i> { item.qty }</span></td>
-                                            <td className="product-price">${ toDecimal( item.qty * item.price ) }</td>
+                                    cartList.map(item =>
+                                        <tr key={'order-' + item.name}>
+                                            <td className="product-name">{item.name} <span> <i className="fas fa-times"></i> {item.qty}</span></td>
+                                            <td className="product-price">${toDecimal(item.qty * item.price)}</td>
                                         </tr>
-                                    ) }
+                                    )}
                                 <tr className="summary-subtotal">
                                     <td>
                                         <h4 className="summary-subtitle">Subtotal:</h4>
                                     </td>
-                                    <td className="summary-subtotal-price">${ toDecimal( getTotalPrice( cartList ) ) }</td>
+                                    <td className="summary-subtotal-price">${toDecimal(getTotalPrice(cartList))}</td>
                                 </tr>
                                 <tr className="summary-subtotal">
                                     <td>
@@ -113,7 +113,7 @@ function Order( props ) {
                                         <h4 className="summary-subtitle">Total:</h4>
                                     </td>
                                     <td>
-                                        <p className="summary-total-price">${ toDecimal( getTotalPrice( cartList ) ) }</p>
+                                        <p className="summary-total-price">${toDecimal(getTotalPrice(cartList))}</p>
                                     </td>
                                 </tr>
                             </tbody>
@@ -123,11 +123,11 @@ function Order( props ) {
                     <div className="address-info pb-8 mb-6">
                         <p className="address-detail pb-2">
                             John Doe<br />
-                        Riode Company<br />
-                        Steven street<br />
-                        El Carjon, CA 92020<br />
-                        123456789
-                    </p>
+                            Riode Company<br />
+                            Steven street<br />
+                            El Carjon, CA 92020<br />
+                            123456789
+                        </p>
                         <p className="email">mail@riode.com</p>
                     </div>
 
@@ -138,10 +138,10 @@ function Order( props ) {
     )
 }
 
-function mapStateToProps( state ) {
+function mapStateToProps(state) {
     return {
         cartList: state.cart.data ? state.cart.data : []
     }
 }
 
-export default connect( mapStateToProps )( Order );
+export default connect(mapStateToProps)(Order);

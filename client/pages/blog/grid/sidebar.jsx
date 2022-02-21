@@ -13,40 +13,40 @@ import BlogSidebar from '~/components/partials/post/blog-sidebar';
 
 import { scrollTopHandler } from '~/utils';
 
-function PostGridSidebar () {
+function PostGridSidebar() {
     const router = useRouter();
-    const [ isFirst, setFirst ] = useState( true );
+    const [isFirst, setFirst] = useState(true);
     const query = router.query;
     const showingCount = 8;
-    const [ getPosts, { data, loading, error } ] = useLazyQuery( GET_POSTS );
-    const [ perPage, setPerPage ] = useState( showingCount );
+    const [getPosts, { data, loading, error }] = useLazyQuery(GET_POSTS);
+    const [perPage, setPerPage] = useState(showingCount);
     const posts = data && data.posts.data;
-    const totalPage = data ? parseInt( data.posts.total / perPage ) + ( data.posts.total % perPage ? 1 : 0 ) : 1;
+    const totalPage = data ? parseInt(data.posts.total / perPage) + (data.posts.total % perPage ? 1 : 0) : 1;
     let page = query.page ? query.page : 1;
 
-    useEffect( () => {
-        getPosts( {
+    useEffect(() => {
+        getPosts({
             variables: {
                 category: query.category,
-                from: perPage * ( page - 1 ),
+                from: perPage * (page - 1),
                 to: perPage * page
             }
-        } );
+        });
 
-        if ( isFirst ) {
-            setFirst( false );
+        if (isFirst) {
+            setFirst(false);
         } else {
             scrollTopHandler();
         }
-    }, [ query ] )
+    }, [query])
 
     return (
         <main className="main skeleton-body">
             <Helmet>
-                <title>Riode React eCommerce Template | Blog Grid Sidebar</title>
+                <title>Pool Store | Blog Grid Sidebar</title>
             </Helmet>
 
-            <h1 className="d-none">Riode React eCommerce Template - Blog Grid Sidebar</h1>
+            <h1 className="d-none">Pool Store - Blog Grid Sidebar</h1>
 
             <nav className="breadcrumb-nav">
                 <div className="container">
@@ -65,26 +65,26 @@ function PostGridSidebar () {
                             <div className="posts grid row grid grid-2cols">
                                 {
                                     loading ?
-                                        new Array( parseInt( perPage ) ).fill( 1 ).map( ( item, index ) => (
-                                            <div key={ "Skeleton:" + index }>
+                                        new Array(parseInt(perPage)).fill(1).map((item, index) => (
+                                            <div key={"Skeleton:" + index}>
                                                 <div className="skel-post"></div>
                                             </div>
-                                        ) ) :
+                                        )) :
                                         posts ?
                                             posts.length ?
-                                                posts.slice( 0, posts.length ).map( ( post, index ) => (
-                                                    <React.Fragment key={ "post-one" + index }>
+                                                posts.slice(0, posts.length).map((post, index) => (
+                                                    <React.Fragment key={"post-one" + index}>
                                                         <div className="grid-item">
-                                                            <PostNine post={ post } />
+                                                            <PostNine post={post} />
                                                         </div>
                                                     </React.Fragment>
-                                                ) ) :
+                                                )) :
                                                 <div className="info-box with-icon"><p className="mt-4">No blogs were found matching your selection.</p></div>
                                             : ''
                                 }
                             </div>
 
-                            <Pagination totalPage={ totalPage } />
+                            <Pagination totalPage={totalPage} />
                         </div>
 
                         <BlogSidebar />
@@ -95,4 +95,4 @@ function PostGridSidebar () {
     )
 }
 
-export default withApollo( { ssr: typeof window === 'undefined' } )( PostGridSidebar );
+export default withApollo({ ssr: typeof window === 'undefined' })(PostGridSidebar);

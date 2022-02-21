@@ -2,53 +2,24 @@
     "products": [
         {
             "id": 1,
-            "name": "Best Dark blue pedestrian bag",
-            "slug": "best-dark-blue-pedestrian-bag",
-            "price": null,
+            "name": "Pentair IntelliFlo Variable Speed Pump VS+ 3.2kW 3HP",
+            "slug": "pentair-intelliflo-variable-speed-pump-vs-3-2kw-3hp",
+            "price": 1497.25,
             "sale_price": null,
             "short_description": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus liberpuro ate vol faucibus adipiscing.",
             "stock": 98,
             "ratings": 3.5,
             "reviews": 2,
             "sale_count": 30,
-            "sku": "9871235",
+            "sku": "011018",
             "is_new": null,
             "is_featured": null,
             "is_top": null,
             "until": null,
-            "variants": [
-                {
-                    "price": 99,
-                    "sale_price": null,
-                    "color": {
-                        "name": "Blue",
-                        "slug": "blue",
-                        "color": "#1e73be"
-                    },
-                    "size": {
-                        "name": "Extra Large",
-                        "slug": "xl",
-                        "size": "XL"
-                    }
-                },
-                {
-                    "price": 80,
-                    "sale_price": null,
-                    "color": {
-                        "name": "Black",
-                        "slug": "black",
-                        "color": "#333333"
-                    },
-                    "size": {
-                        "name": "Large",
-                        "slug": "l",
-                        "size": "L"
-                    }
-                }
-            ],
+            "variants": [],
             "large_pictures": [
                 {
-                    "url": "/graphql/uploads/images/demo-1/products/product-15-1.jpg",
+                    "url": "/uploads/images/demo-1/products/pentairPump1.png",
                     "width": 800,
                     "height": 900
                 },
@@ -70,7 +41,7 @@
             ],
             "pictures": [
                 {
-                    "url": "/uploads/images/demo-1/products/product-15-1-300x338.jpg",
+                    "url": "/uploads/images/demo-1/products/pentairPump1.png",
                     "width": 300,
                     "height": 338
                 },
@@ -92,67 +63,43 @@
             ],
             "categories": [
                 {
-                    "name": "Cosmetic",
-                    "slug": "cosmetic"
+                    "name": "Pumps",
+                    "slug": "pumps"
                 }
             ],
             "tags": [],
-            "brands": []
+            "brands": [
+                {
+                    "name": "Pentair",
+                    "slug": "pentair"
+                }
+            ]
         },
         {
             "id": 2,
-            "name": "Beyond Riode Original T-Shirt",
-            "slug": "beyond-riode-original-t-shirt",
-            "price": null,
+            "name": "Waterway Power Defender 165 Variable Speed Pump 1.65HP 230V",
+            "slug": "waterway-power-defender-165-variable-speed-pump-1.65-230v",
+            "price": 726.45,
             "sale_price": null,
-            "short_description": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus liberpuro ate vol faucibus adipiscing.",
+            "short_description": "Full Variable Speed (600-3450 RPM)",
             "stock": 80,
             "ratings": 5,
             "reviews": 1,
             "sale_count": 96,
-            "sku": "12345670",
+            "sku": "PD-VSC165",
             "is_new": null,
             "is_featured": true,
             "is_top": null,
             "until": null,
-            "variants": [
-                {
-                    "price": 40,
-                    "sale_price": null,
-                    "color": {
-                        "name": "Black",
-                        "slug": "black",
-                        "color": "#333333"
-                    },
-                    "size": {
-                        "name": "Medium",
-                        "slug": "m",
-                        "size": "M"
-                    }
-                },
-                {
-                    "price": 30,
-                    "sale_price": null,
-                    "color": {
-                        "name": "Blue",
-                        "slug": "blue",
-                        "color": "#1e73be"
-                    },
-                    "size": {
-                        "name": "Small",
-                        "slug": "s",
-                        "size": "S"
-                    }
-                }
-            ],
+            "variants": [],
             "large_pictures": [
                 {
-                    "url": "/uploads/images/demo-1/products/product-7-1.jpg",
+                    "url": "/uploads/images/demo-1/products/Power-Defender-VS-165-Dual-Voltage.jpg",
                     "width": 800,
                     "height": 900
                 },
                 {
-                    "url": "/uploads/images/demo-1/products/product-7-2.jpg",
+                    "url": "/uploads/images/demo-1/products/200_Pasted-66-1000x771.png",
                     "width": 800,
                     "height": 900
                 },
@@ -174,12 +121,12 @@
             ],
             "pictures": [
                 {
-                    "url": "/uploads/images/demo-1/products/product-7-1-300x338.jpg",
+                    "url": "/uploads/images/demo-1/products/Power-Defender-VS-165-Dual-Voltage.jpg",
                     "width": 300,
                     "height": 338
                 },
                 {
-                    "url": "/uploads/images/demo-1/products/product-7-2-300x338.jpg",
+                    "url": "/uploads/images/demo-1/products/200_Pasted-66-1000x771.png",
                     "width": 300,
                     "height": 338
                 },
@@ -201,85 +148,48 @@
             ],
             "categories": [
                 {
-                    "name": "Fashionable Women's",
-                    "slug": "fashionable-women-s"
+                    "name": "Pumps",
+                    "slug": "pumps"
                 }
             ],
             "tags": [],
             "brands": [
                 {
-                    "name": "Cinderella",
-                    "slug": "cinderella"
-                },
-                {
-                    "name": "SkillStar",
-                    "slug": "skillstar"
-                },
-                {
-                    "name": "SLS",
-                    "slug": "sls"
+                    "name": "Waterway",
+                    "slug": "waterway"
                 }
             ]
         },
         {
             "id": 3,
-            "name": "Brown Leather Shoes",
-            "slug": "brown-leather-shoes",
-            "price": null,
+            "name": "Hayward Tristar VS Variable Speed Pool Pump | 1.85HP 230V Single Phase",
+            "slug": "hyward-tristar-vs-variable-speed-pool-pump",
+            "price": 1586.00,
             "sale_price": null,
-            "short_description": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus liberpuro ate vol faucibus adipiscing.",
+            "short_description": "Designed to replace most full-rate high performance pumps up to 1.5 full-rate or 2.0 max-rate HP",
             "stock": 88,
             "ratings": 4,
             "reviews": 1,
             "sale_count": 30,
-            "sku": "9871238",
+            "sku": "W3SP3202VSP",
             "is_new": null,
             "is_featured": null,
             "is_top": null,
             "until": null,
-            "variants": [
-                {
-                    "price": 99,
-                    "sale_price": null,
-                    "color": {
-                        "name": "Red",
-                        "slug": "red",
-                        "color": "#965000"
-                    },
-                    "size": {
-                        "name": "Medium",
-                        "slug": "m",
-                        "size": "M"
-                    }
-                },
-                {
-                    "price": 80,
-                    "sale_price": null,
-                    "color": {
-                        "name": "Red",
-                        "slug": "red",
-                        "color": "#965000"
-                    },
-                    "size": {
-                        "name": "Large",
-                        "slug": "l",
-                        "size": "L"
-                    }
-                }
-            ],
+            "variants": [],
             "large_pictures": [
                 {
-                    "url": "/uploads/images/demo-1/products/product-10-1.jpg",
+                    "url": "/uploads/images/demo-1/products/tristar-vs-950-2019.jpg",
                     "width": 800,
                     "height": 900
                 },
                 {
-                    "url": "/uploads/images/demo-1/products/product-10-2.jpg",
+                    "url": "/uploads/images/demo-1/products/tristar-vs-950-2019-side.jpg",
                     "width": 800,
                     "height": 900
                 },
                 {
-                    "url": "/uploads/images/demo-1/products/product-10-3.jpg",
+                    "url": "/uploads/images/demo-1/products/tristar-vs-950-2019-control.jpg",
                     "width": 800,
                     "height": 900
                 },
@@ -296,17 +206,17 @@
             ],
             "pictures": [
                 {
-                    "url": "/uploads/images/demo-1/products/product-10-1-300x338.jpg",
+                    "url": "/uploads/images/demo-1/products/tristar-vs-950-2019.jpg",
                     "width": 300,
                     "height": 338
                 },
                 {
-                    "url": "/uploads/images/demo-1/products/product-10-2-300x338.jpg",
+                    "url": "/uploads/images/demo-1/products/tristar-vs-950-2019-side.jpg",
                     "width": 300,
                     "height": 338
                 },
                 {
-                    "url": "/uploads/images/demo-1/products/product-10-3-300x338.jpg",
+                    "url": "/uploads/images/demo-1/products/tristar-vs-950-2019-control.jpg",
                     "width": 300,
                     "height": 338
                 },
@@ -323,85 +233,38 @@
             ],
             "categories": [
                 {
-                    "name": "For Men's",
-                    "slug": "for-men-s"
+                    "name": "Pumps",
+                    "slug": "pumps"
                 }
             ],
             "tags": [],
             "brands": [
                 {
-                    "name": "Comedy",
-                    "slug": "comedy"
-                },
-                {
-                    "name": "SLS",
-                    "slug": "sls"
+                    "name": "Hayward",
+                    "slug": "hayward"
                 }
             ]
         },
         {
             "id": 4,
-            "name": "Cavin Fashion Suede Handbag",
-            "slug": "cavin-fashion-suede-handbag",
-            "price": null,
+            "name": "Hayward D.E. ProGrid Pool Filter | 36 sq. ft. | Requires Backwash Valve - Not Included",
+            "slug": "hayward-de-progrid-pool-filter",
+            "price": 967.23,
             "sale_price": null,
-            "short_description": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus liberpuro ate vol faucibus adipiscing.",
+            "short_description": "Reinforced thermoplastic filter tanks constructed from durable glass reinforced copolymer to meet the demands of the toughest applications and environmental conditions, including in-floor cleaning systems",
             "stock": 70,
             "ratings": 0,
             "reviews": 1,
             "sale_count": 30,
-            "sku": "9871233",
+            "sku": "W3DE3620",
             "is_new": null,
             "is_featured": null,
             "is_top": null,
             "until": null,
-            "variants": [
-                {
-                    "price": 55,
-                    "sale_price": null,
-                    "color": {
-                        "name": "Blue",
-                        "slug": "blue",
-                        "color": "#1e73be"
-                    },
-                    "size": {
-                        "name": "Medium",
-                        "slug": "m",
-                        "size": "M"
-                    }
-                },
-                {
-                    "price": 40,
-                    "sale_price": null,
-                    "color": {
-                        "name": "Red",
-                        "slug": "red",
-                        "color": "#965000"
-                    },
-                    "size": {
-                        "name": "Small",
-                        "slug": "s",
-                        "size": "S"
-                    }
-                },
-                {
-                    "price": 66,
-                    "sale_price": null,
-                    "color": {
-                        "name": "Green",
-                        "slug": "green",
-                        "color": "#56962e"
-                    },
-                    "size": {
-                        "name": "Medium",
-                        "slug": "m",
-                        "size": "M"
-                    }
-                }
-            ],
+            "variants": [],
             "large_pictures": [
                 {
-                    "url": "/uploads/images/demo-1/products/product-16-1.jpg",
+                    "url": "/uploads/images/demo-1/products/haywardfilter1.png",
                     "width": 800,
                     "height": 900
                 },
@@ -423,7 +286,7 @@
             ],
             "pictures": [
                 {
-                    "url": "/uploads/images/demo-1/products/product-16-1-300x338.jpg",
+                    "url": "/uploads/images/demo-1/products/haywardfilter1.png",
                     "width": 300,
                     "height": 338
                 },
@@ -445,62 +308,38 @@
             ],
             "categories": [
                 {
-                    "name": "Cosmetic",
-                    "slug": "cosmetic"
+                    "name": "Filters",
+                    "slug": "filters"
                 }
             ],
             "tags": [],
-            "brands": []
+            "brands": [
+                {
+                    "name": "Hayward",
+                    "slug": "hayward"
+                }
+            ]
         },
         {
             "id": 5,
-            "name": "Cavin Klein Fashion Sheepskin handbag",
-            "slug": "cavin-klein-fashion-sheepskin-handbag",
-            "price": null,
+            "name": "Pentair Clean & Clear Plus Cartridge Filter | 320 Sq. Ft.",
+            "slug": "pentair-clean-n-clear-plus-cartridge-filter-320sqft",
+            "price": 1126,
             "sale_price": null,
-            "short_description": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus liberpuro ate vol faucibus adipiscing.",
+            "short_description": "Four-cartridge design traps more dirt and extends time between cleanings.",
             "stock": 40,
             "ratings": 4.5,
             "reviews": 2,
             "sale_count": 30,
-            "sku": "9871237",
+            "sku": "EC-160340",
             "is_new": null,
             "is_featured": null,
             "is_top": null,
             "until": null,
-            "variants": [
-                {
-                    "price": 110,
-                    "sale_price": null,
-                    "color": {
-                        "name": "Blue",
-                        "slug": "blue",
-                        "color": "#1e73be"
-                    },
-                    "size": {
-                        "name": "Medium",
-                        "slug": "m",
-                        "size": "M"
-                    }
-                },
-                {
-                    "price": 110,
-                    "sale_price": 99,
-                    "color": {
-                        "name": "Green",
-                        "slug": "green",
-                        "color": "#56962e"
-                    },
-                    "size": {
-                        "name": "Small",
-                        "slug": "s",
-                        "size": "S"
-                    }
-                }
-            ],
+            "variants": [],
             "large_pictures": [
                 {
-                    "url": "/uploads/images/demo-1/products/product-11-1.jpg",
+                    "url": "/uploads/images/demo-1/products/pentairfilter.png",
                     "width": 800,
                     "height": 900
                 },
@@ -532,7 +371,7 @@
             ],
             "pictures": [
                 {
-                    "url": "/uploads/images/demo-1/products/product-11-1-300x338.jpg",
+                    "url": "/uploads/images/demo-1/products/pentairfilter.png",
                     "width": 300,
                     "height": 338
                 },
@@ -564,76 +403,38 @@
             ],
             "categories": [
                 {
-                    "name": "Cosmetic",
-                    "slug": "cosmetic"
+                    "name": "Filters",
+                    "slug": "filters"
                 }
             ],
             "tags": [],
-            "brands": []
+            "brands": [
+                {
+                    "name": "Pentair",
+                    "slug": "pentair"
+                }
+            ]
         },
         {
             "id": 6,
-            "name": "converse blue training shoes",
-            "slug": "converse-blue-training-shoes",
-            "price": null,
+            "name": "Waterway Crystal Water D.E. Filter | 36 Sq. Ft. 72 GPM",
+            "slug": "waterway-crystal-water-de-filter-36sqft",
+            "price": 756.15,
             "sale_price": null,
-            "short_description": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus liberpuro ate vol faucibus adipiscing.",
+            "short_description": "Fiberglass Reinforced Polypropylene Body for Superior Strength",
             "stock": 89,
             "ratings": 5,
             "reviews": 1,
             "sale_count": 94,
-            "sku": "9871231",
+            "sku": "570-0036-07",
             "is_new": true,
             "is_featured": true,
             "is_top": true,
             "until": null,
-            "variants": [
-                {
-                    "price": 50,
-                    "sale_price": null,
-                    "color": {
-                        "name": "Red",
-                        "slug": "red",
-                        "color": "#965000"
-                    },
-                    "size": {
-                        "name": "Large",
-                        "slug": "l",
-                        "size": "L"
-                    }
-                },
-                {
-                    "price": 35,
-                    "sale_price": null,
-                    "color": {
-                        "name": "Blue",
-                        "slug": "blue",
-                        "color": "#1e73be"
-                    },
-                    "size": {
-                        "name": "Medium",
-                        "slug": "m",
-                        "size": "M"
-                    }
-                },
-                {
-                    "price": 30,
-                    "sale_price": null,
-                    "color": {
-                        "name": "Blue",
-                        "slug": "blue",
-                        "color": "#1e73be"
-                    },
-                    "size": {
-                        "name": "Small",
-                        "slug": "s",
-                        "size": "S"
-                    }
-                }
-            ],
+            "variants": [],
             "large_pictures": [
                 {
-                    "url": "/uploads/images/demo-1/products/product-12-1.jpg",
+                    "url": "/uploads/images/demo-1/products/waterwayfilter.png",
                     "width": 800,
                     "height": 900
                 },
@@ -655,7 +456,7 @@
             ],
             "pictures": [
                 {
-                    "url": "/uploads/images/demo-1/products/product-12-1-300x338.jpg",
+                    "url": "/uploads/images/demo-1/products/waterwayfilter.png",
                     "width": 300,
                     "height": 338
                 },
@@ -677,62 +478,38 @@
             ],
             "categories": [
                 {
-                    "name": "For Men's",
-                    "slug": "for-men-s"
+                    "name": "Filters",
+                    "slug": "filters"
                 }
             ],
             "tags": [],
-            "brands": []
+            "brands": [
+                {
+                    "name": "Waterway",
+                    "slug": "waterway"
+                }
+            ]
         },
         {
             "id": 7,
-            "name": "Fashion dark obsidian EGT7 converse trainers",
-            "slug": "fashion-dark-obsidian-egt7-converse-trainers",
-            "price": null,
+            "name": "Raypak Digital Natural Gas Pool Heater 200k BTU Electronic Ignition",
+            "slug": "raypak-digital-natural-gas-pool-heater-200k-btu-electronic-ignition",
+            "price": 2019.99,
             "sale_price": null,
-            "short_description": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus liberpuro ate vol faucibus adipiscing.",
+            "short_description": "LCD digital display accurate temperature.",
             "stock": 56,
             "ratings": 3,
             "reviews": 1,
             "sale_count": 30,
-            "sku": "987612343",
+            "sku": "009962",
             "is_new": null,
             "is_featured": null,
             "is_top": null,
             "until": null,
-            "variants": [
-                {
-                    "price": 80,
-                    "sale_price": null,
-                    "color": {
-                        "name": "Black",
-                        "slug": "black",
-                        "color": "#333333"
-                    },
-                    "size": {
-                        "name": "Large",
-                        "slug": "l",
-                        "size": "L"
-                    }
-                },
-                {
-                    "price": 60,
-                    "sale_price": null,
-                    "color": {
-                        "name": "Black",
-                        "slug": "black",
-                        "color": "#333333"
-                    },
-                    "size": {
-                        "name": "Small",
-                        "slug": "s",
-                        "size": "S"
-                    }
-                }
-            ],
+            "variants": [],
             "large_pictures": [
                 {
-                    "url": "/uploads/images/demo-1/products/product-4-1.jpg",
+                    "url": "/uploads/images/demo-1/products/raypakHeater1.png",
                     "width": 800,
                     "height": 900
                 },
@@ -764,7 +541,7 @@
             ],
             "pictures": [
                 {
-                    "url": "/uploads/images/demo-1/products/product-4-1-300x338.jpg",
+                    "url": "/uploads/images/demo-1/products/raypakHeater1.png",
                     "width": 300,
                     "height": 338
                 },
@@ -796,75 +573,38 @@
             ],
             "categories": [
                 {
-                    "name": "For Men's",
-                    "slug": "for-men-s"
+                    "name": "Heaters",
+                    "slug": "heaters"
                 }
             ],
             "tags": [],
             "brands": [
                 {
-                    "name": "Comedy",
-                    "slug": "comedy"
-                },
-                {
-                    "name": "RightCheck",
-                    "slug": "rightcheck"
-                },
-                {
-                    "name": "SkillStar",
-                    "slug": "skillstar"
+                    "name": "Raypak",
+                    "slug": "raypak"
                 }
             ]
         },
         {
             "id": 8,
-            "name": "Fashionable Women’s Hat",
-            "slug": "fashionable-women-s-hat",
-            "price": null,
+            "name": "Hayward Universal H-Series Low NOx Induced Draft Pool & Spa Heater | 150,000 BTU | Natural Gas",
+            "slug": "hayward-universal-h-series-low-nox-induced-draft-pool-and-spa-heater-150k-btu-natural-gas",
+            "price": 2256.23,
             "sale_price": null,
-            "short_description": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus liberpuro ate vol faucibus adipiscing.",
+            "short_description": "Cupro Nickel Heat Exchanger. Totally Managed Flow provides exceptional corrosion resistance and erosion protection. Ideal for today’s salt-based electronic chlorination systems",
             "stock": 88,
             "ratings": 4,
             "reviews": 1,
             "sale_count": 30,
-            "sku": "9871234",
+            "sku": "W3H150FDN",
             "is_new": null,
             "is_featured": true,
             "is_top": true,
             "until": null,
-            "variants": [
-                {
-                    "price": 120,
-                    "sale_price": 109,
-                    "color": {
-                        "name": "Black",
-                        "slug": "black",
-                        "color": "#333333"
-                    },
-                    "size": {
-                        "name": "Large",
-                        "slug": "l",
-                        "size": "L"
-                    }
-                },
-                {
-                    "price": 100,
-                    "sale_price": 97,
-                    "color": {
-                        "name": "Blue",
-                        "slug": "blue",
-                        "color": "#1e73be"
-                    },
-                    "size": {
-                        "name": "Medium",
-                        "slug": "m",
-                        "size": "M"
-                    }
-                }
-            ],
+            "variants": [],
             "large_pictures": [
                 {
-                    "url": "/uploads/images/demo-1/products/product-9-1.jpg",
+                    "url": "/uploads/images/demo-1/products/haywardHeater1.png",
                     "width": 800,
                     "height": 900
                 },
@@ -886,7 +626,7 @@
             ],
             "pictures": [
                 {
-                    "url": "/uploads/images/demo-1/products/product-9-1-300x338.jpg",
+                    "url": "/uploads/images/demo-1/products/haywardHeater1.png",
                     "width": 300,
                     "height": 338
                 },
@@ -908,76 +648,38 @@
             ],
             "categories": [
                 {
-                    "name": "For Men's",
-                    "slug": "for-men-s"
+                    "name": "Heaters",
+                    "slug": "heaters"
                 }
             ],
             "tags": [],
-            "brands": []
+            "brands": [
+                {
+                    "name": "Hayward",
+                    "slug": "hayward"
+                }
+            ]
         },
         {
             "id": 9,
-            "name": "Fashionable Hooded Coat",
-            "slug": "fashionable-hooded-coat",
-            "price": 210,
+            "name": "Pentair MasterTemp Low NOx Pool Heater - Electronic Ignition - Natural Gas - 175,000 BTU",
+            "slug": "pentair-mastertemp-low-nox-pool-heater-electronic-ignition-natural-gas-175k-btu",
+            "price": 2297.36,
             "sale_price": null,
-            "short_description": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus liberpuro ate vol faucibus adipiscing.",
+            "short_description": "High Efficiency Rating Makes these Heaters Extremely Economical to Operate.",
             "stock": 100,
             "ratings": 5,
             "reviews": 1,
             "sale_count": 30,
-            "sku": "12345678",
+            "sku": "460792",
             "is_new": null,
             "is_featured": true,
             "is_top": true,
             "until": null,
-            "variants": [
-                {
-                    "price": null,
-                    "sale_price": null,
-                    "color": {
-                        "name": "Red",
-                        "slug": "red",
-                        "color": "#965000"
-                    },
-                    "size": {
-                        "name": "Medium",
-                        "slug": "m",
-                        "size": "M"
-                    }
-                },
-                {
-                    "price": null,
-                    "sale_price": null,
-                    "color": {
-                        "name": "Blue",
-                        "slug": "blue",
-                        "color": "#1e73be"
-                    },
-                    "size": {
-                        "name": "Large",
-                        "slug": "l",
-                        "size": "L"
-                    }
-                },
-                {
-                    "price": null,
-                    "sale_price": null,
-                    "color": {
-                        "name": "Blue",
-                        "slug": "blue",
-                        "color": "#1e73be"
-                    },
-                    "size": {
-                        "name": "Small",
-                        "slug": "s",
-                        "size": "S"
-                    }
-                }
-            ],
+            "variants": [],
             "large_pictures": [
                 {
-                    "url": "/uploads/images/demo-1/products/product-14-1.jpg",
+                    "url": "/uploads/images/demo-1/products/pentairHeater1.png",
                     "width": 800,
                     "height": 900
                 },
@@ -1009,7 +711,7 @@
             ],
             "pictures": [
                 {
-                    "url": "/uploads/images/demo-1/products/product-14-1-300x338.jpg",
+                    "url": "/uploads/images/demo-1/products/pentairHeater1.png",
                     "width": 300,
                     "height": 338
                 },
@@ -1041,71 +743,38 @@
             ],
             "categories": [
                 {
-                    "name": "Fashionable Women's",
-                    "slug": "fashionable-women-s"
+                    "name": "Heaters",
+                    "slug": "heaters"
                 }
             ],
             "tags": [],
             "brands": [
                 {
-                    "name": "SkillStar",
-                    "slug": "skillstar"
-                },
-                {
-                    "name": "SLS",
-                    "slug": "sls"
+                    "name": "Pentair",
+                    "slug": "pentair"
                 }
             ]
         },
         {
             "id": 10,
-            "name": "Fashionable Leather Satchel",
-            "slug": "fashionable-leather-satchel",
-            "price": null,
+            "name": "CaliMar® Salt Chlorinator for Inground Pools | Up to 15,000 Gallons",
+            "slug": "calimar-salt-chlorinator-for-inground-pools",
+            "price": 598.99,
             "sale_price": null,
-            "short_description": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus liberpuro ate vol faucibus adipiscing.",
+            "short_description": "Complete chlorination system for pools up to 15,000 gallons",
             "stock": 82,
             "ratings": 3.5,
             "reviews": 2,
             "sale_count": 30,
-            "sku": "9871236",
+            "sku": "CMARSHA15-3Y",
             "is_new": null,
             "is_featured": null,
             "is_top": null,
             "until": null,
-            "variants": [
-                {
-                    "price": 130,
-                    "sale_price": null,
-                    "color": {
-                        "name": "Black",
-                        "slug": "black",
-                        "color": "#333333"
-                    },
-                    "size": {
-                        "name": "Small",
-                        "slug": "s",
-                        "size": "S"
-                    }
-                },
-                {
-                    "price": 110,
-                    "sale_price": null,
-                    "color": {
-                        "name": "Red",
-                        "slug": "red",
-                        "color": "#965000"
-                    },
-                    "size": {
-                        "name": "Medium",
-                        "slug": "m",
-                        "size": "M"
-                    }
-                }
-            ],
+            "variants": [],
             "large_pictures": [
                 {
-                    "url": "/uploads/images/demo-1/products/product-13-1.jpg",
+                    "url": "/uploads/images/demo-1/products/calimarSaltGen1.png",
                     "width": 800,
                     "height": 900
                 },
@@ -1132,7 +801,7 @@
             ],
             "pictures": [
                 {
-                    "url": "/uploads/images/demo-1/products/product-13-1-300x338.jpg",
+                    "url": "/uploads/images/demo-1/products/calimarSaltGen1.png",
                     "width": 300,
                     "height": 338
                 },
@@ -1159,142 +828,99 @@
             ],
             "categories": [
                 {
-                    "name": "Cosmetic",
-                    "slug": "cosmetic"
+                    "name": "Salt Chlorine Generators",
+                    "slug": "salt-chlorine-generators"
                 }
             ],
             "tags": [],
             "brands": [
                 {
-                    "name": "Comedy",
-                    "slug": "comedy"
-                },
-                {
-                    "name": "RightCheck",
-                    "slug": "rightcheck"
+                    "name": "Calimar",
+                    "slug": "calimar"
                 }
             ]
         },
         {
             "id": 11,
-            "name": "RAM 100 | Residential / Commercial Slide Automatic Gate Opterator",
-            "slug": "ram100",
-            "price": 99.66,
+            "name": "Pentair Intellichlor Salt Chlorine Generator | 20,000 Gallon Complete System",
+            "slug": "pentair-intellichlor-salt-chlorine-generator",
+            "price": 1219.00,
             "sale_price": null,
-            "short_description": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus liberpuro ate vol faucibus adipiscing.",
+            "short_description": "Complete Intellichlor Salt Generator includes Power Center and Salt Cell",
             "stock": 79,
             "ratings": 0,
             "reviews": 1,
             "sale_count": 92,
-            "sku": "9871232",
+            "sku": "IC20KIT",
             "is_new": true,
             "is_featured": true,
             "is_top": true,
+            "multipleVendor": true,
             "until": null,
             "variants": [],
             "large_pictures": [
                 {
-                    "url": "/uploads/images/demo-1/products/RAM-100.jpg",
+                    "url": "/uploads/images/demo-1/products/pentairIC1.png",
                     "width": 800,
                     "height": 900
                 }
             ],
             "pictures": [
                 {
-                    "url": "/uploads/images/demo-1/products/RAM-100.jpg",
+                    "url": "/uploads/images/demo-1/products/pentairIC1.png",
                     "width": 300,
                     "height": 338
                 },
                 {
-                    "url": "/uploads/images/demo-1/products/RAM-100.jpg",
+                    "url": "/uploads/images/demo-1/products/pentairIC1.png",
                     "width": 300,
                     "height": 338
                 },
                 {
-                    "url": "/uploads/images/demo-1/products/RAM-100.jpg",
+                    "url": "/uploads/images/demo-1/products/pentairIC1.png",
                     "width": 300,
                     "height": 338
                 },
                 {
-                    "url": "/uploads/images/demo-1/products/RAM-100.jpg",
+                    "url": "/uploads/images/demo-1/products/pentairIC1.png",
                     "width": 300,
                     "height": 338
                 }
             ],
             "categories": [
                 {
-                    "name": "Slide",
-                    "slug": "slide"
+                    "name": "Salt Chlorine Generators",
+                    "slug": "salt-chlorine-generators"
                 }
             ],
             "tags": [],
             "brands": [
-                "Ramset"
+                {
+                    "name": "Pentair",
+                    "slug": "pentair"
+                }
             ]
         },
         {
             "id": 12,
-            "name": "Fashionable women’s original trucker",
-            "slug": "fashionable-women-s-original-trucker",
-            "price": null,
+            "name": "Hayward AquaRite Salt Generator Complete 40,000 Gallons | Power Center and Salt Cell Kit",
+            "slug": "hayward-aquarite-salt-generator-complete-40k-gallons",
+            "price": 1855.32,
             "sale_price": null,
-            "short_description": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus liberpuro ate vol faucibus adipiscing.",
+            "short_description": "AQR AquaRite Power Center with T-CELL-15 2inch PVC Unions; and 2inch PVC Tee with flow switch.",
             "stock": 99,
             "ratings": 0,
             "reviews": 1,
             "sale_count": 30,
-            "sku": "987612345",
+            "sku": "W3AQR15",
             "is_new": null,
             "is_featured": null,
             "is_top": true,
             "until": null,
-            "variants": [
-                {
-                    "price": 40,
-                    "sale_price": null,
-                    "color": {
-                        "name": "Blue",
-                        "slug": "blue",
-                        "color": "#1e73be"
-                    },
-                    "size": {
-                        "name": "Medium",
-                        "slug": "m",
-                        "size": "M"
-                    }
-                },
-                {
-                    "price": 50,
-                    "sale_price": null,
-                    "color": {
-                        "name": "Green",
-                        "slug": "green",
-                        "color": "#56962e"
-                    },
-                    "size": {
-                        "name": "Large",
-                        "slug": "l",
-                        "size": "L"
-                    }
-                },
-                {
-                    "price": 38,
-                    "sale_price": null,
-                    "color": {
-                        "name": "Red",
-                        "slug": "red",
-                        "color": "#965000"
-                    },
-                    "size": {
-                        "name": "Medium",
-                        "slug": "m",
-                        "size": "M"
-                    }
-                }
-            ],
+            "variants": [],
             "large_pictures": [
                 {
-                    "url": "/uploads/images/demo-1/products/product-3-1.jpg",
+                    "url": "/uploads/images/demo-1/products/haywardSalt1.png",
                     "width": 800,
                     "height": 900
                 },
@@ -1316,7 +942,7 @@
             ],
             "pictures": [
                 {
-                    "url": "/uploads/images/demo-1/products/product-3-1-300x338.jpg",
+                    "url": "/uploads/images/demo-1/products/haywardSalt1.png",
                     "width": 300,
                     "height": 338
                 },
@@ -1338,30 +964,30 @@
             ],
             "categories": [
                 {
-                    "name": "Fashionable Women's",
-                    "slug": "fashionable-women-s"
+                    "name": "Salt Chlorine Generators",
+                    "slug": "salt-chlorine-generators"
                 }
             ],
             "tags": [],
             "brands": [
                 {
-                    "name": "SLS",
-                    "slug": "sls"
+                    "name": "Hayward",
+                    "slug": "hayward"
                 }
             ]
         },
         {
             "id": 13,
-            "name": "Mackintosh Poket backpack",
-            "slug": "mackintosh-poket-backpack",
-            "price": 180,
-            "sale_price": 150,
-            "short_description": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus liberpuro ate vol faucibus adipiscing.",
+            "name": "J&J Electronics ColorSplash XG Series Color LED Pool Light | 120V 30' Cord",
+            "slug": "jj-electronics-colorsplash-xg-series-color-led-pool-light",
+            "price": 523.99,
+            "sale_price": null,
+            "short_description": "High Output LEDs Optimize Color Saturation and Light Intensity",
             "stock": 67,
             "ratings": 4,
             "reviews": 1,
             "sale_count": 98,
-            "sku": "987612346",
+            "sku": "LPL-F2C-120-30-P",
             "is_new": null,
             "is_featured": null,
             "is_top": true,
@@ -1369,7 +995,7 @@
             "variants": [],
             "large_pictures": [
                 {
-                    "url": "/uploads/images/demo-1/products/product-2-1.jpg",
+                    "url": "/uploads/images/demo-1/products/jjlight1.png",
                     "width": 800,
                     "height": 900
                 },
@@ -1391,7 +1017,7 @@
             ],
             "pictures": [
                 {
-                    "url": "/uploads/images/demo-1/products/product-2-1-300x338.jpg",
+                    "url": "/uploads/images/demo-1/products/jjlight1.png",
                     "width": 300,
                     "height": 338
                 },
@@ -1413,97 +1039,38 @@
             ],
             "categories": [
                 {
-                    "name": "Cosmetic",
-                    "slug": "cosmetic"
+                    "name": "Lights",
+                    "slug": "lights"
                 }
             ],
             "tags": [],
             "brands": [
                 {
-                    "name": "Cinderella",
-                    "slug": "cinderella"
-                },
-                {
-                    "name": "Comedy",
-                    "slug": "comedy"
-                },
-                {
-                    "name": "RightCheck",
-                    "slug": "rightcheck"
-                },
-                {
-                    "name": "SkillStar",
-                    "slug": "skillstar"
-                },
-                {
-                    "name": "SLS",
-                    "slug": "sls"
+                    "name": "J&J Electronics",
+                    "slug": "jj-electronics"
                 }
             ]
         },
         {
             "id": 14,
-            "name": "Solid pattern in fashion summer dress",
-            "slug": "solid-pattern-in-fashion-summer-dress",
-            "price": null,
+            "name": "Hayward ColorLogic 4.0 Pool Light Plastic Face Rim | LED 120V 100 ft Cord",
+            "slug": "hayward-colorlogic-4.0-pool-light-plastic-face-rim",
+            "price": 1045,
             "sale_price": null,
-            "short_description": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus liberpuro ate vol faucibus adipiscing.",
+            "short_description": "7 light shows and 5 fixed colors along with synchronized lighting",
             "stock": 92,
             "ratings": 4.5,
             "reviews": 2,
             "sale_count": 100,
-            "sku": "987612347",
+            "sku": "W3SP0527LED100",
             "is_new": null,
             "is_featured": null,
             "is_top": null,
             "until": null,
-            "variants": [
-                {
-                    "price": 340,
-                    "sale_price": null,
-                    "color": {
-                        "name": "Blue",
-                        "slug": "blue",
-                        "color": "#1e73be"
-                    },
-                    "size": {
-                        "name": "Large",
-                        "slug": "l",
-                        "size": "L"
-                    }
-                },
-                {
-                    "price": 140,
-                    "sale_price": null,
-                    "color": {
-                        "name": "Blue",
-                        "slug": "blue",
-                        "color": "#1e73be"
-                    },
-                    "size": {
-                        "name": "Medium",
-                        "slug": "m",
-                        "size": "M"
-                    }
-                },
-                {
-                    "price": 180,
-                    "sale_price": null,
-                    "color": {
-                        "name": "Green",
-                        "slug": "green",
-                        "color": "#56962e"
-                    },
-                    "size": {
-                        "name": "Small",
-                        "slug": "s",
-                        "size": "S"
-                    }
-                }
-            ],
+            "variants": [],
             "large_pictures": [
                 {
-                    "url": "/uploads/images/demo-1/products/product-1-1.jpg",
+                    "url": "/uploads/images/demo-1/products/haywardlight1.png",
                     "width": 800,
                     "height": 900
                 },
@@ -1525,7 +1092,7 @@
             ],
             "pictures": [
                 {
-                    "url": "/uploads/images/demo-1/products/product-1-1-300x338.jpg",
+                    "url": "/uploads/images/demo-1/products/haywardlight1.png",
                     "width": 300,
                     "height": 338
                 },
@@ -1547,67 +1114,38 @@
             ],
             "categories": [
                 {
-                    "name": "Fashionable Women's",
-                    "slug": "fashionable-women-s"
+                    "name": "Lights",
+                    "slug": "lights"
                 }
             ],
             "tags": [],
             "brands": [
                 {
-                    "name": "SLS",
-                    "slug": "sls"
+                    "name": "Hayward",
+                    "slug": "hayward"
                 }
             ]
         },
         {
             "id": 15,
-            "name": "Spon wide-striped shirt",
-            "slug": "spon-wide-striped-shirt",
-            "price": null,
-            "sale_price": null,
-            "short_description": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus liberpuro ate vol faucibus adipiscing.",
+            "name": "Pentair IntelliBrite 5G LED COLOR Pool Light for Inground Pools | 120V 30' Cord",
+            "slug": "pentair-intelibrite-5g-led-color-pool-light-for-inground-pools",
+            "price": 896,
+            "sale_price": 799.99,
+            "short_description": "The most energy-efficient LED pool light available",
             "stock": 90,
             "ratings": 4,
             "reviews": 1,
             "sale_count": 30,
-            "sku": "987612341",
+            "sku": "601000",
             "is_new": null,
             "is_featured": null,
             "is_top": null,
             "until": null,
-            "variants": [
-                {
-                    "price": 210,
-                    "sale_price": 199,
-                    "color": {
-                        "name": "Blue",
-                        "slug": "blue",
-                        "color": "#1e73be"
-                    },
-                    "size": {
-                        "name": "Medium",
-                        "slug": "m",
-                        "size": "M"
-                    }
-                },
-                {
-                    "price": 210,
-                    "sale_price": null,
-                    "color": {
-                        "name": "Blue",
-                        "slug": "blue",
-                        "color": "#1e73be"
-                    },
-                    "size": {
-                        "name": "Small",
-                        "slug": "s",
-                        "size": "S"
-                    }
-                }
-            ],
+            "variants": [],
             "large_pictures": [
                 {
-                    "url": "/uploads/images/demo-1/products/product-6-1.jpg",
+                    "url": "/uploads/images/demo-1/products/pentairlight1.png",
                     "width": 800,
                     "height": 900
                 },
@@ -1639,7 +1177,7 @@
             ],
             "pictures": [
                 {
-                    "url": "/uploads/images/demo-1/products/product-6-1-300x338.jpg",
+                    "url": "/uploads/images/demo-1/products/pentairlight1.png",
                     "width": 300,
                     "height": 338
                 },
@@ -1671,1152 +1209,39 @@
             ],
             "categories": [
                 {
-                    "name": "Fashionable Women's",
-                    "slug": "fashionable-women-s"
-                }
-            ],
-            "tags": [],
-            "brands": []
-        },
-        {
-            "id": 16,
-            "name": "Vans Black all star trainer shoes",
-            "slug": "vans-black-all-star-trainer-shoes",
-            "price": null,
-            "sale_price": null,
-            "short_description": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus liberpuro ate vol faucibus adipiscing.",
-            "stock": 56,
-            "ratings": 5,
-            "reviews": 1,
-            "sale_count": 30,
-            "sku": "987612340",
-            "is_new": null,
-            "is_featured": null,
-            "is_top": null,
-            "until": null,
-            "variants": [
-                {
-                    "price": 210,
-                    "sale_price": null,
-                    "color": {
-                        "name": "Black",
-                        "slug": "black",
-                        "color": "#333333"
-                    },
-                    "size": {
-                        "name": "Large",
-                        "slug": "l",
-                        "size": "L"
-                    }
-                },
-                {
-                    "price": 210,
-                    "sale_price": null,
-                    "color": {
-                        "name": "Black",
-                        "slug": "black",
-                        "color": "#333333"
-                    },
-                    "size": {
-                        "name": "Medium",
-                        "slug": "m",
-                        "size": "M"
-                    }
-                }
-            ],
-            "large_pictures": [
-                {
-                    "url": "/uploads/images/demo-1/products/product-8-1.jpg",
-                    "width": 800,
-                    "height": 900
-                },
-                {
-                    "url": "/uploads/images/demo-1/products/product-8-2.jpg",
-                    "width": 800,
-                    "height": 900
-                },
-                {
-                    "url": "/uploads/images/demo-1/products/product-8-3.jpg",
-                    "width": 800,
-                    "height": 900
-                },
-                {
-                    "url": "/uploads/images/demo-1/products/product-8-4.jpg",
-                    "width": 800,
-                    "height": 900
-                },
-                {
-                    "url": "/uploads/images/demo-1/products/product-8-5.jpg",
-                    "width": 800,
-                    "height": 900
-                }
-            ],
-            "pictures": [
-                {
-                    "url": "/uploads/images/demo-1/products/product-8-1-300x338.jpg",
-                    "width": 300,
-                    "height": 338
-                },
-                {
-                    "url": "/uploads/images/demo-1/products/product-8-2-300x338.jpg",
-                    "width": 300,
-                    "height": 338
-                },
-                {
-                    "url": "/uploads/images/demo-1/products/product-8-3-300x338.jpg",
-                    "width": 300,
-                    "height": 338
-                },
-                {
-                    "url": "/uploads/images/demo-1/products/product-8-4-300x338.jpg",
-                    "width": 300,
-                    "height": 338
-                },
-                {
-                    "url": "/uploads/images/demo-1/products/product-8-5-300x338.jpg",
-                    "width": 300,
-                    "height": 338
-                }
-            ],
-            "categories": [
-                {
-                    "name": "For Men's",
-                    "slug": "for-men-s"
+                    "name": "Lights",
+                    "slug": "lights"
                 }
             ],
             "tags": [],
             "brands": [
                 {
-                    "name": "Comedy",
-                    "slug": "comedy"
-                },
-                {
-                    "name": "SkillStar",
-                    "slug": "skillstar"
+                    "name": "Pentair",
+                    "slug": "pentair"
                 }
             ]
-        },
-        {
-            "id": 17,
-            "name": "Women’s Brown leather backpacks",
-            "slug": "women-s-brown-leather-backpacks",
-            "price": 139,
-            "sale_price": null,
-            "short_description": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus liberpuro ate vol faucibus adipiscing.",
-            "stock": 90,
-            "ratings": 4.33,
-            "reviews": 3,
-            "sale_count": 30,
-            "sku": "123456789",
-            "is_new": null,
-            "is_featured": null,
-            "is_top": null,
-            "until": null,
-            "variants": [
-                {
-                    "price": null,
-                    "sale_price": null,
-                    "color": {
-                        "name": "Black",
-                        "slug": "black",
-                        "color": "#333333"
-                    },
-                    "size": {
-                        "name": "Medium",
-                        "slug": "m",
-                        "size": "M"
-                    }
-                },
-                {
-                    "price": null,
-                    "sale_price": null,
-                    "color": {
-                        "name": "Red",
-                        "slug": "red",
-                        "color": "#965000"
-                    },
-                    "size": {
-                        "name": "Extra Large",
-                        "slug": "xl",
-                        "size": "XL"
-                    }
-                },
-                {
-                    "price": null,
-                    "sale_price": null,
-                    "color": {
-                        "name": "Green",
-                        "slug": "green",
-                        "color": "#56962e"
-                    },
-                    "size": {
-                        "name": "Large",
-                        "slug": "l",
-                        "size": "L"
-                    }
-                }
-            ],
-            "large_pictures": [
-                {
-                    "url": "/uploads/images/demo-1/products/product-5-1.jpg",
-                    "width": 800,
-                    "height": 900
-                },
-                {
-                    "url": "/uploads/images/demo-1/products/product-5-2.jpg",
-                    "width": 800,
-                    "height": 900
-                },
-                {
-                    "url": "/uploads/images/demo-1/products/product-5-3.jpg",
-                    "width": 800,
-                    "height": 900
-                },
-                {
-                    "url": "/uploads/images/demo-1/products/product-5-4.jpg",
-                    "width": 800,
-                    "height": 900
-                },
-                {
-                    "url": "/uploads/images/demo-1/products/product-5-5.jpg",
-                    "width": 800,
-                    "height": 900
-                }
-            ],
-            "pictures": [
-                {
-                    "url": "/uploads/images/demo-1/products/product-5-1-300x338.jpg",
-                    "width": 300,
-                    "height": 338
-                },
-                {
-                    "url": "/uploads/images/demo-1/products/product-5-2-300x338.jpg",
-                    "width": 300,
-                    "height": 338
-                },
-                {
-                    "url": "/uploads/images/demo-1/products/product-5-3-300x338.jpg",
-                    "width": 300,
-                    "height": 338
-                },
-                {
-                    "url": "/uploads/images/demo-1/products/product-5-4-300x338.jpg",
-                    "width": 300,
-                    "height": 338
-                },
-                {
-                    "url": "/uploads/images/demo-1/products/product-5-5-300x338.jpg",
-                    "width": 300,
-                    "height": 338
-                }
-            ],
-            "categories": [
-                {
-                    "name": "Cosmetic",
-                    "slug": "cosmetic"
-                }
-            ],
-            "tags": [],
-            "brands": []
-        },
-        {
-            "id": 18,
-            "name": "Women’s Fashion Handbag",
-            "slug": "women-s-fashion-handbag",
-            "price": null,
-            "sale_price": null,
-            "short_description": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus liberpuro ate vol faucibus adipiscing.",
-            "stock": 76,
-            "ratings": 0,
-            "reviews": 1,
-            "sale_count": 90,
-            "sku": "9871230",
-            "is_new": true,
-            "is_featured": null,
-            "is_top": true,
-            "until": null,
-            "variants": [
-                {
-                    "price": 35,
-                    "sale_price": null,
-                    "color": {
-                        "name": "Black",
-                        "slug": "black",
-                        "color": "#333333"
-                    },
-                    "size": {
-                        "name": "Small",
-                        "slug": "s",
-                        "size": "S"
-                    }
-                },
-                {
-                    "price": 45,
-                    "sale_price": null,
-                    "color": {
-                        "name": "Blue",
-                        "slug": "blue",
-                        "color": "#1e73be"
-                    },
-                    "size": {
-                        "name": "Medium",
-                        "slug": "m",
-                        "size": "M"
-                    }
-                },
-                {
-                    "price": 49,
-                    "sale_price": null,
-                    "color": {
-                        "name": "Red",
-                        "slug": "red",
-                        "color": "#965000"
-                    },
-                    "size": {
-                        "name": "Medium",
-                        "slug": "m",
-                        "size": "M"
-                    }
-                }
-            ],
-            "large_pictures": [
-                {
-                    "url": "/uploads/images/demo-1/products/product-18-1.jpg",
-                    "width": 800,
-                    "height": 900
-                },
-                {
-                    "url": "/uploads/images/demo-1/products/product-18-2.jpg",
-                    "width": 800,
-                    "height": 900
-                },
-                {
-                    "url": "/uploads/images/demo-1/products/product-18-3.jpg",
-                    "width": 800,
-                    "height": 900
-                }
-            ],
-            "pictures": [
-                {
-                    "url": "/uploads/images/demo-1/products/product-18-1-300x338.jpg",
-                    "width": 300,
-                    "height": 338
-                },
-                {
-                    "url": "/uploads/images/demo-1/products/product-18-2-300x338.jpg",
-                    "width": 300,
-                    "height": 338
-                },
-                {
-                    "url": "/uploads/images/demo-1/products/product-18-3-300x338.jpg",
-                    "width": 300,
-                    "height": 338
-                }
-            ],
-            "categories": [
-                {
-                    "name": "Cosmetic",
-                    "slug": "cosmetic"
-                }
-            ],
-            "tags": [],
-            "brands": []
         }
     ],
     "productCategories": [
         {
-            "name": "Cosmetic",
-            "slug": "cosmetic"
+            "name": "Lights",
+            "slug": "lights"
         },
         {
-            "name": "Fashionable Women's",
-            "slug": "fashionable-women-s"
+            "name": "Pumps",
+            "slug": "pumps"
         },
         {
-            "name": "For Men's",
-            "slug": "for-men-s"
-        }
-    ],
-    "posts": [
-        {
-            "id": 1,
-            "title": "Explore Fashion Trending For Women In Autumn 2021",
-            "slug": "explore-fashion-trending-for-women-in-autumn-2021",
-            "author": "John Doe",
-            "date": "2021-03-01",
-            "comments": 3,
-            "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi.",
-            "type": "image",
-            "video": null,
-            "large_picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-1.jpg",
-                    "width": 900,
-                    "height": 500
-                }
-            ],
-            "picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-1.jpg",
-                    "width": 900,
-                    "height": 500
-                }
-            ],
-            "small_picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-1-150x150.jpg",
-                    "width": 150,
-                    "height": 150
-                }
-            ],
-            "categories": [
-                {
-                    "name": "Winter Sale",
-                    "slug": "winter-sale"
-                },
-                {
-                    "name": "Fashion",
-                    "slug": "fashion"
-                }
-            ]
+            "name": "Heaters",
+            "slug": "heaters"
         },
         {
-            "id": 2,
-            "title": "Complete Set of Ski Tools for Everyone",
-            "slug": "complete-set-of-ski-tools-for-everyone",
-            "author": "John Doe",
-            "date": "2021-03-21",
-            "comments": 1,
-            "content": "Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Suspendisse potenti. Sed egestas, ante et vulputate volutpat, uctus metus libero eu augue.",
-            "type": "image",
-            "video": null,
-            "large_picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-2.jpg",
-                    "width": 900,
-                    "height": 500
-                }
-            ],
-            "picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-2.jpg",
-                    "width": 900,
-                    "height": 500
-                }
-            ],
-            "small_picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-2-150x150.jpg",
-                    "width": 150,
-                    "height": 150
-                }
-            ],
-            "categories": [
-                {
-                    "name": "Travel",
-                    "slug": "travel"
-                },
-                {
-                    "name": "Fashion",
-                    "slug": "fashion"
-                }
-            ]
+            "name": "Salt Chlorine Generators",
+            "slug": "salt-chlorine-generators"
         },
         {
-            "id": 3,
-            "title": "Explore Fashion IPad And Accessories",
-            "slug": "explore-fashion-ipad-and-accessories",
-            "author": "John Doe",
-            "date": "2021-02-01",
-            "comments": 1,
-            "content": "Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Suspendisse potenti. Sed egestas, ante et vulputate volutpat, uctus metus libero eu augue.",
-            "type": "image",
-            "video": null,
-            "large_picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-3.jpg",
-                    "width": 900,
-                    "height": 500
-                }
-            ],
-            "picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-3.jpg",
-                    "width": 900,
-                    "height": 500
-                }
-            ],
-            "small_picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-3-150x150.jpg",
-                    "width": 150,
-                    "height": 150
-                }
-            ],
-            "categories": [
-                {
-                    "name": "Travel",
-                    "slug": "travel"
-                },
-                {
-                    "name": "Lifestyle",
-                    "slug": "lifestyle"
-                },
-                {
-                    "name": "Summer Sale",
-                    "slug": "summer-sale"
-                },
-                {
-                    "name": "Accessories",
-                    "slug": "accessories"
-                }
-            ]
-        },
-        {
-            "id": 4,
-            "title": "Women’s Trending Sunglasses And Clothing",
-            "slug": "women-s-trending-sunglasses-and-clothing",
-            "author": "John Doe",
-            "date": "2021-03-11",
-            "comments": 1,
-            "content": "Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Suspendisse potenti. Sed egestas, ante et vulputate volutpat, uctus metus libero eu augue.",
-            "type": "gallery",
-            "video": null,
-            "large_picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-4.jpg",
-                    "width": 900,
-                    "height": 500
-                },
-                {
-                    "url": "/uploads/images/elements/posts/post-5.jpg",
-                    "width": 900,
-                    "height": 500
-                },
-                {
-                    "url": "/uploads/images/elements/posts/post-3.jpg",
-                    "width": 900,
-                    "height": 500
-                }
-            ],
-            "picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-4.jpg",
-                    "width": 900,
-                    "height": 500
-                },
-                {
-                    "url": "/uploads/images/elements/posts/post-5.jpg",
-                    "width": 900,
-                    "height": 500
-                },
-                {
-                    "url": "/uploads/images/elements/posts/post-3.jpg",
-                    "width": 900,
-                    "height": 500
-                }
-            ],
-            "small_picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-4-150x150.jpg",
-                    "width": 150,
-                    "height": 150
-                }
-            ],
-            "categories": [
-                {
-                    "name": "Fashion",
-                    "slug": "fashion"
-                },
-                {
-                    "name": "Lifestyle",
-                    "slug": "lifestyle"
-                }
-            ]
-        },
-        {
-            "id": 5,
-            "title": "Women’s Fashion Summer Dress",
-            "slug": "women-s-fashion-summer-dress",
-            "author": "John Doe",
-            "date": "2021-03-02",
-            "comments": 1,
-            "content": "Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Suspendisse potenti. Sed egestas, ante et vulputate volutpat, uctus metus libero eu augue.",
-            "type": "image",
-            "video": null,
-            "large_picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-6.jpg",
-                    "width": 900,
-                    "height": 500
-                }
-            ],
-            "picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-6.jpg",
-                    "width": 900,
-                    "height": 500
-                }
-            ],
-            "small_picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-6-150x150.jpg",
-                    "width": 150,
-                    "height": 150
-                }
-            ],
-            "categories": [
-                {
-                    "name": "Sport",
-                    "slug": "sport"
-                },
-                {
-                    "name": "Fashion",
-                    "slug": "fashion"
-                }
-            ]
-        },
-        {
-            "id": 6,
-            "title": "The Best Choice for Spending Time",
-            "slug": "the-best-choice-for-spending-time",
-            "author": "John Doe",
-            "date": "2021-03-21",
-            "comments": 1,
-            "content": "Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Suspendisse potenti. Sed egestas, ante et vulputate volutpat, uctus metus libero eu augue.",
-            "type": "video",
-            "video": {
-                "url": "/uploads/video/video-1.mp4",
-                "width": 878,
-                "height": 494
-            },
-            "large_picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-5.jpg",
-                    "width": 900,
-                    "height": 500
-                }
-            ],
-            "picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-5.jpg",
-                    "width": 900,
-                    "height": 500
-                }
-            ],
-            "small_picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-5-150x150.jpg",
-                    "width": 150,
-                    "height": 150
-                }
-            ],
-            "categories": [
-                {
-                    "name": "Sport",
-                    "slug": "sport"
-                },
-                {
-                    "name": "Lifestyle",
-                    "slug": "lifestyle"
-                }
-            ]
-        },
-        {
-            "id": 7,
-            "title": "Quisque a lectus.",
-            "slug": "quisque-a-lectus",
-            "author": "John Doe",
-            "date": "2021-03-18",
-            "comments": 1,
-            "content": "Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Suspendisse potenti. Sed egestas, ante et vulputate volutpat, uctus metus libero eu augue.",
-            "type": "image",
-            "video": null,
-            "large_picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-8-800x484.jpg",
-                    "width": 800,
-                    "height": 484
-                }
-            ],
-            "picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-8.jpg",
-                    "width": 900,
-                    "height": 500
-                }
-            ],
-            "small_picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-8-150x150.jpg",
-                    "width": 150,
-                    "height": 150
-                }
-            ],
-            "categories": [
-                {
-                    "name": "Fashion",
-                    "slug": "fashion"
-                },
-                {
-                    "name": "Lifestyle",
-                    "slug": "lifestyle"
-                }
-            ]
-        },
-        {
-            "id": 8,
-            "title": "Aenean dignissim pellentesque felis.",
-            "slug": "aenean-dignissim-pellentesque-felis",
-            "author": "John Doe",
-            "date": "2021-03-29",
-            "comments": 1,
-            "content": "Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Suspendisse potenti. Sed egestas, ante et vulputate volutpat, uctus metus libero eu augue.",
-            "type": "image",
-            "video": null,
-            "large_picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-7-870x653.jpg",
-                    "width": 870,
-                    "height": 653
-                }
-            ],
-            "picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-7.jpg",
-                    "width": 900,
-                    "height": 500
-                }
-            ],
-            "small_picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-7-150x150.jpg",
-                    "width": 150,
-                    "height": 150
-                }
-            ],
-            "categories": [
-                {
-                    "name": "Fashion",
-                    "slug": "fashion"
-                },
-                {
-                    "name": "Lifestyle",
-                    "slug": "lifestyle"
-                }
-            ]
-        },
-        {
-            "id": 9,
-            "title": "Suscipit pellentesque fusce.",
-            "slug": "suscipit-pellentesque-fusce",
-            "author": "John Doe",
-            "date": "2021-03-22",
-            "comments": 1,
-            "content": "Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Suspendisse potenti. Sed egestas, ante et vulputate volutpat, uctus metus libero eu augue.",
-            "type": "image",
-            "video": null,
-            "large_picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-10-800x484.jpg",
-                    "width": 800,
-                    "height": 484
-                }
-            ],
-            "picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-10.jpg",
-                    "width": 900,
-                    "height": 500
-                }
-            ],
-            "small_picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-10-150x150.jpg",
-                    "width": 150,
-                    "height": 150
-                }
-            ],
-            "categories": [
-                {
-                    "name": "Sport",
-                    "slug": "sport"
-                },
-                {
-                    "name": "Lifestyle",
-                    "slug": "lifestyle"
-                }
-            ]
-        },
-        {
-            "id": 10,
-            "title": "Pellentesque fusce suscipit.",
-            "slug": "pellentesque-fusce-suscipit",
-            "author": "John Doe",
-            "date": "2021-03-12",
-            "comments": 1,
-            "content": "Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Suspendisse potenti. Sed egestas, ante et vulputate volutpat, uctus metus libero eu augue.",
-            "type": "image",
-            "video": null,
-            "large_picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-4.jpg",
-                    "width": 900,
-                    "height": 500
-                }
-            ],
-            "picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-4.jpg",
-                    "width": 900,
-                    "height": 500
-                }
-            ],
-            "small_picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-4-150x150.jpg",
-                    "width": 150,
-                    "height": 150
-                }
-            ],
-            "categories": [
-                {
-                    "name": "Sport",
-                    "slug": "sport"
-                },
-                {
-                    "name": "Fashion",
-                    "slug": "fashion"
-                }
-            ]
-        },
-        {
-            "id": 11,
-            "title": "Sollicitudin utaliquam leo de.",
-            "slug": "sollicitudin-utaliquam-leo-de",
-            "author": "John Doe",
-            "date": "2021-03-17",
-            "comments": 1,
-            "content": "Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Suspendisse potenti. Sed egestas, ante et vulputate volutpat, uctus metus libero eu augue.",
-            "type": "image",
-            "video": null,
-            "large_picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-9-800x484.jpg",
-                    "width": 800,
-                    "height": 484
-                }
-            ],
-            "picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-9.jpg",
-                    "width": 900,
-                    "height": 500
-                }
-            ],
-            "small_picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-9-150x150.jpg",
-                    "width": 150,
-                    "height": 150
-                }
-            ],
-            "categories": [
-                {
-                    "name": "Fashion",
-                    "slug": "fashion"
-                },
-                {
-                    "name": "Lifestyle",
-                    "slug": "lifestyle"
-                }
-            ]
-        },
-        {
-            "id": 12,
-            "title": "Fusce suscipit pellentesque.",
-            "slug": "fusce-suscipit-pellentesque",
-            "author": "John Doe",
-            "date": "2021-03-06",
-            "comments": 1,
-            "content": "Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Suspendisse potenti. Sed egestas, ante et vulputate volutpat, uctus metus libero eu augue.",
-            "type": "image",
-            "video": null,
-            "large_picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-1.jpg",
-                    "width": 900,
-                    "height": 500
-                }
-            ],
-            "picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-1.jpg",
-                    "width": 900,
-                    "height": 500
-                }
-            ],
-            "small_picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-1-150x150.jpg",
-                    "width": 150,
-                    "height": 150
-                }
-            ],
-            "categories": [
-                {
-                    "name": "Fashion",
-                    "slug": "fashion"
-                },
-                {
-                    "name": "Lifestyle",
-                    "slug": "lifestyle"
-                }
-            ]
-        },
-        {
-            "id": 13,
-            "title": "Utaliquam sollicitudin leo.",
-            "slug": "utaliquam-sollicitudin-leo",
-            "author": "John Doe",
-            "date": "2021-03-16",
-            "comments": 1,
-            "content": "Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Suspendisse potenti. Sed egestas, ante et vulputate volutpat, uctus metus libero eu augue.",
-            "type": "image",
-            "video": null,
-            "large_picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-8-800x484.jpg",
-                    "width": 800,
-                    "height": 484
-                }
-            ],
-            "picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-8.jpg",
-                    "width": 900,
-                    "height": 500
-                }
-            ],
-            "small_picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-8-150x150.jpg",
-                    "width": 150,
-                    "height": 150
-                }
-            ],
-            "categories": [
-                {
-                    "name": "Travel",
-                    "slug": "travel"
-                },
-                {
-                    "name": "Lifestyle",
-                    "slug": "lifestyle"
-                }
-            ]
-        },
-        {
-            "id": 14,
-            "title": "Sollicitudin utaliquam leo.",
-            "slug": "sollicitudin-utaliquam-leo",
-            "author": "John Doe",
-            "date": "2021-03-16",
-            "comments": 1,
-            "content": "Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Suspendisse potenti. Sed egestas, ante et vulputate volutpat, uctus metus libero eu augue.",
-            "type": "image",
-            "video": null,
-            "large_picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-9-800x484.jpg",
-                    "width": 800,
-                    "height": 484
-                }
-            ],
-            "picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-9.jpg",
-                    "width": 900,
-                    "height": 500
-                }
-            ],
-            "small_picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-9-150x150.jpg",
-                    "width": 150,
-                    "height": 150
-                }
-            ],
-            "categories": [
-                {
-                    "name": "Fashion",
-                    "slug": "fashion"
-                },
-                {
-                    "name": "Lifestyle",
-                    "slug": "lifestyle"
-                }
-            ]
-        },
-        {
-            "id": 15,
-            "title": "Sed ornare adipiscing risus.",
-            "slug": "sed-ornare-adipiscing-risus",
-            "author": "John Doe",
-            "date": "2021-03-08",
-            "comments": 1,
-            "content": "Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Suspendisse potenti. Sed egestas, ante et vulputate volutpat, uctus metus libero eu augue.",
-            "type": "image",
-            "video": null,
-            "large_picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-10-800x484.jpg",
-                    "width": 800,
-                    "height": 484
-                }
-            ],
-            "picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-10.jpg",
-                    "width": 900,
-                    "height": 500
-                }
-            ],
-            "small_picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-10-150x150.jpg",
-                    "width": 150,
-                    "height": 150
-                }
-            ],
-            "categories": [
-                {
-                    "name": "Fashion",
-                    "slug": "fashion"
-                },
-                {
-                    "name": "Lifestyle",
-                    "slug": "lifestyle"
-                }
-            ]
-        },
-        {
-            "id": 16,
-            "title": "20% Off Coupon for Cyber Week",
-            "slug": "20-off-coupon-for-cyber-week",
-            "author": "John Doe",
-            "date": "2021-03-18",
-            "comments": 1,
-            "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit.",
-            "type": "image",
-            "video": null,
-            "large_picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-8-800x484.jpg",
-                    "width": 800,
-                    "height": 484
-                }
-            ],
-            "picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-8.jpg",
-                    "width": 900,
-                    "height": 500
-                }
-            ],
-            "small_picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-8-150x150.jpg",
-                    "width": 150,
-                    "height": 150
-                }
-            ],
-            "categories": [
-                {
-                    "name": "Shopping",
-                    "slug": "shopping"
-                }
-            ]
-        },
-        {
-            "id": 17,
-            "title": "30% Discount for Shoes & Bags",
-            "slug": "30-discount-for-shoes-and-bags",
-            "author": "John Doe",
-            "date": "2021-03-21",
-            "comments": 1,
-            "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit.",
-            "type": "image",
-            "video": null,
-            "large_picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-10-800x484.jpg",
-                    "width": 800,
-                    "height": 484
-                }
-            ],
-            "picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-10.jpg",
-                    "width": 900,
-                    "height": 500
-                }
-            ],
-            "small_picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-10-150x150.jpg",
-                    "width": 150,
-                    "height": 150
-                }
-            ],
-            "categories": [
-                {
-                    "name": "Shopping",
-                    "slug": "shopping"
-                }
-            ]
-        },
-        {
-            "id": 18,
-            "title": "New Fashion Style",
-            "slug": "new-fashion-style",
-            "author": "John Doe",
-            "date": "2021-03-10",
-            "comments": 1,
-            "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit.",
-            "type": "image",
-            "video": null,
-            "large_picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-9-800x484.jpg",
-                    "width": 800,
-                    "height": 484
-                }
-            ],
-            "picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-9.jpg",
-                    "width": 900,
-                    "height": 500
-                }
-            ],
-            "small_picture": [
-                {
-                    "url": "/uploads/images/elements/posts/post-9-150x150.jpg",
-                    "width": 150,
-                    "height": 150
-                }
-            ],
-            "categories": [
-                {
-                    "name": "Sport",
-                    "slug": "sport"
-                },
-                {
-                    "name": "Travel",
-                    "slug": "travel"
-                }
-            ]
+            "name": "Filters",
+            "slug": "filters"
         }
     ]
 }

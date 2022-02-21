@@ -19,6 +19,11 @@ function MainMenu() {
                     <ALink href='/shop'>Shop</ALink>
                 </li>
 
+
+                <li id="menu-shop" className={pathname === 'shop' ? 'active' : ''}>
+                    <ALink href='/pages/services'>Services</ALink>
+                </li>
+
                 <li id="menu-shop" className={pathname === 'contact-us' ? 'active' : ''}>
                     <ALink href='/pages/contact-us'>Contact Us</ALink>
                 </li>

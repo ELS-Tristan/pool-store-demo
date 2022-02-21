@@ -10,10 +10,10 @@ function ShopBoxedBanner() {
     return (
         <main className="main">
             <Helmet>
-                <title>Riode React eCommerce Template - Shop Boxed Banner Page</title>
+                <title>Pool Store - Shop Boxed Banner Page</title>
             </Helmet>
 
-            <h1 className="d-none">Riode React eCommerce Template - Shop Boxed Banner Page</h1>
+            <h1 className="d-none">Pool Store - Shop Boxed Banner Page</h1>
 
             <nav className="breadcrumb-nav">
                 <div className="container">
@@ -26,7 +26,7 @@ function ShopBoxedBanner() {
 
             <div className="page-content mb-10 pb-3">
                 <div className="container">
-                    <div className="shop-boxed-banner banner mb-lg-6" style={ { backgroundImage: "url('./images/shop/banner2.jpg')", backgroundColor: "#f2f2f3" } }>
+                    <div className="shop-boxed-banner banner mb-lg-6" style={{ backgroundImage: "url('./images/shop/banner2.jpg')", backgroundColor: "#f2f2f3" }}>
                         <div className="banner-content">
                             <h4 className="banner-subtitle font-weight-bold ls-normal text-uppercase text-white">Riode Shop</h4>
                             <h1 className="banner-title font-weight-bold text-white">Boxed Banner Style</h1>
@@ -47,4 +47,4 @@ function ShopBoxedBanner() {
     )
 }
 
-export default React.memo( ShopBoxedBanner );
+export default React.memo(ShopBoxedBanner);

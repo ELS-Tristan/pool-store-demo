@@ -20,10 +20,10 @@ function Buttons() {
     return (
         <>
             <Helmet>
-                <title>Riode React eCommerce Template | Buttons</title>
+                <title>Pool Store | Buttons</title>
             </Helmet>
 
-            <h1 className="d-none">Riode React eCommerce Template - Buttons</h1>
+            <h1 className="d-none">Pool Store - Buttons</h1>
 
             <Breadcrumb subTitle="Elements" title="Element Buttons" parentUrl="/elements" />
 

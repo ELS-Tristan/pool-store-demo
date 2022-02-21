@@ -1,9 +1,14 @@
 const { getMinMaxPrice, getDiscount, isSaleProduct } = require('./helpers/index');
 
+
+
+
+
+
 const resolvers = {
     Query: {
         hello: async (root, args, ctx, info) => {
-            return 'Whaddap';
+            return 'Greetings from Pool Store';
         },
 
         products: async (root, args, ctx, info) => {
@@ -153,7 +158,11 @@ const resolvers = {
 
         shopSidebarData: async (root, args, ctx, info) => {
             const demoData = require(`./data/demo-${args.demo}.json`);
+            console.log("got demo data")
+            console.log(demoData)
             const categories = demoData.productCategories;
+            console.log("GOT CATEGORIES")
+            console.log(categories)
             const products = demoData.products.map(product => {
                 return { ...product, price: getMinMaxPrice(product) }
             });

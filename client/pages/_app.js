@@ -38,10 +38,10 @@ const App = ({ Component, pageProps }) => {
                     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
                     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-                    <title>Ramset eCommerce</title>
+                    <title>Pool Store eCommerce</title>
 
-                    <meta name="keywords" content="React Template" />
-                    <meta name="description" content="Ramset eCommerce" />
+                    <meta name="keywords" content="Swimming Pool Parts and Service" />
+                    <meta name="description" content="Pool Store eCommerce" />
                     <meta name="author" content="D-THEMES" />
                 </Helmet>
 

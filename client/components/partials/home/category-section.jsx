@@ -16,10 +16,10 @@ function CategorySection() {
                     <div className="row">
                         <div className="col-xs-6 col-lg-3 mb-4">
                             <div className="category category-default1 category-absolute banner-radius overlay-zoom">
-                                <ALink href={{ pathname: '/shop', query: { category: 'for-men-s' } }}>
+                                <ALink href={{ pathname: '/shop', query: { category: 'pumps' } }}>
                                     <figure className="category-media">
                                         <LazyLoadImage
-                                            src="./images/home/categories/category1.jpg"
+                                            src="./images/home/categories/cat_pumps1.png"
                                             alt="Intro Slider"
                                             effect="opacity; transform"
                                             width={280}
@@ -28,7 +28,7 @@ function CategorySection() {
                                     </figure>
 
                                     <div className="category-content">
-                                        <h4 className="category-name font-weight-bold ls-l">For Men's</h4>
+                                        <h4 className="category-name font-weight-bold ls-l">Pumps</h4>
                                     </div>
                                 </ALink>
                             </div>
@@ -36,10 +36,10 @@ function CategorySection() {
 
                         <div className="col-xs-6 col-lg-3 mb-4">
                             <div className="category category-default1 category-absolute banner-radius overlay-zoom">
-                                <ALink href={{ pathname: '/shop', query: { category: 'accessories' } }}>
+                                <ALink href={{ pathname: '/shop', query: { category: 'filters' } }}>
                                     <figure className="category-media">
                                         <LazyLoadImage
-                                            src="./images/home/categories/category2.jpg"
+                                            src="./images/home/categories/cat_filter1.png"
                                             alt="Intro Slider"
                                             effect="opacity; transform"
                                             width={280}
@@ -48,7 +48,7 @@ function CategorySection() {
                                     </figure>
 
                                     <div className="category-content">
-                                        <h4 className="category-name font-weight-bold ls-l">Accessories</h4>
+                                        <h4 className="category-name font-weight-bold ls-l">Filters</h4>
                                     </div>
                                 </ALink>
                             </div>
@@ -56,10 +56,10 @@ function CategorySection() {
 
                         <div className="col-xs-6 col-lg-3 mb-4">
                             <div className="category category-default1 category-absolute banner-radius overlay-zoom">
-                                <ALink href={{ pathname: '/shop', query: { category: 'fashionable-women-s' } }}>
+                                <ALink href={{ pathname: '/shop', query: { category: 'lights' } }}>
                                     <figure className="category-media">
                                         <LazyLoadImage
-                                            src="./images/home/categories/category3.jpg"
+                                            src="./images/home/categories/cat_light1.png"
                                             alt="Intro Slider"
                                             effect="opacity; transform"
                                             width={280}
@@ -68,7 +68,7 @@ function CategorySection() {
                                     </figure>
 
                                     <div className="category-content">
-                                        <h4 className="category-name font-weight-bold ls-l">Fashionable Women's</h4>
+                                        <h4 className="category-name font-weight-bold ls-l">Lights</h4>
                                     </div>
                                 </ALink>
                             </div>
@@ -76,10 +76,10 @@ function CategorySection() {
 
                         <div className="col-xs-6 col-lg-3 mb-4">
                             <div className="category category-default1 category-absolute banner-radius overlay-zoom">
-                                <ALink href={{ pathname: '/shop', query: { category: 'cosmetic' } }}>
+                                <ALink href={{ pathname: '/shop', query: { category: 'heaters' } }}>
                                     <figure className="category-media">
                                         <LazyLoadImage
-                                            src="./images/home/categories/category4.jpg"
+                                            src="./images/home/categories/cat_heater1.png"
                                             alt="Intro Slider"
                                             effect="opacity; transform"
                                             width={280}
@@ -88,7 +88,7 @@ function CategorySection() {
                                     </figure>
 
                                     <div className="category-content">
-                                        <h4 className="category-name font-weight-bold ls-l">Cosmetic</h4>
+                                        <h4 className="category-name font-weight-bold ls-l">Heaters</h4>
                                     </div>
                                 </ALink>
                             </div>

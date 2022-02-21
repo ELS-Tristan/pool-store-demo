@@ -6,14 +6,14 @@ import SidebarFilterOne from '~/components/partials/shop/sidebar/sidebar-filter-
 import ProductListOne from '~/components/partials/shop/product-list/product-list-one';
 
 
-function ShopRightSidebar () {
+function ShopRightSidebar() {
     return (
         <main className="main">
             <Helmet>
-                <title>Riode React eCommerce Template - Shop With Right Sidebar</title>
+                <title>Pool Store - Shop With Right Sidebar</title>
             </Helmet>
 
-            <h1 className="d-none">Riode React eCommerce Template - Shop With Right Sidebar</h1>
+            <h1 className="d-none">Pool Store - Shop With Right Sidebar</h1>
 
             <ShopBanner subTitle="Categories" title="With Right Sidebar" current="With Right Sidebar" />
 
@@ -32,4 +32,4 @@ function ShopRightSidebar () {
     )
 }
 
-export default React.memo( ShopRightSidebar );
+export default React.memo(ShopRightSidebar);

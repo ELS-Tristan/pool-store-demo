@@ -1,4 +1,4 @@
-const { gql } = require( 'apollo-server-express' );
+const { gql } = require('apollo-server-express');
 
 const typeDefs = gql`
     type Product {
@@ -25,6 +25,7 @@ const typeDefs = gql`
         variants: [Variant]
         content: String
         discount: Int
+        multipleVendor: Boolean
     }
 
     type Media {

@@ -44,7 +44,7 @@ function ProductDefault() {
                 <title>4iode React eCommerce Template | Product Default</title>
             </Helmet>
 
-            <h1 className="d-none">Riode React eCommerce Template - Product Default</h1>
+            <h1 className="d-none">Pool Store - Product Default</h1>
 
             {
                 product !== undefined ?

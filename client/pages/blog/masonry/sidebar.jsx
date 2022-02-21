@@ -15,61 +15,61 @@ import BlogSidebar from '~/components/partials/post/blog-sidebar';
 
 import { scrollTopHandler } from '~/utils';
 
-function PostMasonrySidebar () {
+function PostMasonrySidebar() {
     const router = useRouter();
-    const [ isFirst, setFirst ] = useState( true );
+    const [isFirst, setFirst] = useState(true);
     const query = router.query;
     const showingCount = 8;
-    const [ getPosts, { data, loading, error } ] = useLazyQuery( GET_POSTS );
-    const [ perPage, setPerPage ] = useState( showingCount );
+    const [getPosts, { data, loading, error }] = useLazyQuery(GET_POSTS);
+    const [perPage, setPerPage] = useState(showingCount);
     const posts = data && data.posts.data;
-    const totalPage = data ? parseInt( data.posts.total / perPage ) + ( data.posts.total % perPage ? 1 : 0 ) : 1;
+    const totalPage = data ? parseInt(data.posts.total / perPage) + (data.posts.total % perPage ? 1 : 0) : 1;
     let page = query.page ? query.page : 1;
-    let from = perPage * ( page - 1 );
+    let from = perPage * (page - 1);
     let to = perPage * page;
 
-    useEffect( () => {
-        getPosts( {
+    useEffect(() => {
+        getPosts({
             variables: {
                 category: query.category,
                 from: from,
                 to: to
             }
-        } );
+        });
 
-        if ( isFirst ) {
-            setFirst( false );
+        if (isFirst) {
+            setFirst(false);
         } else {
             scrollTopHandler();
         }
-    }, [ query ] )
+    }, [query])
 
-    const ref = useRef( null );
+    const ref = useRef(null);
 
-    useEffect( () => {
-        if ( !loading && posts ) {
-            let item = document.querySelector( '.posts.grid' );
-            item && imagesLoaded( item ).on( 'done', function () {
+    useEffect(() => {
+        if (!loading && posts) {
+            let item = document.querySelector('.posts.grid');
+            item && imagesLoaded(item).on('done', function () {
                 isotopeInit();
-            } )
+            })
         }
-    }, [ loading, posts ] )
+    }, [loading, posts])
 
-    async function isotopeInit () {
-        const Isotope = ( await import( 'isotope-layout' ) ).default;
+    async function isotopeInit() {
+        const Isotope = (await import('isotope-layout')).default;
 
-        let iso = new Isotope( ref.current, {
+        let iso = new Isotope(ref.current, {
             itemSelector: '.grid-item'
-        } );
+        });
     }
 
     return (
         <main className="main skeleton-body">
             <Helmet>
-                <title>Riode React eCommerce Template | Blog Masonry With Sidebar</title>
+                <title>Pool Store | Blog Masonry With Sidebar</title>
             </Helmet>
 
-            <h1 className="d-none">Riode React eCommerce Template - Blog Masonry With Sidebar</h1>
+            <h1 className="d-none">Pool Store - Blog Masonry With Sidebar</h1>
 
             <nav className="breadcrumb-nav">
                 <div className="container">
@@ -87,36 +87,36 @@ function PostMasonrySidebar () {
                         <div className="col-lg-9">
                             {
                                 loading ?
-                                    <div className="posts grid row" style={ { display: "flex" } }>
+                                    <div className="posts grid row" style={{ display: "flex" }}>
                                         {
-                                            new Array( parseInt( perPage ) ).fill( 1 ).map( ( item, index ) => (
-                                                <div className="col-sm-6" key={ "skel-post" + index }>
+                                            new Array(parseInt(perPage)).fill(1).map((item, index) => (
+                                                <div className="col-sm-6" key={"skel-post" + index}>
                                                     <div className="skel-post"></div>
                                                 </div>
-                                            ) )
+                                            ))
 
                                         }
                                     </div> : ''
                             }
 
-                            <div className="posts grid row masonry" ref={ ref }>
+                            <div className="posts grid row masonry" ref={ref}>
                                 {
                                     loading ? '' :
                                         posts ?
                                             posts.length ?
-                                                posts.slice( 0, posts.length ).map( ( post, index ) => (
-                                                    <React.Fragment key={ "post-nine" + index }>
+                                                posts.slice(0, posts.length).map((post, index) => (
+                                                    <React.Fragment key={"post-nine" + index}>
                                                         <div className="grid-item col-sm-6">
-                                                            <PostNine post={ post } isOriginal={ true } type="masonry" />
+                                                            <PostNine post={post} isOriginal={true} type="masonry" />
                                                         </div>
                                                     </React.Fragment>
-                                                ) ) :
+                                                )) :
                                                 <div className="info-box with-icon"><p className="mt-4">No blogs were found matching your selection.</p></div>
                                             : ''
                                 }
                             </div>
 
-                            <Pagination totalPage={ totalPage } />
+                            <Pagination totalPage={totalPage} />
                         </div>
                         <BlogSidebar />
                     </div>
@@ -126,4 +126,4 @@ function PostMasonrySidebar () {
     )
 }
 
-export default withApollo( { ssr: typeof window === 'undefined' } )( PostMasonrySidebar );
+export default withApollo({ ssr: typeof window === 'undefined' })(PostMasonrySidebar);

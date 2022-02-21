@@ -9,10 +9,10 @@ function Shop() {
     return (
         <main className="main">
             <Helmet>
-                <title>Riode React eCommerce Template - Shop Page</title>
+                <title>Pool Shop</title>
             </Helmet>
 
-            <h1 className="d-none">Riode React eCommerce Template - Shop Page</h1>
+            <h1 className="d-none">Pool Shop</h1>
 
             <ShopBanner />
 
@@ -31,4 +31,4 @@ function Shop() {
     )
 }
 
-export default React.memo( Shop );
+export default React.memo(Shop);

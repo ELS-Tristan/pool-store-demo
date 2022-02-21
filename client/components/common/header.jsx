@@ -30,7 +30,7 @@ export default function Header(props) {
             <div className="header-top">
                 <div className="container">
                     <div className="header-left">
-                        <p className="welcome-msg">Printing Galore | Uniforms, Banners, Embroidery</p>
+                        <p className="welcome-msg">Pool Store | Pumps, Filters, and Sanitation</p>
                     </div>
                     <div className="header-right">
                         {/* <div className="dropdown">
@@ -69,7 +69,7 @@ export default function Header(props) {
                         </ALink>
 
                         <ALink href="/" className="logo">
-                            <img src='./images/pg_logo_black.png' alt="logo" width="153" height="44" />
+                            <img src='./images/logo-white.png' alt="logo" width="153" height="44" />
                         </ALink>
 
                         <SearchBox />
@@ -82,7 +82,7 @@ export default function Header(props) {
                             </div>
                             <div className="icon-box-content d-lg-show">
                                 <h4 className="icon-box-title">Call Us Now:</h4>
-                                <p>(951) 296-5522</p>
+                                <p>(888) 555-1234</p>
                             </div>
                         </ALink>
                         {/* <span className="divider"></span>
