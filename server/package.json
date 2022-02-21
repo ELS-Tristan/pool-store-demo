@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "export PORT=4001 && nodemon --experimental-modules server.js"
+    "start": "export PORT=4000 && nodemon --experimental-modules server.js"
   },
   "repository": {
     "type": "git",
