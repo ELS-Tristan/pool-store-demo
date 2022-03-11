@@ -1,4 +1,4 @@
-# Ramset Ecommerce Store
+# Pool Store Ecommerce Demo
 ### an Upsidian system
 
 #### To Install:
